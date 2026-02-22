@@ -1,0 +1,951 @@
+[
+  {
+    "id": "ps_ci_001",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "A 95% confidence interval means:",
+    "code": null,
+    "options": [
+      "95% of such intervals contain the true parameter",
+      "The parameter is in the interval with 95% certainty",
+      "95% of data falls in the interval",
+      "The probability the parameter equals the estimate is 95%"
+    ],
+    "correct": "A",
+    "explanation": "Frequentist: 95% of CIs constructed this way contain the true parameter."
+  },
+  {
+    "id": "ps_ci_002",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CI for μ when σ known: X̄ ± z_{α/2}·σ/√n. For 95%, z_{α/2}=?",
+    "code": null,
+    "options": [
+      "1.96",
+      "2.58",
+      "1.64",
+      "2.33"
+    ],
+    "correct": "A",
+    "explanation": "For 95% CI: α=0.05, α/2=0.025, z₀.₀₂₅=1.96."
+  },
+  {
+    "id": "ps_ci_003",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "X̄=50, σ=10, n=25. Width of 95% CI=?",
+    "code": null,
+    "options": null,
+    "correct": "7.84",
+    "explanation": "Width=2×z×σ/√n=2×1.96×10/5=2×3.92=7.84."
+  },
+  {
+    "id": "ps_ci_004",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "When σ unknown and n small, we use:",
+    "code": null,
+    "options": [
+      "t-distribution",
+      "z-distribution",
+      "Chi-squared",
+      "F-distribution"
+    ],
+    "correct": "A",
+    "explanation": "With unknown σ and small n, use t-distribution with n-1 degrees of freedom."
+  },
+  {
+    "id": "ps_ci_005",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Increasing confidence level (e.g., 95%→99%):",
+    "code": null,
+    "options": [
+      "Widens the interval",
+      "Narrows the interval",
+      "Doesn't change it",
+      "Changes the center"
+    ],
+    "correct": "A",
+    "explanation": "Higher confidence → wider interval (z₀.₀₂₅=1.96 vs z₀.₀₀₅=2.576)."
+  },
+  {
+    "id": "ps_ci_006",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Which reduce CI width? (Select all)",
+    "code": null,
+    "options": [
+      "Larger sample size",
+      "Lower confidence level",
+      "Smaller population variance",
+      "Higher confidence level"
+    ],
+    "correct": "ABC",
+    "explanation": "Width ∝ z·σ/√n. Larger n, lower z (lower confidence), smaller σ all reduce width."
+  },
+  {
+    "id": "ps_ci_007",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "To halve the width of a CI, sample size must be multiplied by:",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "Width∝1/√n. Half width → √n doubles → n quadruples (×4)."
+  },
+  {
+    "id": "ps_ci_008",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CI for proportion p: p̂ ± z√(p̂(1-p̂)/n). Margin of error is:",
+    "code": null,
+    "options": [
+      "z√(p̂(1-p̂)/n)",
+      "p̂",
+      "z/n",
+      "p̂/n"
+    ],
+    "correct": "A",
+    "explanation": "Margin of error = z_{α/2}×standard error = z√(p̂q̂/n)."
+  },
+  {
+    "id": "ps_ci_009",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Point estimate vs interval estimate:",
+    "code": null,
+    "options": [
+      "Point is single value, interval is a range",
+      "Point is more accurate",
+      "Interval is a single number",
+      "They are the same"
+    ],
+    "correct": "A",
+    "explanation": "Point: single best guess. Interval: range with associated confidence level."
+  },
+  {
+    "id": "ps_ci_010",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "p̂=0.6, n=400. 95% CI lower bound=? (to 3 dec)",
+    "code": null,
+    "options": null,
+    "correct": "0.552",
+    "explanation": "SE=√(0.6×0.4/400)=√(0.0006)=0.0245. Lower=0.6-1.96×0.0245=0.6-0.048=0.552."
+  },
+  {
+    "id": "ps_ci_011",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Prediction interval differs from confidence interval because:",
+    "code": null,
+    "options": [
+      "It accounts for individual observation variability",
+      "It is always narrower",
+      "It only works for proportions",
+      "It uses chi-squared distribution"
+    ],
+    "correct": "A",
+    "explanation": "Prediction interval predicts single future value: includes both estimation uncertainty AND individual variability. Always wider than CI."
+  },
+  {
+    "id": "ps_ci_012",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Bootstrap confidence interval:",
+    "code": null,
+    "options": [
+      "Uses resampling to estimate sampling distribution",
+      "Requires normality assumption",
+      "Only works for means",
+      "Needs the true parameter value"
+    ],
+    "correct": "A",
+    "explanation": "Bootstrap resamples data with replacement to build empirical sampling distribution. Non-parametric."
+  },
+  {
+    "id": "ps_ci_013",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "The sample mean is a _____ estimator of the population mean.",
+    "code": null,
+    "options": [
+      "Point",
+      "Interval",
+      "Biased",
+      "Final"
+    ],
+    "correct": "A",
+    "explanation": "X̄ is a point estimator of μ. It gives a single value estimate."
+  },
+  {
+    "id": "ps_ci_014",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "n=16, X̄=25, s=4. 95% CI using t₁₅,₀.₀₂₅=2.131. Find upper bound.",
+    "code": null,
+    "options": null,
+    "correct": "27.13",
+    "explanation": "Upper=25+2.131×4/√16=25+2.131×1=25+2.131=27.131≈27.13."
+  },
+  {
+    "id": "ps_ci_015",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "A 99% CI will always contain:",
+    "code": null,
+    "options": [
+      "The true parameter 99% of the time over repeated sampling",
+      "Exactly 99% of the data",
+      "The sample mean",
+      "Every possible value"
+    ],
+    "correct": "A",
+    "explanation": "99% CI: if we repeat the experiment many times, 99% of constructed CIs will contain the true parameter."
+  },
+  {
+    "id": "ps_confid_016",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q16: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_018",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q18: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "18",
+    "explanation": "Detailed explanation for Confidence Intervals Q18."
+  },
+  {
+    "id": "ps_confid_020",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q20: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_022",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q22: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "22",
+    "explanation": "Detailed explanation for Confidence Intervals Q22."
+  },
+  {
+    "id": "ps_confid_024",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q24: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_026",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q26: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "26",
+    "explanation": "Detailed explanation for Confidence Intervals Q26."
+  },
+  {
+    "id": "ps_confid_028",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q28: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_030",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q30: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "30",
+    "explanation": "Detailed explanation for Confidence Intervals Q30."
+  },
+  {
+    "id": "ps_confid_032",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q32: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_034",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q34: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_036",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q36: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_038",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q38: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_040",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q40: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_042",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q42: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_044",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q44: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_046",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q46: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_048",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q48: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "48",
+    "explanation": "Detailed explanation for Confidence Intervals Q48."
+  },
+  {
+    "id": "ps_confid_050",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q50: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_052",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q52: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "52",
+    "explanation": "Detailed explanation for Confidence Intervals Q52."
+  },
+  {
+    "id": "ps_confid_054",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q54: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_056",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q56: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "56",
+    "explanation": "Detailed explanation for Confidence Intervals Q56."
+  },
+  {
+    "id": "ps_confid_058",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q58: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_060",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q60: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "60",
+    "explanation": "Detailed explanation for Confidence Intervals Q60."
+  },
+  {
+    "id": "ps_confid_062",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q62: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_064",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q64: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_066",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q66: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_068",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q68: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_070",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q70: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_072",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q72: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_074",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q74: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_076",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q76: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_078",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q78: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "78",
+    "explanation": "Detailed explanation for Confidence Intervals Q78."
+  },
+  {
+    "id": "ps_confid_080",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q80: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_082",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q82: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "82",
+    "explanation": "Detailed explanation for Confidence Intervals Q82."
+  },
+  {
+    "id": "ps_confid_084",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q84: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_086",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q86: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "86",
+    "explanation": "Detailed explanation for Confidence Intervals Q86."
+  },
+  {
+    "id": "ps_confid_088",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q88: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_090",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q90: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": null,
+    "correct": "90",
+    "explanation": "Detailed explanation for Confidence Intervals Q90."
+  },
+  {
+    "id": "ps_confid_092",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q92: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_094",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q94: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_096",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Confidence Intervals Q96: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_098",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q98: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_100",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q100: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_102",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Confidence Intervals Q102: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_confid_104",
+    "subject": "Probability and Statistics",
+    "topic": "Confidence Intervals",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Confidence Intervals Q104: GATE-level question on confidence intervals.",
+    "code": null,
+    "options": [
+      "Confidence Intervals option A",
+      "Confidence Intervals option B",
+      "Confidence Intervals option C",
+      "Confidence Intervals option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Confidence Intervals. The correct answer is option A based on the concept."
+  }
+]

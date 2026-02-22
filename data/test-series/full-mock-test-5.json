@@ -1,0 +1,97 @@
+{
+  "id": "mock_5",
+  "name": "Full Mock Test 5",
+  "type": "full-mock",
+  "description": "Complete GATE DA mock test with 65 questions across all subjects",
+  "totalQuestions": 65,
+  "timeMinutes": 180,
+  "sections": [
+    {
+      "subject": "probability-statistics",
+      "topicSlugs": [
+        "counting",
+        "probability-axioms",
+        "bayes-theorem",
+        "independent-mutually-exclusive",
+        "discrete-distributions",
+        "continuous-distributions",
+        "hypothesis-testing"
+      ],
+      "count": 15
+    },
+    {
+      "subject": "linear-algebra",
+      "topicSlugs": [
+        "vector-spaces",
+        "eigenvalues-eigenvectors",
+        "matrices-properties",
+        "determinant-rank-nullity"
+      ],
+      "count": 10
+    },
+    {
+      "subject": "calculus-optimization",
+      "topicSlugs": [
+        "limits-continuity-differentiability",
+        "taylor-series",
+        "maxima-minima",
+        "optimization"
+      ],
+      "count": 5
+    },
+    {
+      "subject": "programming-dsa",
+      "topicSlugs": [
+        "python-programming",
+        "trees",
+        "stacks",
+        "binary-search",
+        "graph-algorithms"
+      ],
+      "count": 10
+    },
+    {
+      "subject": "dbms-warehousing",
+      "topicSlugs": [
+        "sql",
+        "normal-forms",
+        "er-model",
+        "relational-algebra"
+      ],
+      "count": 5
+    },
+    {
+      "subject": "ml-supervised",
+      "topicSlugs": [
+        "simple-linear-regression",
+        "logistic-regression",
+        "svm",
+        "decision-trees",
+        "bias-variance"
+      ],
+      "count": 10
+    },
+    {
+      "subject": "ml-unsupervised",
+      "topicSlugs": [
+        "kmeans-kmedoid",
+        "pca"
+      ],
+      "count": 5
+    },
+    {
+      "subject": "artificial-intelligence",
+      "topicSlugs": [
+        "informed-search",
+        "propositional-logic",
+        "conditional-independence"
+      ],
+      "count": 5
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

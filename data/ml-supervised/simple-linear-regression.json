@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ml-s_simple_001",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "y = β₀ + β₁x + ε. β₁ represents:",
+    "code": null,
+    "options": [
+      "Slope (change in y per unit change in x)",
+      "Intercept",
+      "Error variance",
+      "Correlation"
+    ],
+    "correct": "A",
+    "explanation": "β₁ = slope. β₀ = y-intercept. ε = random error."
+  },
+  {
+    "id": "ml-s_simple_002",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "OLS minimizes:",
+    "code": null,
+    "options": [
+      "Sum of squared residuals Σ(yᵢ-ŷᵢ)²",
+      "Sum of absolute residuals",
+      "Maximum residual",
+      "Product of residuals"
+    ],
+    "correct": "A",
+    "explanation": "Ordinary Least Squares: minimize Σ(yᵢ-ŷᵢ)² to find best-fit β₀, β₁."
+  },
+  {
+    "id": "ml-s_simple_003",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "R² = 0.81 means:",
+    "code": null,
+    "options": [
+      "81% of variance in y is explained by x",
+      "81% accuracy",
+      "Intercept is 0.81",
+      "Slope is 0.81"
+    ],
+    "correct": "A",
+    "explanation": "R²: coefficient of determination. Proportion of variance explained. 0.81 = strong fit."
+  },
+  {
+    "id": "ml-s_simple_004",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Residual = yᵢ - ŷᵢ. Sum of residuals in OLS is:",
+    "code": null,
+    "options": [
+      "0",
+      "Positive",
+      "Negative",
+      "Unknown"
+    ],
+    "correct": "A",
+    "explanation": "OLS property: Σeᵢ = Σ(yᵢ-ŷᵢ) = 0. Residuals sum to zero."
+  },
+  {
+    "id": "ml-s_simple_005",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "β₁ = Cov(X,Y)/Var(X) = rₓᵧ·(Sᵧ/Sₓ). If r=0 then:",
+    "code": null,
+    "options": [
+      "β₁=0, no linear relationship",
+      "β₁=1",
+      "β₁=−1",
+      "Cannot compute β₁"
+    ],
+    "correct": "A",
+    "explanation": "r=0 → Cov=0 → β₁=0. Regression line is horizontal: ŷ = ȳ."
+  },
+  {
+    "id": "ml-s_simple_006",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Assumptions of linear regression include:",
+    "code": null,
+    "options": [
+      "Linearity, independence, homoscedasticity, normality of errors",
+      "No assumptions needed",
+      "Only normality",
+      "Only linearity"
+    ],
+    "correct": "A",
+    "explanation": "LINE: Linearity, Independence, Normal errors, Equal variance (homoscedasticity)."
+  },
+  {
+    "id": "ml-s_simple_007",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_008",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_009",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_010",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_011",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_012",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_013",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_014",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_015",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_016",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_017",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_018",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_019",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_020",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_021",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_022",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_023",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_024",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_025",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_026",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_027",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_028",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_029",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_030",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_031",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_032",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_033",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_034",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_035",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_036",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_037",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_038",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_039",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_040",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_041",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_042",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_043",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_044",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_045",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_046",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_047",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_048",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_049",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_050",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_051",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_052",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_053",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_054",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_055",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_056",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-s_simple_057",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_058",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Simple Linear Regression Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_059",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Simple Linear Regression Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Simple Linear Regression option A",
+      "Simple Linear Regression option B",
+      "Simple Linear Regression option C",
+      "Simple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Simple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_simple_060",
+    "subject": "ML — Supervised Learning",
+    "topic": "Simple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Simple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

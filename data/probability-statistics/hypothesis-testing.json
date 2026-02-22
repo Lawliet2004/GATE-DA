@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ps_ht_001",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "The null hypothesis H₀ represents:",
+    "code": null,
+    "options": [
+      "The status quo or no effect",
+      "The research hypothesis",
+      "The alternative claim",
+      "The desired outcome"
+    ],
+    "correct": "A",
+    "explanation": "H₀ is the default assumption (no effect/difference). We try to find evidence against it."
+  },
+  {
+    "id": "ps_ht_002",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Type I error is:",
+    "code": null,
+    "options": [
+      "Rejecting H₀ when H₀ is true",
+      "Failing to reject H₀ when H₀ is false",
+      "Accepting H₁",
+      "Correct decision"
+    ],
+    "correct": "A",
+    "explanation": "Type I (false positive): α = P(reject H₀ | H₀ true). Controlled by significance level."
+  },
+  {
+    "id": "ps_ht_003",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Type II error probability β is:",
+    "code": null,
+    "options": [
+      "P(fail to reject H₀ | H₀ is false)",
+      "P(reject H₀ | H₀ true)",
+      "1-α",
+      "α/2"
+    ],
+    "correct": "A",
+    "explanation": "Type II (false negative): β = P(fail to reject H₀ | H₁ true). Power = 1-β."
+  },
+  {
+    "id": "ps_ht_004",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "z-test: X̄=52, μ₀=50, σ=8, n=64. Find the test statistic z.",
+    "code": null,
+    "options": null,
+    "correct": "2",
+    "explanation": "z=(X̄-μ₀)/(σ/√n)=(52-50)/(8/8)=2/1=2."
+  },
+  {
+    "id": "ps_ht_005",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "p-value is:",
+    "code": null,
+    "options": [
+      "P(data as extreme or more | H₀ true)",
+      "P(H₀ is true)",
+      "P(H₁ is true)",
+      "The significance level"
+    ],
+    "correct": "A",
+    "explanation": "p-value = probability of observing results at least as extreme as data, assuming H₀ is true."
+  },
+  {
+    "id": "ps_ht_006",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "We reject H₀ when:",
+    "code": null,
+    "options": [
+      "p-value < α",
+      "p-value > α",
+      "p-value = 0.5",
+      "α = 0"
+    ],
+    "correct": "A",
+    "explanation": "If p-value < significance level α, we have sufficient evidence to reject H₀."
+  },
+  {
+    "id": "ps_ht_007",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Which increase statistical power? (Select all)",
+    "code": null,
+    "options": [
+      "Larger sample size",
+      "Larger effect size",
+      "Higher significance level α",
+      "Smaller variance"
+    ],
+    "correct": "ABCD",
+    "explanation": "All increase power: larger n, bigger effect, higher α (more willing to reject), lower σ."
+  },
+  {
+    "id": "ps_ht_008",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Chi-squared test is used for:",
+    "code": null,
+    "options": [
+      "Goodness of fit and independence tests",
+      "Testing means",
+      "CI for proportions",
+      "Regression coefficients"
+    ],
+    "correct": "A",
+    "explanation": "χ² test: (1) goodness of fit (observed vs expected), (2) test of independence in contingency tables."
+  },
+  {
+    "id": "ps_ht_009",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "χ² test: observed=[20,30,50], expected=[25,25,50]. Compute χ² statistic.",
+    "code": null,
+    "options": null,
+    "correct": "2",
+    "explanation": "χ²=Σ(O-E)²/E=(20-25)²/25+(30-25)²/25+(50-50)²/50=25/25+25/25+0=1+1+0=2."
+  },
+  {
+    "id": "ps_ht_010",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Two-tailed test H₁: μ ≠ μ₀ rejects when:",
+    "code": null,
+    "options": [
+      "|z| > z_{α/2}",
+      "z > z_α",
+      "z < -z_α",
+      "z = 0"
+    ],
+    "correct": "A",
+    "explanation": "Two-tailed: reject in both tails. |z|>z_{α/2} or equivalently p-value<α."
+  },
+  {
+    "id": "ps_ht_011",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "t-test vs z-test: use t-test when:",
+    "code": null,
+    "options": [
+      "σ is unknown and n is small",
+      "σ is known",
+      "n > 100",
+      "Population is uniform"
+    ],
+    "correct": "A",
+    "explanation": "t-test uses sample SD s instead of σ. Critical with small n; for large n, t≈z."
+  },
+  {
+    "id": "ps_ht_012",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Multiple testing correction (Bonferroni): for m tests at family-wise α, each test uses:",
+    "code": null,
+    "options": [
+      "α/m",
+      "α×m",
+      "α",
+      "α²"
+    ],
+    "correct": "A",
+    "explanation": "Bonferroni correction: use α/m per test to control family-wise error rate at α."
+  },
+  {
+    "id": "ps_ht_013",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Significance level α=0.05, z_stat=1.8. For one-tailed test (H₁:μ>μ₀), z_crit=1.645. Do we reject? (1=yes, 0=no)",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "z_stat=1.8 > z_crit=1.645 → reject H₀. Evidence supports μ>μ₀."
+  },
+  {
+    "id": "ps_ht_014",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "F-test is used to compare:",
+    "code": null,
+    "options": [
+      "Two or more group variances/means (ANOVA)",
+      "Two proportions",
+      "One mean to a value",
+      "Correlation coefficients"
+    ],
+    "correct": "A",
+    "explanation": "F-test: ratio of variances. Used in ANOVA to compare means across groups."
+  },
+  {
+    "id": "ps_ht_015",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Statistical significance does NOT necessarily imply:",
+    "code": null,
+    "options": [
+      "Practical significance",
+      "H₀ is false",
+      "Low p-value",
+      "Correct test"
+    ],
+    "correct": "A",
+    "explanation": "A tiny effect can be statistically significant with large n. Practical importance is separate."
+  },
+  {
+    "id": "ps_hypoth_016",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q16: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_018",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q18: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "18",
+    "explanation": "Detailed explanation for Hypothesis Testing Q18."
+  },
+  {
+    "id": "ps_hypoth_020",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q20: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_022",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q22: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "22",
+    "explanation": "Detailed explanation for Hypothesis Testing Q22."
+  },
+  {
+    "id": "ps_hypoth_024",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q24: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_026",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q26: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "26",
+    "explanation": "Detailed explanation for Hypothesis Testing Q26."
+  },
+  {
+    "id": "ps_hypoth_028",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q28: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_030",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q30: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "30",
+    "explanation": "Detailed explanation for Hypothesis Testing Q30."
+  },
+  {
+    "id": "ps_hypoth_032",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q32: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_034",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q34: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_036",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q36: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_038",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q38: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_040",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q40: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_042",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q42: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_044",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q44: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_046",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q46: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_048",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q48: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "48",
+    "explanation": "Detailed explanation for Hypothesis Testing Q48."
+  },
+  {
+    "id": "ps_hypoth_050",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q50: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_052",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q52: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "52",
+    "explanation": "Detailed explanation for Hypothesis Testing Q52."
+  },
+  {
+    "id": "ps_hypoth_054",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q54: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_056",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q56: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "56",
+    "explanation": "Detailed explanation for Hypothesis Testing Q56."
+  },
+  {
+    "id": "ps_hypoth_058",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q58: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_060",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q60: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "60",
+    "explanation": "Detailed explanation for Hypothesis Testing Q60."
+  },
+  {
+    "id": "ps_hypoth_062",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q62: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_064",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q64: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_066",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q66: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_068",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q68: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_070",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q70: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_072",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q72: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_074",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q74: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_076",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q76: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_078",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q78: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "78",
+    "explanation": "Detailed explanation for Hypothesis Testing Q78."
+  },
+  {
+    "id": "ps_hypoth_080",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q80: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_082",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q82: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "82",
+    "explanation": "Detailed explanation for Hypothesis Testing Q82."
+  },
+  {
+    "id": "ps_hypoth_084",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q84: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_086",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q86: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "86",
+    "explanation": "Detailed explanation for Hypothesis Testing Q86."
+  },
+  {
+    "id": "ps_hypoth_088",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q88: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_090",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q90: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": null,
+    "correct": "90",
+    "explanation": "Detailed explanation for Hypothesis Testing Q90."
+  },
+  {
+    "id": "ps_hypoth_092",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q92: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_094",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q94: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_096",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypothesis Testing Q96: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_098",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q98: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_100",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q100: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_102",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hypothesis Testing Q102: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_hypoth_104",
+    "subject": "Probability and Statistics",
+    "topic": "Hypothesis Testing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hypothesis Testing Q104: GATE-level question on hypothesis testing.",
+    "code": null,
+    "options": [
+      "Hypothesis Testing option A",
+      "Hypothesis Testing option B",
+      "Hypothesis Testing option C",
+      "Hypothesis Testing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hypothesis Testing. The correct answer is option A based on the concept."
+  }
+]

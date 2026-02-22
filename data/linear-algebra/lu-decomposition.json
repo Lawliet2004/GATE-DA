@@ -1,0 +1,956 @@
+[
+  {
+    "id": "la_ludecomposition_001",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "A=LU decomposes A into:",
+    "code": null,
+    "options": [
+      "Lower triangular L × Upper triangular U",
+      "L orthogonal × U diagonal",
+      "Two symmetric matrices",
+      "Two invertible matrices"
+    ],
+    "correct": "A",
+    "explanation": "LU: L is lower triangular (1s on diagonal), U is upper triangular (pivots on diagonal)."
+  },
+  {
+    "id": "la_ludecomposition_002",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU decomposition is related to:",
+    "code": null,
+    "options": [
+      "Gaussian elimination without row swaps",
+      "Eigenvalue decomposition",
+      "SVD",
+      "QR decomposition"
+    ],
+    "correct": "A",
+    "explanation": "LU records the elimination steps: L stores multipliers, U is the row echelon form."
+  },
+  {
+    "id": "la_ludecomposition_003",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "PA=LU adds permutation matrix P to handle:",
+    "code": null,
+    "options": [
+      "Row swaps (pivoting)",
+      "Column swaps",
+      "Scaling",
+      "Nothing"
+    ],
+    "correct": "A",
+    "explanation": "P records row swaps needed during elimination with partial pivoting."
+  },
+  {
+    "id": "la_ludecomposition_004",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Solving Ax=b via LU: first solve Ly=b (forward), then:",
+    "code": null,
+    "options": [
+      "Ux=y (back substitution)",
+      "Lx=b",
+      "Uy=b",
+      "Lx=y"
+    ],
+    "correct": "A",
+    "explanation": "Two triangular solves: Ly=b (forward sub), then Ux=y (back sub). Each is O(n²)."
+  },
+  {
+    "id": "la_ludecomposition_005",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Cholesky decomposition A=LLᵀ applies when A is:",
+    "code": null,
+    "options": [
+      "Symmetric positive definite",
+      "Any square matrix",
+      "Rectangular",
+      "Singular"
+    ],
+    "correct": "A",
+    "explanation": "Cholesky: A=LLᵀ exists iff A is SPD. Uses half the storage and operations of general LU."
+  },
+  {
+    "id": "la_ludecomposition_006",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q6: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q6."
+  },
+  {
+    "id": "la_ludecomposition_007",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_008",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q8: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q8."
+  },
+  {
+    "id": "la_ludecomposition_009",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q9: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q9."
+  },
+  {
+    "id": "la_ludecomposition_010",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q10: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q10."
+  },
+  {
+    "id": "la_ludecomposition_011",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_012",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "LU Decomposition Q12: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q12."
+  },
+  {
+    "id": "la_ludecomposition_013",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q13: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q13."
+  },
+  {
+    "id": "la_ludecomposition_014",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q14: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q14."
+  },
+  {
+    "id": "la_ludecomposition_015",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_016",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q16: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q16."
+  },
+  {
+    "id": "la_ludecomposition_017",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q17: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q17."
+  },
+  {
+    "id": "la_ludecomposition_018",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_019",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "LU Decomposition Q19: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q19."
+  },
+  {
+    "id": "la_ludecomposition_020",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q20: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q20."
+  },
+  {
+    "id": "la_ludecomposition_021",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q21: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q21."
+  },
+  {
+    "id": "la_ludecomposition_022",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_023",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q23: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q23."
+  },
+  {
+    "id": "la_ludecomposition_024",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q24: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q24."
+  },
+  {
+    "id": "la_ludecomposition_025",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q25: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q25."
+  },
+  {
+    "id": "la_ludecomposition_026",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_027",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "LU Decomposition Q27: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q27."
+  },
+  {
+    "id": "la_ludecomposition_028",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q28: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q28."
+  },
+  {
+    "id": "la_ludecomposition_029",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q29: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q29."
+  },
+  {
+    "id": "la_ludecomposition_030",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_031",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q31: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q31."
+  },
+  {
+    "id": "la_ludecomposition_032",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q32: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q32."
+  },
+  {
+    "id": "la_ludecomposition_033",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_034",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "LU Decomposition Q34: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q34."
+  },
+  {
+    "id": "la_ludecomposition_035",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q35: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q35."
+  },
+  {
+    "id": "la_ludecomposition_036",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q36: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q36."
+  },
+  {
+    "id": "la_ludecomposition_037",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_038",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q38: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q38."
+  },
+  {
+    "id": "la_ludecomposition_039",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q39: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q39."
+  },
+  {
+    "id": "la_ludecomposition_040",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q40: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q40."
+  },
+  {
+    "id": "la_ludecomposition_041",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_042",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "LU Decomposition Q42: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q42."
+  },
+  {
+    "id": "la_ludecomposition_043",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q43: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q43."
+  },
+  {
+    "id": "la_ludecomposition_044",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q44: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q44."
+  },
+  {
+    "id": "la_ludecomposition_045",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_046",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q46: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q46."
+  },
+  {
+    "id": "la_ludecomposition_047",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q47: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q47."
+  },
+  {
+    "id": "la_ludecomposition_048",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_049",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "LU Decomposition Q49: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q49."
+  },
+  {
+    "id": "la_ludecomposition_050",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q50: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q50."
+  },
+  {
+    "id": "la_ludecomposition_051",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q51: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q51."
+  },
+  {
+    "id": "la_ludecomposition_052",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_053",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q53: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q53."
+  },
+  {
+    "id": "la_ludecomposition_054",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q54: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q54."
+  },
+  {
+    "id": "la_ludecomposition_055",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q55: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q55."
+  },
+  {
+    "id": "la_ludecomposition_056",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "la_ludecomposition_057",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "LU Decomposition Q57: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q57."
+  },
+  {
+    "id": "la_ludecomposition_058",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LU Decomposition Q58: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q58."
+  },
+  {
+    "id": "la_ludecomposition_059",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LU Decomposition Q59: GATE DA level question on lu decomposition.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for LU Decomposition Q59."
+  },
+  {
+    "id": "la_ludecomposition_060",
+    "subject": "Linear Algebra",
+    "topic": "LU Decomposition",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "LU Decomposition (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

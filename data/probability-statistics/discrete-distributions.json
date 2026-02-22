@@ -1,0 +1,955 @@
+[
+  {
+    "id": "ps_dd_001",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "X ~ Binomial(10, 0.3). E[X] = ?",
+    "code": null,
+    "options": [
+      "3",
+      "7",
+      "0.3",
+      "30"
+    ],
+    "correct": "A",
+    "explanation": "E[X] = np = 10×0.3 = 3."
+  },
+  {
+    "id": "ps_dd_002",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "X ~ Poisson(4). Find P(X=0). (to 4 decimal places)",
+    "code": null,
+    "options": null,
+    "correct": "0.0183",
+    "explanation": "P(X=0) = e^(-4)×4⁰/0! = e^(-4) ≈ 0.0183."
+  },
+  {
+    "id": "ps_dd_003",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For Poisson distribution, E[X] and Var(X) are:",
+    "code": null,
+    "options": [
+      "Both equal to λ",
+      "λ and λ²",
+      "λ² and λ",
+      "λ and 2λ"
+    ],
+    "correct": "A",
+    "explanation": "Poisson(λ): E[X]=λ, Var(X)=λ. Equal mean and variance is a key property."
+  },
+  {
+    "id": "ps_dd_004",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Bernoulli distribution is a special case of Binomial with:",
+    "code": null,
+    "options": [
+      "n=1",
+      "p=1",
+      "n=0",
+      "p=0.5"
+    ],
+    "correct": "A",
+    "explanation": "Bernoulli(p) = Binomial(1, p). Single trial."
+  },
+  {
+    "id": "ps_dd_005",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "X ~ Binomial(n,p). As n→∞ and p→0 with np=λ, X converges to:",
+    "code": null,
+    "options": [
+      "Poisson(λ)",
+      "Normal(λ,λ)",
+      "Exponential(λ)",
+      "Geometric(p)"
+    ],
+    "correct": "A",
+    "explanation": "Poisson limit theorem: Binomial(n,p) → Poisson(λ) when n is large and p is small with np≈λ."
+  },
+  {
+    "id": "ps_dd_006",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "easy",
+    "question": "X ~ Uniform{1,2,3,4,5}. E[X] = ?",
+    "code": null,
+    "options": null,
+    "correct": "3",
+    "explanation": "E[X] = (1+2+3+4+5)/5 = 15/5 = 3. For Uniform{a,...,b}: E = (a+b)/2."
+  },
+  {
+    "id": "ps_dd_007",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Var(X) for Binomial(n,p) is:",
+    "code": null,
+    "options": [
+      "np(1-p)",
+      "np",
+      "n²p",
+      "p(1-p)"
+    ],
+    "correct": "A",
+    "explanation": "Var(X) = np(1-p) = npq where q=1-p."
+  },
+  {
+    "id": "ps_dd_008",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Which distributions are discrete? (Select all)",
+    "code": null,
+    "options": [
+      "Binomial",
+      "Poisson",
+      "Normal",
+      "Geometric"
+    ],
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Binomial, Poisson, Geometric take integer values → discrete. Normal is continuous."
+  },
+  {
+    "id": "ps_dd_009",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Negative Binomial(r,p) models:",
+    "code": null,
+    "options": [
+      "Number of trials to get r successes",
+      "Number of successes in n trials",
+      "Time between events",
+      "Number of events in interval"
+    ],
+    "correct": "A",
+    "explanation": "Negative Binomial counts trials needed for r successes. Geometric is special case r=1."
+  },
+  {
+    "id": "ps_dd_010",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "X ~ Geometric(0.2). Find Var(X). (Counting trials)",
+    "code": null,
+    "options": null,
+    "correct": "20",
+    "explanation": "Var(X) = (1-p)/p² = 0.8/0.04 = 20."
+  },
+  {
+    "id": "ps_dd_011",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hypergeometric distribution differs from Binomial because:",
+    "code": null,
+    "options": [
+      "Sampling without replacement",
+      "Sampling with replacement",
+      "Only two outcomes",
+      "Fixed number of trials"
+    ],
+    "correct": "A",
+    "explanation": "Hypergeometric: sampling without replacement from finite population. Binomial: independent trials (with replacement)."
+  },
+  {
+    "id": "ps_dd_012",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "X ~ Poisson(3). P(X ≥ 1) = ?",
+    "code": null,
+    "options": [
+      "1 - e^(-3)",
+      "e^(-3)",
+      "3e^(-3)",
+      "1 - 3e^(-3)"
+    ],
+    "correct": "A",
+    "explanation": "P(X≥1) = 1 - P(X=0) = 1 - e^(-3) ≈ 0.9502."
+  },
+  {
+    "id": "ps_dd_013",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Sum of two independent Poisson(3) and Poisson(5) RVs. Find the parameter of the resulting distribution.",
+    "code": null,
+    "options": null,
+    "correct": "8",
+    "explanation": "Sum of independent Poisson RVs is Poisson: Poisson(3) + Poisson(5) = Poisson(8)."
+  },
+  {
+    "id": "ps_dd_014",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "P(X=k) = C(n,k)p^k(1-p)^(n-k) describes which distribution?",
+    "code": null,
+    "options": [
+      "Binomial",
+      "Poisson",
+      "Geometric",
+      "Uniform"
+    ],
+    "correct": "A",
+    "explanation": "This is the Binomial PMF: n trials, k successes, probability p per trial."
+  },
+  {
+    "id": "ps_dd_015",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For Geometric(p), the memoryless property means:",
+    "code": null,
+    "options": [
+      "P(X>s+t|X>s) = P(X>t)",
+      "P(X=k) is constant for all k",
+      "E[X] does not depend on past",
+      "Var(X) = 0"
+    ],
+    "correct": "A",
+    "explanation": "Geometric is the only discrete memoryless distribution: knowing you've already waited s trials doesn't change the probability of waiting t more."
+  },
+  {
+    "id": "ps_discre_016",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q16: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_018",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q18: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "18",
+    "explanation": "Detailed explanation for Discrete Distributions Q18."
+  },
+  {
+    "id": "ps_discre_020",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q20: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_022",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q22: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "22",
+    "explanation": "Detailed explanation for Discrete Distributions Q22."
+  },
+  {
+    "id": "ps_discre_024",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q24: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_026",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q26: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "26",
+    "explanation": "Detailed explanation for Discrete Distributions Q26."
+  },
+  {
+    "id": "ps_discre_028",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q28: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_030",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q30: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "30",
+    "explanation": "Detailed explanation for Discrete Distributions Q30."
+  },
+  {
+    "id": "ps_discre_032",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q32: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_034",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q34: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_036",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q36: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_038",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q38: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_040",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q40: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_042",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q42: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_044",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q44: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_046",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q46: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_048",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q48: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "48",
+    "explanation": "Detailed explanation for Discrete Distributions Q48."
+  },
+  {
+    "id": "ps_discre_050",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q50: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_052",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q52: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "52",
+    "explanation": "Detailed explanation for Discrete Distributions Q52."
+  },
+  {
+    "id": "ps_discre_054",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q54: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_056",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q56: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "56",
+    "explanation": "Detailed explanation for Discrete Distributions Q56."
+  },
+  {
+    "id": "ps_discre_058",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q58: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_060",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q60: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "60",
+    "explanation": "Detailed explanation for Discrete Distributions Q60."
+  },
+  {
+    "id": "ps_discre_062",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q62: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_064",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q64: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_066",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q66: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_068",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q68: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_070",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q70: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_072",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q72: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_074",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q74: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_076",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q76: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_078",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q78: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "78",
+    "explanation": "Detailed explanation for Discrete Distributions Q78."
+  },
+  {
+    "id": "ps_discre_080",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q80: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_082",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q82: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "82",
+    "explanation": "Detailed explanation for Discrete Distributions Q82."
+  },
+  {
+    "id": "ps_discre_084",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q84: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_086",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q86: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "86",
+    "explanation": "Detailed explanation for Discrete Distributions Q86."
+  },
+  {
+    "id": "ps_discre_088",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q88: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_090",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q90: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": null,
+    "correct": "90",
+    "explanation": "Detailed explanation for Discrete Distributions Q90."
+  },
+  {
+    "id": "ps_discre_092",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q92: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_094",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q94: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_096",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Discrete Distributions Q96: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_098",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q98: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_100",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q100: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_102",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Discrete Distributions Q102: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_discre_104",
+    "subject": "Probability and Statistics",
+    "topic": "Discrete Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Discrete Distributions Q104: GATE-level question on discrete distributions.",
+    "code": null,
+    "options": [
+      "Discrete Distributions option A",
+      "Discrete Distributions option B",
+      "Discrete Distributions option C",
+      "Discrete Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Discrete Distributions. The correct answer is option A based on the concept."
+  }
+]

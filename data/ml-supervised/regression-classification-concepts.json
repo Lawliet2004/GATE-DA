@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ml-s_regres_001",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression predicts:",
+    "code": null,
+    "options": [
+      "Continuous output",
+      "Discrete class labels",
+      "Clusters",
+      "Nothing"
+    ],
+    "correct": "A",
+    "explanation": "Regression: continuous target (price, temperature). Classification: discrete (spam/not, cat/dog)."
+  },
+  {
+    "id": "ml-s_regres_002",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Supervised learning requires:",
+    "code": null,
+    "options": [
+      "Labeled training data",
+      "Only unlabeled data",
+      "No data",
+      "Unsupervised clusters"
+    ],
+    "correct": "A",
+    "explanation": "Supervised: each training example has input features AND target label/value."
+  },
+  {
+    "id": "ml-s_regres_003",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Overfitting means:",
+    "code": null,
+    "options": [
+      "Model memorizes training data, poor generalization",
+      "Model is too simple",
+      "Model works great everywhere",
+      "Model ignores data"
+    ],
+    "correct": "A",
+    "explanation": "Overfitting: low training error but high test error. Model captures noise, not signal."
+  },
+  {
+    "id": "ml-s_regres_004",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Underfitting means:",
+    "code": null,
+    "options": [
+      "Model too simple, high bias",
+      "Model too complex",
+      "Perfectly fits data",
+      "Model has zero error"
+    ],
+    "correct": "A",
+    "explanation": "Underfitting: model can't capture underlying pattern. High error on both train and test."
+  },
+  {
+    "id": "ml-s_regres_005",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feature scaling (normalization) is important for:",
+    "code": null,
+    "options": [
+      "Distance-based algorithms like KNN, SVM",
+      "Decision trees",
+      "All algorithms equally",
+      "No algorithms"
+    ],
+    "correct": "A",
+    "explanation": "Distance-based methods affected by feature magnitudes. Trees are scale-invariant."
+  },
+  {
+    "id": "ml-s_regres_006",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_007",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_008",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_009",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_010",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_011",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_012",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Regression vs Classification Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_013",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_014",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_015",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_016",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_017",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_018",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_019",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Regression vs Classification Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_020",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_021",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_022",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_023",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_024",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_025",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_026",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_027",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Regression vs Classification Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_028",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_029",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_030",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_031",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_032",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_033",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_034",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Regression vs Classification Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_035",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_036",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_037",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_038",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_039",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_040",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_041",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_042",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Regression vs Classification Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_043",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_044",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_045",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_046",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_047",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_048",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_049",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Regression vs Classification Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_050",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_051",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_052",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_053",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_054",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_055",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_056",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-s_regres_057",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Regression vs Classification Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_058",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Regression vs Classification Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_059",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Regression vs Classification Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Regression vs Classification option A",
+      "Regression vs Classification option B",
+      "Regression vs Classification option C",
+      "Regression vs Classification option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Regression vs Classification. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_regres_060",
+    "subject": "ML — Supervised Learning",
+    "topic": "Regression vs Classification",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Regression vs Classification (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

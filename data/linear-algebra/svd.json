@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "la_svd_001",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "SVD: A=UΣVᵀ. U and V are:",
+    "code": null,
+    "options": [
+      "Orthogonal (unitary) matrices",
+      "Diagonal matrices",
+      "Triangular matrices",
+      "Identity matrices"
+    ],
+    "correct": "A",
+    "explanation": "U: left singular vectors (orthonormal). V: right singular vectors (orthonormal). Σ: diagonal."
+  },
+  {
+    "id": "la_svd_002",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Singular values σᵢ of A are:",
+    "code": null,
+    "options": [
+      "Square roots of eigenvalues of AᵀA",
+      "Eigenvalues of A",
+      "Diagonal entries of A",
+      "Trace of A"
+    ],
+    "correct": "A",
+    "explanation": "σᵢ=√λᵢ(AᵀA). Singular values are always non-negative."
+  },
+  {
+    "id": "la_svd_003",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Rank of A via SVD equals:",
+    "code": null,
+    "options": [
+      "Number of non-zero singular values",
+      "Number of rows",
+      "Number of columns",
+      "Largest singular value"
+    ],
+    "correct": "A",
+    "explanation": "rank(A) = number of positive singular values. Zero σᵢ means rank deficiency."
+  },
+  {
+    "id": "la_svd_004",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "The condition number κ(A) via SVD:",
+    "code": null,
+    "options": [
+      "σ_max/σ_min",
+      "σ_max·σ_min",
+      "σ_max-σ_min",
+      "σ_max+σ_min"
+    ],
+    "correct": "A",
+    "explanation": "Condition number = ratio of largest to smallest singular value."
+  },
+  {
+    "id": "la_svd_005",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Best rank-k approximation of A (Eckart-Young):",
+    "code": null,
+    "options": [
+      "A_k=Σᵢ₌₁ᵏ σᵢuᵢvᵢᵀ",
+      "A_k=A-σ_kI",
+      "A_k=U_kΣ_kV_k (first k columns)",
+      "Same as A_k=Σᵢ₌₁ᵏ σᵢuᵢvᵢᵀ"
+    ],
+    "correct": "A",
+    "explanation": "Truncated SVD gives the best rank-k approximation in both 2-norm and Frobenius norm."
+  },
+  {
+    "id": "la_svd_006",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "||A||_F (Frobenius norm) via SVD:",
+    "code": null,
+    "options": [
+      "√(Σσᵢ²)",
+      "Σσᵢ",
+      "σ_max",
+      "σ_min"
+    ],
+    "correct": "A",
+    "explanation": "||A||_F²=tr(AᵀA)=Σσᵢ²; hence ||A||_F=√(Σσᵢ²)."
+  },
+  {
+    "id": "la_svd_007",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "||A||₂ (spectral norm) via SVD:",
+    "code": null,
+    "options": [
+      "σ_max",
+      "Σσᵢ",
+      "√(Σσᵢ²)",
+      "det(A)"
+    ],
+    "correct": "A",
+    "explanation": "Spectral (operator) norm = largest singular value σ_max."
+  },
+  {
+    "id": "la_svd_008",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "The pseudoinverse A⁺ via SVD is:",
+    "code": null,
+    "options": [
+      "VΣ⁺Uᵀ where Σ⁺ inverts non-zero entries",
+      "UΣVᵀ",
+      "VΣUᵀ",
+      "(AᵀA)⁻¹Aᵀ only"
+    ],
+    "correct": "A",
+    "explanation": "Moore-Penrose pseudoinverse: A⁺=VΣ⁺Uᵀ where Σ⁺ replaces each σᵢ≠0 with 1/σᵢ."
+  },
+  {
+    "id": "la_svd_009",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "SVD is used in PCA by computing SVD of:",
+    "code": null,
+    "options": [
+      "Data matrix X (or covariance matrix)",
+      "Only the mean vector",
+      "Only the labels",
+      "Inverse of X"
+    ],
+    "correct": "A",
+    "explanation": "PCA via SVD: compute SVD of centered data X=UΣVᵀ; columns of V are principal components."
+  },
+  {
+    "id": "la_svd_010",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Number of non-negative singular values of m×n matrix:",
+    "code": null,
+    "options": [
+      "min(m,n)",
+      "m",
+      "n",
+      "m·n"
+    ],
+    "correct": "A",
+    "explanation": "SVD gives min(m,n) singular values (matching dimensions of Σ)."
+  },
+  {
+    "id": "la_svd_011",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For square invertible A, σᵢ(A⁻¹)=",
+    "code": null,
+    "options": [
+      "1/σᵢ(A)",
+      "σᵢ(A)",
+      "σᵢ(A)²",
+      "-σᵢ(A)"
+    ],
+    "correct": "A",
+    "explanation": "A⁻¹=VΣ⁻¹Uᵀ; singular values of A⁻¹ are reciprocals of those of A."
+  },
+  {
+    "id": "la_svd_012",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Thin (economy) SVD of m×n (m≥n) matrix gives Σ of size:",
+    "code": null,
+    "options": [
+      "n×n",
+      "m×m",
+      "m×n",
+      "1×1"
+    ],
+    "correct": "A",
+    "explanation": "Thin SVD: only first n columns of U, n×n Σ, full V. Saves computation."
+  },
+  {
+    "id": "la_svd_013",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "LST (Latent Semantic Analysis) uses SVD for:",
+    "code": null,
+    "options": [
+      "Document-term matrix decomposition",
+      "Sorting documents",
+      "Counting words",
+      "Computing TF-IDF"
+    ],
+    "correct": "A",
+    "explanation": "LSA: SVD of term-document matrix reveals latent semantic structure."
+  },
+  {
+    "id": "la_svd_014",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "σ₁≥σ₂≥...≥σᵣ>0=σᵣ₊₁=...=0. The value r equals:",
+    "code": null,
+    "options": [
+      "rank(A)",
+      "tr(A)",
+      "det(A)",
+      "n"
+    ],
+    "correct": "A",
+    "explanation": "Exactly r non-zero singular values where r=rank(A)."
+  },
+  {
+    "id": "la_svd_015",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Golub-Reinsch algorithm computes:",
+    "code": null,
+    "options": [
+      "SVD numerically",
+      "Inverse of A",
+      "Determinant",
+      "Eigenvalues only"
+    ],
+    "correct": "A",
+    "explanation": "Standard SVD algorithm: bidiagonalization followed by QR iteration (Golub-Reinsch)."
+  },
+  {
+    "id": "la_svd_016",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "For normal matrix (AAᵀ=AᵀA), singular values are:",
+    "code": null,
+    "options": [
+      "Absolute values of eigenvalues",
+      "Equal to eigenvalues",
+      "Always 1",
+      "Always distinct"
+    ],
+    "correct": "A",
+    "explanation": "Normal matrices: |λᵢ|=σᵢ because the left and right singular vectors coincide with eigenvectors."
+  },
+  {
+    "id": "la_svd_017",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Image compression via SVD keeps:",
+    "code": null,
+    "options": [
+      "Top-k singular values/vectors (k << rank)",
+      "Only the diagonal",
+      "First row and column",
+      "Last singular values"
+    ],
+    "correct": "A",
+    "explanation": "Approximate A≈A_k: store k triplets (σᵢ,uᵢ,vᵢ). k<<r gives high compression."
+  },
+  {
+    "id": "la_svd_018",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "A matrix is orthogonal iff all its singular values equal:",
+    "code": null,
+    "options": [
+      "1",
+      "0",
+      "λ_max",
+      "n"
+    ],
+    "correct": "A",
+    "explanation": "Orthogonal: A⁻¹=Aᵀ → AᵀA=I → entries of Σ are all 1."
+  },
+  {
+    "id": "la_svd_019",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "SVD generalizes eigendecomposition because:",
+    "code": null,
+    "options": [
+      "SVD works for any m×n matrix; eigendecomposition needs square matrix",
+      "They are identical",
+      "SVD needs symmetric matrix",
+      "Eigendecomposition is more general"
+    ],
+    "correct": "A",
+    "explanation": "SVD applies to any real/complex m×n matrix. Eigendecomposition requires square. SVD is more general."
+  },
+  {
+    "id": "la_svd_020",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "The nuclear norm (trace norm) of A via SVD:",
+    "code": null,
+    "options": [
+      "Σσᵢ (sum of singular values)",
+      "σ_max",
+      "Σσᵢ²",
+      "det(A)"
+    ],
+    "correct": "A",
+    "explanation": "Nuclear norm = sum of all singular values. Used in low-rank matrix recovery/completion."
+  },
+  {
+    "id": "la_svd_021",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Randomized SVD uses ______ to speed up computation:",
+    "code": null,
+    "options": [
+      "Random projections to reduce dimensions first",
+      "Sorting eigenvalues",
+      "Gradient descent",
+      "Exhaustive search"
+    ],
+    "correct": "A",
+    "explanation": "Randomized SVD: project A onto random subspace, compute small exact SVD. Much faster for large sparse A."
+  },
+  {
+    "id": "la_svd_022",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "For positive semidefinite A=AᵀA, singular values equal:",
+    "code": null,
+    "options": [
+      "Eigenvalues of A",
+      "Square of eigenvalues",
+      "Eigenvalues of Aᵀ",
+      "Nothing useful"
+    ],
+    "correct": "A",
+    "explanation": "For PSD A (A=AᵀA): eigenvalues ≥ 0, and σᵢ=λᵢ (they coincide since A is symmetric PSD)."
+  },
+  {
+    "id": "la_svd_023",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD of outer product uvᵀ (rank-1 matrix) has:",
+    "code": null,
+    "options": [
+      "One nonzero singular value = ||u||·||v||",
+      "No singular values",
+      "All singular values equal",
+      "n singular values"
+    ],
+    "correct": "A",
+    "explanation": "Rank-1: exactly one nonzero σ=||u||·||v||, u₁=u/||u||, v₁=v/||v||."
+  },
+  {
+    "id": "la_svd_024",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Eckart-Young theorem: A_k minimizes ||A-B||_F over all ____:",
+    "code": null,
+    "options": [
+      "matrices B with rank(B)≤k",
+      "all matrices B",
+      "diagonal matrices B",
+      "orthogonal matrices B"
+    ],
+    "correct": "A",
+    "explanation": "Best rank-k approximation in Frobenius (and spectral) norm is given by truncated SVD."
+  },
+  {
+    "id": "la_svd_025",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Left singular vectors (columns of U) are eigenvectors of:",
+    "code": null,
+    "options": [
+      "AAᵀ",
+      "AᵀA",
+      "A",
+      "Aᵀ"
+    ],
+    "correct": "A",
+    "explanation": "AAᵀ=UΣVᵀVΣᵀUᵀ=UΣΣᵀUᵀ. Columns of U are eigenvectors of AAᵀ."
+  },
+  {
+    "id": "la_svd_026",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Right singular vectors (columns of V) are eigenvectors of:",
+    "code": null,
+    "options": [
+      "AᵀA",
+      "AAᵀ",
+      "A+Aᵀ",
+      "A-Aᵀ"
+    ],
+    "correct": "A",
+    "explanation": "AᵀA=VΣᵀUᵀUΣVᵀ=VΣᵀΣVᵀ. Right singular vectors are eigenvectors of AᵀA."
+  },
+  {
+    "id": "la_svd_027",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Numerical rank of A via SVD:",
+    "code": null,
+    "options": [
+      "Number of singular values > ε (threshold)",
+      "Always equals min(m,n)",
+      "Always equals max(m,n)",
+      "Equals trace"
+    ],
+    "correct": "A",
+    "explanation": "In floating-point: singular values below threshold ε treated as zero → numerical rank."
+  },
+  {
+    "id": "la_svd_028",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "For diagonal A=diag(d₁,d₂,...,dₙ), singular values are:",
+    "code": null,
+    "options": [
+      "|d₁|,|d₂|,...,|dₙ| (reordered desc)",
+      "d₁,d₂,...,dₙ",
+      "d₁²,...,dₙ²",
+      "1/d₁,...,1/dₙ"
+    ],
+    "correct": "A",
+    "explanation": "Diagonal matrix: AᵀA=diag(d₁²,...,dₙ²); singular values = |dᵢ|."
+  },
+  {
+    "id": "la_svd_029",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CUR decomposition is a ____-based low-rank approximation:",
+    "code": null,
+    "options": [
+      "Column/Row selection (interpretable alternative to SVD)",
+      "SVD but renamed",
+      "Eigendecomposition",
+      "LU decomposition"
+    ],
+    "correct": "A",
+    "explanation": "CUR: select actual columns (C) and rows (R) of A, plus intersection matrix U. Interpretable."
+  },
+  {
+    "id": "la_svd_030",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "SVD reveals the four fundamental subspaces because:",
+    "code": null,
+    "options": [
+      "Col(U_r)=col(A), Col(V_r)=row(A), etc.",
+      "SVD is unrelated to fundamental subspaces",
+      "Only two of the four subspaces",
+      "None of these"
+    ],
+    "correct": "A",
+    "explanation": "U gives column space & left null space; V gives row space & null space."
+  },
+  {
+    "id": "la_svd_031",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Compact SVD of rank-r matrix A:",
+    "code": null,
+    "options": [
+      "Uses only first r singular vectors/values",
+      "Full size matrices",
+      "Adds zero singular values",
+      "Is less accurate"
+    ],
+    "correct": "A",
+    "explanation": "Compact SVD: A=U_rΣ_rV_rᵀ using only r non-zero singular values. Exact representation."
+  },
+  {
+    "id": "la_svd_032",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q32: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_033",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q33: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_034",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q34: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_035",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q35: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_036",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q36: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_037",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q37: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_038",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q38: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_039",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q39: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_040",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q40: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_041",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q41: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_042",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q42: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_043",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q43: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_044",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q44: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_045",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q45: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_046",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q46: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_047",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q47: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_048",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q48: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_049",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q49: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_050",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q50: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_051",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q51: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_052",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q52: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_053",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q53: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_054",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q54: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_055",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q55: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_056",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q56: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_057",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q57: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_058",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q58: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_059",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q59: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  },
+  {
+    "id": "la_svd_060",
+    "subject": "Linear Algebra",
+    "topic": "Singular Value Decomposition",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "SVD Q60: Which of the following correctly describes the role of diagonal entries in Σ?",
+    "code": null,
+    "options": [
+      "Singular values representing scaling along each principal direction",
+      "Eigenvalues of A",
+      "Rows of U",
+      "Columns of V"
+    ],
+    "correct": "A",
+    "explanation": "Σ diagonal entries (singular values) represent how much A scales along each corresponding singular direction."
+  }
+]

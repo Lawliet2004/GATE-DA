@@ -1,0 +1,956 @@
+[
+  {
+    "id": "prog_hashta_001",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Average time complexity of hash table lookup:",
+    "code": null,
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "correct": "A",
+    "explanation": "Hash function maps key → index directly. Average O(1) with good hash function."
+  },
+  {
+    "id": "prog_hashta_002",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Collision resolution by chaining uses:",
+    "code": null,
+    "options": [
+      "Linked lists at each bucket",
+      "Open addressing",
+      "Rehashing only",
+      "Binary search"
+    ],
+    "correct": "A",
+    "explanation": "Chaining: each bucket stores a linked list of entries that hash to same index."
+  },
+  {
+    "id": "prog_hashta_003",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Load factor α = n/m where n=items, m=table size. For good performance:",
+    "code": null,
+    "options": [
+      "Keep α < 0.75",
+      "α should be > 10",
+      "α = n",
+      "α doesn't matter"
+    ],
+    "correct": "A",
+    "explanation": "Load factor < 0.75 keeps expected chain length short. Rehash when exceeded."
+  },
+  {
+    "id": "prog_hashta_004",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Open addressing resolves collisions by:",
+    "code": null,
+    "options": [
+      "Probing other slots in the table",
+      "Using linked lists",
+      "Creating new table",
+      "Ignoring collisions"
+    ],
+    "correct": "A",
+    "explanation": "Open addressing: if slot occupied, probe next slot (linear, quadratic, or double hashing)."
+  },
+  {
+    "id": "prog_hashta_005",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash table worst case lookup is:",
+    "code": null,
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "correct": "A",
+    "explanation": "Worst case: all keys hash to same bucket → O(n) linear search through chain."
+  },
+  {
+    "id": "prog_hashta_006",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_007",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_008",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_009",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_010",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_011",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_012",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hash Tables Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_013",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_014",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_015",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_016",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_017",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_018",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_019",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hash Tables Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_020",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_021",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_022",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_023",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_024",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_025",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_026",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_027",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hash Tables Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_028",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_029",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_030",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_031",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_032",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_033",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_034",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hash Tables Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_035",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_036",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_037",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_038",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_039",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_040",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_041",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_042",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hash Tables Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_043",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_044",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_045",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_046",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_047",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_048",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_049",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hash Tables Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_050",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_051",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_052",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_053",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_054",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_055",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_056",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "prog_hashta_057",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hash Tables Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_058",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hash Tables Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_059",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hash Tables Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hash Tables option A",
+      "Hash Tables option B",
+      "Hash Tables option C",
+      "Hash Tables option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hash Tables. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_hashta_060",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Hash Tables",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hash Tables (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

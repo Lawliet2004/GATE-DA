@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ml-s_decisi_001",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision tree splits are chosen to maximize:",
+    "code": null,
+    "options": [
+      "Information gain (or Gini impurity reduction)",
+      "Random metric",
+      "Alphabetical order",
+      "Feature index"
+    ],
+    "correct": "A",
+    "explanation": "At each node, split on feature/threshold that gives maximum IG or minimum Gini."
+  },
+  {
+    "id": "ml-s_decisi_002",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Information gain uses:",
+    "code": null,
+    "options": [
+      "Entropy: H = -Σ pᵢ log₂(pᵢ)",
+      "Variance",
+      "Standard deviation",
+      "Correlation"
+    ],
+    "correct": "A",
+    "explanation": "IG = H(parent) - weighted average H(children). Entropy measures class impurity."
+  },
+  {
+    "id": "ml-s_decisi_003",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gini impurity: G = 1 - Σpᵢ². For pure node:",
+    "code": null,
+    "options": [
+      "G = 0",
+      "G = 1",
+      "G = 0.5",
+      "G = ∞"
+    ],
+    "correct": "A",
+    "explanation": "Pure node: one class with p=1. G = 1-1² = 0. Maximum impurity at equal proportions."
+  },
+  {
+    "id": "ml-s_decisi_004",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Decision trees are prone to:",
+    "code": null,
+    "options": [
+      "Overfitting (especially deep trees)",
+      "Underfitting always",
+      "Neither",
+      "Both equally"
+    ],
+    "correct": "A",
+    "explanation": "Unpruned trees can grow very deep, memorizing training data. Pruning helps."
+  },
+  {
+    "id": "ml-s_decisi_005",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Random Forest improves over single tree by:",
+    "code": null,
+    "options": [
+      "Bagging + random feature subsets → reduces variance",
+      "Using one tree",
+      "Removing features",
+      "Increasing depth"
+    ],
+    "correct": "A",
+    "explanation": "Ensemble of decorrelated trees. Average predictions → lower variance, similar bias."
+  },
+  {
+    "id": "ml-s_decisi_006",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Pruning a decision tree:",
+    "code": null,
+    "options": [
+      "Removes branches to prevent overfitting",
+      "Adds more branches",
+      "Increases depth",
+      "Changes features"
+    ],
+    "correct": "A",
+    "explanation": "Pruning: post-pruning (grow fully then cut) or pre-pruning (stop early). Reduces overfitting."
+  },
+  {
+    "id": "ml-s_decisi_007",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_008",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_009",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_010",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_011",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_012",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Decision Trees Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_013",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_014",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_015",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_016",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_017",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_018",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_019",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Decision Trees Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_020",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_021",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_022",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_023",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_024",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_025",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_026",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_027",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Decision Trees Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_028",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_029",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_030",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_031",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_032",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_033",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_034",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Decision Trees Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_035",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_036",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_037",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_038",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_039",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_040",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_041",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_042",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Decision Trees Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_043",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_044",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_045",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_046",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_047",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_048",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_049",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Decision Trees Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_050",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_051",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_052",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_053",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_054",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_055",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_056",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-s_decisi_057",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Decision Trees Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_058",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Decision Trees Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_059",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Decision Trees Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Decision Trees option A",
+      "Decision Trees option B",
+      "Decision Trees option C",
+      "Decision Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Decision Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_decisi_060",
+    "subject": "ML — Supervised Learning",
+    "topic": "Decision Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Decision Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "sub_dbms-warehousing",
+  "name": "DBMS & Warehousing — Subject Test",
+  "type": "subject-wise",
+  "description": "30-question test covering all DBMS & Warehousing topics",
+  "totalQuestions": 30,
+  "timeMinutes": 60,
+  "sections": [
+    {
+      "subject": "dbms-warehousing",
+      "topicSlugs": [
+        "sql",
+        "normal-forms",
+        "er-model",
+        "relational-algebra",
+        "integrity-constraints",
+        "file-organization-indexing"
+      ],
+      "count": 30
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

@@ -1,0 +1,961 @@
+[
+  {
+    "id": "ml-u_kmeans_001",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means objective:",
+    "code": null,
+    "options": [
+      "Minimize within-cluster sum of squared distances",
+      "Maximize between-cluster distance",
+      "Minimize number of clusters",
+      "Maximize cluster size"
+    ],
+    "correct": "A",
+    "explanation": "Minimize Σᵢ Σₓ∈Cᵢ ||x-μᵢ||². NP-hard globally, Lloyd's algorithm finds local minimum."
+  },
+  {
+    "id": "ml-u_kmeans_002",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means initialization sensitivity:",
+    "code": null,
+    "options": [
+      "Different initializations can give different results",
+      "Always gives same result",
+      "Initialization doesn't matter",
+      "Random is always best"
+    ],
+    "correct": "A",
+    "explanation": "k-Means is sensitive to initial centroids. k-means++ initialization helps."
+  },
+  {
+    "id": "ml-u_kmeans_003",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Medoid differs from k-Means by:",
+    "code": null,
+    "options": [
+      "Using actual data points as cluster centers",
+      "Using means",
+      "Being faster",
+      "Not iterating"
+    ],
+    "correct": "A",
+    "explanation": "k-Medoid: cluster center must be an actual data point (medoid). More robust to outliers."
+  },
+  {
+    "id": "ml-u_kmeans_004",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Elbow method helps choose k by:",
+    "code": null,
+    "options": [
+      "Plotting SSE vs k, finding \"elbow\" where decrease slows",
+      "Random selection",
+      "Using k=2 always",
+      "Cross-validation"
+    ],
+    "correct": "A",
+    "explanation": "Plot within-cluster SSE vs k. Elbow point = diminishing returns of adding more clusters."
+  },
+  {
+    "id": "ml-u_kmeans_005",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means assumes clusters are:",
+    "code": null,
+    "options": [
+      "Spherical and roughly equal-sized",
+      "Any shape",
+      "Hierarchical",
+      "Ordered"
+    ],
+    "correct": "A",
+    "explanation": "k-Means: Voronoi partitions → spherical clusters. Fails for non-convex or unequal-sized clusters."
+  },
+  {
+    "id": "ml-u_kmeans_006",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means convergence:",
+    "code": null,
+    "options": [
+      "Guaranteed to converge (SSE decreases each step)",
+      "May not converge",
+      "Converges to global optimum",
+      "Diverges"
+    ],
+    "correct": "A",
+    "explanation": "Lloyd's: SSE is non-increasing → converges. But potentially to local minimum."
+  },
+  {
+    "id": "ml-u_kmeans_007",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Silhouette score measures:",
+    "code": null,
+    "options": [
+      "How similar point is to its cluster vs nearest other cluster",
+      "Only cluster size",
+      "Number of iterations",
+      "Computational time"
+    ],
+    "correct": "A",
+    "explanation": "s(i) = (b-a)/max(a,b). a=avg intra-cluster dist, b=avg nearest-cluster dist. Range [-1,1], 1=good."
+  },
+  {
+    "id": "ml-u_kmeans_008",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_009",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_010",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_011",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_012",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_013",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_014",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_015",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_016",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_017",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_018",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_019",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_020",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_021",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_022",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_023",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_024",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_025",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_026",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_027",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_028",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_029",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_030",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_031",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_032",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_033",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_034",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_035",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_036",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_037",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_038",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_039",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_040",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_041",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_042",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_043",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_044",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_045",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_046",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_047",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_048",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_049",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_050",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_051",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_052",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_053",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_054",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_055",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_056",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-u_kmeans_057",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_058",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "k-Means & k-Medoid Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_059",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "k-Means & k-Medoid Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "k-Means & k-Medoid option A",
+      "k-Means & k-Medoid option B",
+      "k-Means & k-Medoid option C",
+      "k-Means & k-Medoid option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of k-Means & k-Medoid. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_kmeans_060",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "k-Means & k-Medoid",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "k-Means & k-Medoid (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

@@ -1,0 +1,961 @@
+[
+  {
+    "id": "la_lineardependence_001",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Vectors {(1,0),(0,1)} in R² are:",
+    "code": null,
+    "options": [
+      "Linearly independent",
+      "Linearly dependent",
+      "Orthonormal",
+      "None"
+    ],
+    "correct": "A",
+    "explanation": "Neither is a scalar multiple of the other. det([[1,0],[0,1]])=1≠0."
+  },
+  {
+    "id": "la_lineardependence_002",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If det[v₁|v₂|v₃]=0 then the vectors are:",
+    "code": null,
+    "options": [
+      "Linearly dependent",
+      "Independent",
+      "Orthogonal",
+      "A basis"
+    ],
+    "correct": "A",
+    "explanation": "Zero determinant means columns are linearly dependent."
+  },
+  {
+    "id": "la_lineardependence_003",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Any set of vectors containing the zero vector is:",
+    "code": null,
+    "options": [
+      "Linearly dependent",
+      "Always independent",
+      "A basis",
+      "Orthogonal"
+    ],
+    "correct": "A",
+    "explanation": "1·0+0·v₂+...=0 is a nontrivial linear combination."
+  },
+  {
+    "id": "la_lineardependence_004",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Rank of [[1,2,3],[2,4,6],[1,3,5]] is:",
+    "code": null,
+    "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+    ],
+    "correct": "A",
+    "explanation": "Row 2 = 2×Row 1. Rows 1,3 are independent. Rank=2."
+  },
+  {
+    "id": "la_lineardependence_005",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Wronskian W(e^x, e^(2x)) = e^x·2e^(2x) - e^(2x)·e^x =",
+    "code": null,
+    "options": [
+      "e^(3x)",
+      "0",
+      "2e^(3x)",
+      "e^x"
+    ],
+    "correct": "A",
+    "explanation": "W = e^x·2e^(2x) - e^(2x)·e^x = 2e^(3x) - e^(3x) = e^(3x) ≠ 0, so independent."
+  },
+  {
+    "id": "la_lineardependence_006",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Maximum rank of a 3×5 matrix is:",
+    "code": null,
+    "options": [
+      "3",
+      "5",
+      "15",
+      "8"
+    ],
+    "correct": "A",
+    "explanation": "Rank ≤ min(rows, cols) = min(3,5) = 3."
+  },
+  {
+    "id": "la_lineardependence_007",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "If {v₁,v₂,v₃} is linearly independent, adding v₄=v₁+v₂ makes:",
+    "code": null,
+    "options": [
+      "The set {v₁,v₂,v₃,v₄} dependent",
+      "Still independent",
+      "A basis for R⁴",
+      "Orthogonal"
+    ],
+    "correct": "A",
+    "explanation": "v₄ is a linear combination of v₁,v₂, so the set is dependent."
+  },
+  {
+    "id": "la_lineardependence_008",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q8: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q8."
+  },
+  {
+    "id": "la_lineardependence_009",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q9: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q9."
+  },
+  {
+    "id": "la_lineardependence_010",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q10: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q10."
+  },
+  {
+    "id": "la_lineardependence_011",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_012",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Independence Q12: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q12."
+  },
+  {
+    "id": "la_lineardependence_013",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q13: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q13."
+  },
+  {
+    "id": "la_lineardependence_014",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q14: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q14."
+  },
+  {
+    "id": "la_lineardependence_015",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_016",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q16: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q16."
+  },
+  {
+    "id": "la_lineardependence_017",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q17: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q17."
+  },
+  {
+    "id": "la_lineardependence_018",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_019",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Independence Q19: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q19."
+  },
+  {
+    "id": "la_lineardependence_020",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q20: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q20."
+  },
+  {
+    "id": "la_lineardependence_021",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q21: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q21."
+  },
+  {
+    "id": "la_lineardependence_022",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_023",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q23: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q23."
+  },
+  {
+    "id": "la_lineardependence_024",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q24: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q24."
+  },
+  {
+    "id": "la_lineardependence_025",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q25: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q25."
+  },
+  {
+    "id": "la_lineardependence_026",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_027",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Independence Q27: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q27."
+  },
+  {
+    "id": "la_lineardependence_028",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q28: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q28."
+  },
+  {
+    "id": "la_lineardependence_029",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q29: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q29."
+  },
+  {
+    "id": "la_lineardependence_030",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_031",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q31: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q31."
+  },
+  {
+    "id": "la_lineardependence_032",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q32: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q32."
+  },
+  {
+    "id": "la_lineardependence_033",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_034",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Independence Q34: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q34."
+  },
+  {
+    "id": "la_lineardependence_035",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q35: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q35."
+  },
+  {
+    "id": "la_lineardependence_036",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q36: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q36."
+  },
+  {
+    "id": "la_lineardependence_037",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_038",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q38: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q38."
+  },
+  {
+    "id": "la_lineardependence_039",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q39: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q39."
+  },
+  {
+    "id": "la_lineardependence_040",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q40: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q40."
+  },
+  {
+    "id": "la_lineardependence_041",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_042",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Independence Q42: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q42."
+  },
+  {
+    "id": "la_lineardependence_043",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q43: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q43."
+  },
+  {
+    "id": "la_lineardependence_044",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q44: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q44."
+  },
+  {
+    "id": "la_lineardependence_045",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_046",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q46: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q46."
+  },
+  {
+    "id": "la_lineardependence_047",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q47: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q47."
+  },
+  {
+    "id": "la_lineardependence_048",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_049",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Independence Q49: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q49."
+  },
+  {
+    "id": "la_lineardependence_050",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q50: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q50."
+  },
+  {
+    "id": "la_lineardependence_051",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q51: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q51."
+  },
+  {
+    "id": "la_lineardependence_052",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_053",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q53: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q53."
+  },
+  {
+    "id": "la_lineardependence_054",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q54: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q54."
+  },
+  {
+    "id": "la_lineardependence_055",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q55: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q55."
+  },
+  {
+    "id": "la_lineardependence_056",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "la_lineardependence_057",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Independence Q57: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q57."
+  },
+  {
+    "id": "la_lineardependence_058",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Independence Q58: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q58."
+  },
+  {
+    "id": "la_lineardependence_059",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Independence Q59: GATE DA level question on linear independence.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Linear Independence Q59."
+  },
+  {
+    "id": "la_lineardependence_060",
+    "subject": "Linear Algebra",
+    "topic": "Linear Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

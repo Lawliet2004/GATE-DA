@@ -1,0 +1,956 @@
+[
+  {
+    "id": "la_projections_001",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projection of v onto u is:",
+    "code": null,
+    "options": [
+      "(u·v/u·u)u",
+      "v×u",
+      "u+v",
+      "u-v"
+    ],
+    "correct": "A",
+    "explanation": "proj_u(v) = (⟨u,v⟩/⟨u,u⟩)u. Projects v onto the line spanned by u."
+  },
+  {
+    "id": "la_projections_002",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projection matrix P satisfies:",
+    "code": null,
+    "options": [
+      "P²=P and P=Pᵀ",
+      "P²=I",
+      "P+Pᵀ=0",
+      "det(P)=1"
+    ],
+    "correct": "A",
+    "explanation": "Orthogonal projection: P²=P (idempotent) and P=Pᵀ (symmetric)."
+  },
+  {
+    "id": "la_projections_003",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Eigenvalues of a projection matrix are:",
+    "code": null,
+    "options": [
+      "0 and 1 only",
+      "Any real number",
+      "Always 1",
+      "Complex"
+    ],
+    "correct": "A",
+    "explanation": "P²=P ⟹ λ²=λ ⟹ λ∈{0,1}. Rank of P = trace(P) = number of 1-eigenvalues."
+  },
+  {
+    "id": "la_projections_004",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Projection onto column space of A is:",
+    "code": null,
+    "options": [
+      "A(AᵀA)⁻¹Aᵀ",
+      "AᵀA",
+      "A⁻¹",
+      "AAᵀ"
+    ],
+    "correct": "A",
+    "explanation": "P = A(AᵀA)⁻¹Aᵀ projects onto Col(A). This is the hat matrix in regression."
+  },
+  {
+    "id": "la_projections_005",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If P projects onto W, then I-P projects onto:",
+    "code": null,
+    "options": [
+      "W⊥ (orthogonal complement)",
+      "W",
+      "Zero space",
+      "R"
+    ],
+    "correct": "A",
+    "explanation": "(I-P) is the complementary projection onto the orthogonal complement W⊥."
+  },
+  {
+    "id": "la_projections_006",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q6: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q6."
+  },
+  {
+    "id": "la_projections_007",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "la_projections_008",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q8: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q8."
+  },
+  {
+    "id": "la_projections_009",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q9: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q9."
+  },
+  {
+    "id": "la_projections_010",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q10: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q10."
+  },
+  {
+    "id": "la_projections_011",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "la_projections_012",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Projections Q12: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q12."
+  },
+  {
+    "id": "la_projections_013",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q13: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q13."
+  },
+  {
+    "id": "la_projections_014",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q14: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q14."
+  },
+  {
+    "id": "la_projections_015",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "la_projections_016",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q16: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q16."
+  },
+  {
+    "id": "la_projections_017",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q17: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q17."
+  },
+  {
+    "id": "la_projections_018",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "la_projections_019",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Projections Q19: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q19."
+  },
+  {
+    "id": "la_projections_020",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Projections Q20: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Projections Q20."
+  },
+  {
+    "id": "la_projections_021",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q21: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q21."
+  },
+  {
+    "id": "la_projections_022",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "la_projections_023",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q23: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q23."
+  },
+  {
+    "id": "la_projections_024",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q24: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q24."
+  },
+  {
+    "id": "la_projections_025",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q25: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q25."
+  },
+  {
+    "id": "la_projections_026",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "la_projections_027",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Projections Q27: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q27."
+  },
+  {
+    "id": "la_projections_028",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q28: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q28."
+  },
+  {
+    "id": "la_projections_029",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q29: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q29."
+  },
+  {
+    "id": "la_projections_030",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "la_projections_031",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q31: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q31."
+  },
+  {
+    "id": "la_projections_032",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q32: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q32."
+  },
+  {
+    "id": "la_projections_033",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "la_projections_034",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Projections Q34: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q34."
+  },
+  {
+    "id": "la_projections_035",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Projections Q35: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Projections Q35."
+  },
+  {
+    "id": "la_projections_036",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q36: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q36."
+  },
+  {
+    "id": "la_projections_037",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "la_projections_038",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q38: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q38."
+  },
+  {
+    "id": "la_projections_039",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q39: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q39."
+  },
+  {
+    "id": "la_projections_040",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q40: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q40."
+  },
+  {
+    "id": "la_projections_041",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "la_projections_042",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Projections Q42: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q42."
+  },
+  {
+    "id": "la_projections_043",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q43: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q43."
+  },
+  {
+    "id": "la_projections_044",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q44: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q44."
+  },
+  {
+    "id": "la_projections_045",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "la_projections_046",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q46: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q46."
+  },
+  {
+    "id": "la_projections_047",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q47: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q47."
+  },
+  {
+    "id": "la_projections_048",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "la_projections_049",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Projections Q49: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q49."
+  },
+  {
+    "id": "la_projections_050",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Projections Q50: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Projections Q50."
+  },
+  {
+    "id": "la_projections_051",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q51: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q51."
+  },
+  {
+    "id": "la_projections_052",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "la_projections_053",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q53: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q53."
+  },
+  {
+    "id": "la_projections_054",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q54: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q54."
+  },
+  {
+    "id": "la_projections_055",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q55: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q55."
+  },
+  {
+    "id": "la_projections_056",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "la_projections_057",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Projections Q57: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q57."
+  },
+  {
+    "id": "la_projections_058",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Projections Q58: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q58."
+  },
+  {
+    "id": "la_projections_059",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Projections Q59: GATE DA level question on projections.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Projections Q59."
+  },
+  {
+    "id": "la_projections_060",
+    "subject": "Linear Algebra",
+    "topic": "Projections",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Projections (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

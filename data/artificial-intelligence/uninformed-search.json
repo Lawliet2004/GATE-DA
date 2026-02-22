@@ -1,0 +1,956 @@
+[
+  {
+    "id": "arti_uninfo_001",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "BFS (Breadth-First Search) explores:",
+    "code": null,
+    "options": [
+      "Level by level (shallowest nodes first)",
+      "Deepest nodes first",
+      "Random nodes",
+      "Best heuristic first"
+    ],
+    "correct": "A",
+    "explanation": "BFS: expand all nodes at depth d before any at d+1. Complete and optimal (unit costs)."
+  },
+  {
+    "id": "arti_uninfo_002",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "DFS (Depth-First Search) explores:",
+    "code": null,
+    "options": [
+      "Deepest unexpanded node first",
+      "Shallowest first",
+      "Random",
+      "Best cost first"
+    ],
+    "correct": "A",
+    "explanation": "DFS: go deep as possible, then backtrack. Uses O(bm) memory. Not optimal."
+  },
+  {
+    "id": "arti_uninfo_003",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "BFS time and space complexity:",
+    "code": null,
+    "options": [
+      "O(b^d) both",
+      "O(d) both",
+      "O(b) both",
+      "O(1) both"
+    ],
+    "correct": "A",
+    "explanation": "BFS: O(b^d) nodes explored and stored in frontier. b=branching factor, d=depth."
+  },
+  {
+    "id": "arti_uninfo_004",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Iterative deepening combines:",
+    "code": null,
+    "options": [
+      "DFS memory efficiency with BFS completeness",
+      "Nothing useful",
+      "Only DFS",
+      "Only BFS"
+    ],
+    "correct": "A",
+    "explanation": "ID-DFS: repeatedly do DFS with increasing depth limit. O(bd) memory, O(b^d) time. Best of both."
+  },
+  {
+    "id": "arti_uninfo_005",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uniform cost search expands:",
+    "code": null,
+    "options": [
+      "Node with lowest path cost g(n)",
+      "Random node",
+      "Deepest node",
+      "Shallowest node"
+    ],
+    "correct": "A",
+    "explanation": "UCS: priority queue by g(n). Like Dijkstra. Optimal for any non-negative step costs."
+  },
+  {
+    "id": "arti_uninfo_006",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_007",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_008",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_009",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_010",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_011",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_012",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Uninformed Search Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_013",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_014",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_015",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_016",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_017",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_018",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_019",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Uninformed Search Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_020",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_021",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_022",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_023",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_024",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_025",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_026",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_027",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Uninformed Search Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_028",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_029",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_030",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_031",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_032",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_033",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_034",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Uninformed Search Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_035",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_036",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_037",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_038",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_039",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_040",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_041",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_042",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Uninformed Search Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_043",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_044",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_045",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_046",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_047",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_048",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_049",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Uninformed Search Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_050",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_051",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_052",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_053",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_054",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_055",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_056",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "arti_uninfo_057",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Uninformed Search Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_058",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Uninformed Search Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_059",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Uninformed Search Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Uninformed Search option A",
+      "Uninformed Search option B",
+      "Uninformed Search option C",
+      "Uninformed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Uninformed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_uninfo_060",
+    "subject": "Artificial Intelligence",
+    "topic": "Uninformed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Uninformed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

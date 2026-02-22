@@ -1,0 +1,28 @@
+{
+  "id": "sub_probability-statistics",
+  "name": "Probability & Statistics — Subject Test",
+  "type": "subject-wise",
+  "description": "30-question test covering all Probability & Statistics topics",
+  "totalQuestions": 30,
+  "timeMinutes": 60,
+  "sections": [
+    {
+      "subject": "probability-statistics",
+      "topicSlugs": [
+        "counting",
+        "bayes-theorem",
+        "discrete-distributions",
+        "continuous-distributions",
+        "hypothesis-testing",
+        "expectation-variance",
+        "confidence-intervals"
+      ],
+      "count": 30
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

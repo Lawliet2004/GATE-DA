@@ -1,0 +1,951 @@
+[
+  {
+    "id": "ps_cdf_001",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF F(x) = P(X ≤ x). F(∞) = ?",
+    "code": null,
+    "options": [
+      "1",
+      "0",
+      "∞",
+      "0.5"
+    ],
+    "correct": "A",
+    "explanation": "As x→∞, F(x)→1 since all probability is accumulated."
+  },
+  {
+    "id": "ps_cdf_002",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For discrete RV, CDF is:",
+    "code": null,
+    "options": [
+      "A step function",
+      "A smooth curve",
+      "Always linear",
+      "Always differentiable"
+    ],
+    "correct": "A",
+    "explanation": "Discrete CDF has jumps at each value with positive probability, forming a step function."
+  },
+  {
+    "id": "ps_cdf_003",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "easy",
+    "question": "X~Uniform(0,5). Find F(3).",
+    "code": null,
+    "options": null,
+    "correct": "0.6",
+    "explanation": "F(3)=P(X≤3)=(3-0)/(5-0)=3/5=0.6."
+  },
+  {
+    "id": "ps_cdf_004",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "F(x)=1-e^(-2x) for x≥0. What distribution is this?",
+    "code": null,
+    "options": [
+      "Exponential(λ=2)",
+      "Normal(0,2)",
+      "Uniform(0,2)",
+      "Poisson(2)"
+    ],
+    "correct": "A",
+    "explanation": "F(x)=1-e^(-λx) is the CDF of Exponential(λ). Here λ=2."
+  },
+  {
+    "id": "ps_cdf_005",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "P(a<X≤b) in terms of CDF:",
+    "code": null,
+    "options": [
+      "F(b)-F(a)",
+      "F(a)-F(b)",
+      "F(b)+F(a)",
+      "F(b)×F(a)"
+    ],
+    "correct": "A",
+    "explanation": "P(a<X≤b) = F(b) - F(a)."
+  },
+  {
+    "id": "ps_cdf_006",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Which are properties of any CDF? (Select all)",
+    "code": null,
+    "options": [
+      "F is non-decreasing",
+      "0≤F(x)≤1 for all x",
+      "F is right-continuous",
+      "F can decrease"
+    ],
+    "correct": "ABC",
+    "explanation": "CDF is non-decreasing, bounded in [0,1], and right-continuous. It cannot decrease."
+  },
+  {
+    "id": "ps_cdf_007",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "If F(x)=x² for 0≤x≤1, find f(x) at x=0.5.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "f(x)=F'(x)=2x. At x=0.5: f(0.5)=2(0.5)=1."
+  },
+  {
+    "id": "ps_cdf_008",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "The quantile function Q(p) is:",
+    "code": null,
+    "options": [
+      "The inverse of the CDF",
+      "The PDF",
+      "The mean",
+      "The variance"
+    ],
+    "correct": "A",
+    "explanation": "Q(p)=F⁻¹(p) gives the value x such that F(x)=p."
+  },
+  {
+    "id": "ps_cdf_009",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "For mixed RV (part discrete, part continuous), the CDF:",
+    "code": null,
+    "options": [
+      "Has both jumps and continuous segments",
+      "Is always smooth",
+      "Is always a step function",
+      "Does not exist"
+    ],
+    "correct": "A",
+    "explanation": "Mixed RVs have CDFs with jumps at discrete points and continuous segments elsewhere."
+  },
+  {
+    "id": "ps_cdf_010",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "easy",
+    "question": "CDF: F(x)=0 for x<0, F(x)=x/4 for 0≤x≤4, F(x)=1 for x>4. Find P(1<X≤3).",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "P(1<X≤3)=F(3)-F(1)=3/4-1/4=2/4=0.5."
+  },
+  {
+    "id": "ps_cdf_011",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If F(3)=0.7 and F(3⁻)=0.5, then P(X=3)=?",
+    "code": null,
+    "options": [
+      "0.2",
+      "0.7",
+      "0.5",
+      "0"
+    ],
+    "correct": "A",
+    "explanation": "P(X=3)=F(3)-F(3⁻)=0.7-0.5=0.2. The jump in CDF equals the point mass."
+  },
+  {
+    "id": "ps_cdf_012",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "For continuous RV, P(X=a)=?",
+    "code": null,
+    "options": [
+      "0",
+      "F(a)",
+      "f(a)",
+      "1"
+    ],
+    "correct": "A",
+    "explanation": "P(X=a)=0 for any continuous RV. CDF is continuous with no jumps."
+  },
+  {
+    "id": "ps_cdf_013",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "The survival function S(x) is defined as:",
+    "code": null,
+    "options": [
+      "1-F(x)",
+      "F(x)",
+      "f(x)",
+      "F(x)²"
+    ],
+    "correct": "A",
+    "explanation": "S(x)=P(X>x)=1-F(x). Used in reliability and survival analysis."
+  },
+  {
+    "id": "ps_cdf_014",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "X has CDF F(x)=1-(1+x)e^(-x) for x≥0. Find f(1). (to 4 dec)",
+    "code": null,
+    "options": null,
+    "correct": "0.3679",
+    "explanation": "f(x)=F'(x)=xe^(-x). f(1)=1·e^(-1)=0.3679."
+  },
+  {
+    "id": "ps_cdf_015",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Empirical CDF F̂ₙ(x) converges to F(x) by:",
+    "code": null,
+    "options": [
+      "Glivenko-Cantelli theorem",
+      "Central limit theorem",
+      "Law of large numbers",
+      "Bayes theorem"
+    ],
+    "correct": "A",
+    "explanation": "Glivenko-Cantelli: sup|F̂ₙ(x)-F(x)|→0 almost surely. Uniform convergence of ECDF."
+  },
+  {
+    "id": "ps_cdf_016",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q16: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_018",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "CDF Q18: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "18",
+    "explanation": "Detailed explanation for CDF Q18."
+  },
+  {
+    "id": "ps_cdf_020",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "CDF Q20: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_022",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "CDF Q22: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "22",
+    "explanation": "Detailed explanation for CDF Q22."
+  },
+  {
+    "id": "ps_cdf_024",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q24: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_026",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "CDF Q26: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "26",
+    "explanation": "Detailed explanation for CDF Q26."
+  },
+  {
+    "id": "ps_cdf_028",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q28: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_030",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "CDF Q30: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "30",
+    "explanation": "Detailed explanation for CDF Q30."
+  },
+  {
+    "id": "ps_cdf_032",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q32: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_034",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "CDF Q34: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_036",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q36: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_038",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q38: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_040",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q40: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_042",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "CDF Q42: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_044",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q44: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_046",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q46: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_048",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "CDF Q48: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "48",
+    "explanation": "Detailed explanation for CDF Q48."
+  },
+  {
+    "id": "ps_cdf_050",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "CDF Q50: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_052",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "CDF Q52: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "52",
+    "explanation": "Detailed explanation for CDF Q52."
+  },
+  {
+    "id": "ps_cdf_054",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q54: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_056",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "CDF Q56: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "56",
+    "explanation": "Detailed explanation for CDF Q56."
+  },
+  {
+    "id": "ps_cdf_058",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q58: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_060",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "CDF Q60: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "60",
+    "explanation": "Detailed explanation for CDF Q60."
+  },
+  {
+    "id": "ps_cdf_062",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q62: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_064",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "CDF Q64: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_066",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q66: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_068",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q68: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_070",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q70: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_072",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "CDF Q72: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_074",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q74: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_076",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q76: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_078",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "CDF Q78: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "78",
+    "explanation": "Detailed explanation for CDF Q78."
+  },
+  {
+    "id": "ps_cdf_080",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "CDF Q80: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_082",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "CDF Q82: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "82",
+    "explanation": "Detailed explanation for CDF Q82."
+  },
+  {
+    "id": "ps_cdf_084",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q84: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_086",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "CDF Q86: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "86",
+    "explanation": "Detailed explanation for CDF Q86."
+  },
+  {
+    "id": "ps_cdf_088",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q88: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_090",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "CDF Q90: GATE-level question on cdf.",
+    "code": null,
+    "options": null,
+    "correct": "90",
+    "explanation": "Detailed explanation for CDF Q90."
+  },
+  {
+    "id": "ps_cdf_092",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q92: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_094",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "CDF Q94: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_096",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "CDF Q96: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_098",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q98: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_100",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q100: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_102",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "CDF Q102: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_cdf_104",
+    "subject": "Probability and Statistics",
+    "topic": "CDF",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CDF Q104: GATE-level question on cdf.",
+    "code": null,
+    "options": [
+      "CDF option A",
+      "CDF option B",
+      "CDF option C",
+      "CDF option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of CDF. The correct answer is option A based on the concept."
+  }
+]

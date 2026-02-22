@@ -1,0 +1,24 @@
+/* Code Syntax Highlighting */
+.code-block { background: var(--code-bg); border-radius: var(--radius-md); overflow: hidden; margin: var(--space-4) 0; position: relative; font-family: var(--font-mono); font-size: 14px; line-height: 1.7; }
+.code-block-header { display: flex; align-items: center; justify-content: space-between; padding: var(--space-2) var(--space-4); background: rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.08); }
+.code-block-lang { font-size: var(--font-size-xs); color: var(--code-comment); text-transform: uppercase; letter-spacing: 0.05em; }
+.code-copy-btn { padding: 4px 10px; font-size: var(--font-size-xs); color: var(--code-comment); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-xs); cursor: pointer; transition: all var(--transition-fast); background: transparent; font-family: var(--font-sans); }
+.code-copy-btn:hover { color: var(--code-text); border-color: rgba(255,255,255,0.3); }
+.code-copy-btn.copied { color: var(--color-success); border-color: var(--color-success); }
+.code-content { display: flex; overflow-x: auto; padding: var(--space-4) 0; }
+.code-line-numbers { display: flex; flex-direction: column; padding: 0 var(--space-3) 0 var(--space-4); text-align: right; color: var(--code-line-number); user-select: none; border-right: 1px solid rgba(255,255,255,0.06); min-width: 40px; }
+.code-line-numbers span { line-height: 1.7; }
+.code-lines { flex: 1; padding: 0 var(--space-4); color: var(--code-text); white-space: pre; }
+.code-lines .line { line-height: 1.7; }
+/* Syntax tokens */
+.token-keyword { color: var(--code-keyword); }
+.token-string { color: var(--code-string); }
+.token-number { color: var(--code-number); }
+.token-comment { color: var(--code-comment); font-style: italic; }
+.token-function { color: var(--code-function); }
+.token-operator { color: var(--code-operator); }
+.token-class { color: var(--code-class); }
+.token-builtin { color: var(--code-builtin); }
+.token-boolean { color: var(--code-number); }
+.token-decorator { color: var(--code-class); }
+.token-self { color: var(--code-builtin); font-style: italic; }

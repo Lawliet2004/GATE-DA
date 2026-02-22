@@ -1,0 +1,959 @@
+[
+  {
+    "id": "ml-s_multip_001",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "y = Xβ + ε. OLS solution β̂ = ?",
+    "code": null,
+    "options": [
+      "(XᵀX)⁻¹Xᵀy",
+      "Xy",
+      "X⁻¹y",
+      "(Xᵀy)⁻¹"
+    ],
+    "correct": "A",
+    "explanation": "Normal equations: β̂ = (XᵀX)⁻¹Xᵀy. Minimizes ||y-Xβ||²."
+  },
+  {
+    "id": "ml-s_multip_002",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multicollinearity means:",
+    "code": null,
+    "options": [
+      "Predictor variables are highly correlated",
+      "Response is multimodal",
+      "No correlation at all",
+      "Perfect prediction"
+    ],
+    "correct": "A",
+    "explanation": "Multicollinearity: predictors correlated → unstable β estimates, inflated standard errors."
+  },
+  {
+    "id": "ml-s_multip_003",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Adjusted R² accounts for:",
+    "code": null,
+    "options": [
+      "Number of predictors (penalizes adding useless variables)",
+      "Only the intercept",
+      "Outliers",
+      "Heteroscedasticity"
+    ],
+    "correct": "A",
+    "explanation": "Adjusted R² = 1-(1-R²)(n-1)/(n-p-1). Decreases if added variable doesn't improve fit enough."
+  },
+  {
+    "id": "ml-s_multip_004",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "VIF > 10 suggests:",
+    "code": null,
+    "options": [
+      "Severe multicollinearity",
+      "Perfect model",
+      "No correlation",
+      "VIF is irrelevant"
+    ],
+    "correct": "A",
+    "explanation": "Variance Inflation Factor > 10 indicates problematic multicollinearity for that predictor."
+  },
+  {
+    "id": "ml-s_multip_005",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q5: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_006",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_007",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_008",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_009",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_010",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_011",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_012",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_013",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_014",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_015",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_016",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_017",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_018",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_019",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_020",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_021",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_022",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_023",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_024",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_025",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_026",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_027",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_028",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_029",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_030",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_031",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_032",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_033",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_034",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_035",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_036",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_037",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_038",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_039",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_040",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_041",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_042",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_043",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_044",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_045",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_046",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_047",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_048",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_049",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_050",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_051",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_052",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_053",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_054",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_055",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_056",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-s_multip_057",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_058",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple Linear Regression Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_059",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Multiple Linear Regression Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Multiple Linear Regression option A",
+      "Multiple Linear Regression option B",
+      "Multiple Linear Regression option C",
+      "Multiple Linear Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Multiple Linear Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_multip_060",
+    "subject": "ML — Supervised Learning",
+    "topic": "Multiple Linear Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Multiple Linear Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

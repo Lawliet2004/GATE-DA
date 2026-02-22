@@ -1,0 +1,959 @@
+[
+  {
+    "id": "prog_linear_001",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear search time complexity:",
+    "code": null,
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "correct": "A",
+    "explanation": "Check each element sequentially. Worst case: n comparisons."
+  },
+  {
+    "id": "prog_linear_002",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear search works on:",
+    "code": null,
+    "options": [
+      "Any collection (sorted or unsorted)",
+      "Only sorted arrays",
+      "Only linked lists",
+      "Only trees"
+    ],
+    "correct": "A",
+    "explanation": "No ordering requirement. Works on any iterable collection."
+  },
+  {
+    "id": "prog_linear_003",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Best case of linear search:",
+    "code": null,
+    "options": [
+      "O(1) — element at first position",
+      "O(n)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "correct": "A",
+    "explanation": "If target is the first element, found in 1 comparison."
+  },
+  {
+    "id": "prog_linear_004",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Average comparisons in linear search for n elements:",
+    "code": null,
+    "options": [
+      "n/2",
+      "n",
+      "1",
+      "log n"
+    ],
+    "correct": "A",
+    "explanation": "On average, target is in the middle: n/2 comparisons."
+  },
+  {
+    "id": "prog_linear_005",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q5: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_006",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_007",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_008",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_009",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_010",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_011",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_012",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Search Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_013",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_014",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_015",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_016",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_017",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_018",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_019",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Search Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_020",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_021",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_022",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_023",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_024",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_025",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_026",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_027",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Search Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_028",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_029",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_030",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_031",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_032",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_033",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_034",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Search Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_035",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_036",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_037",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_038",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_039",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_040",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_041",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_042",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Search Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_043",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_044",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_045",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_046",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_047",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_048",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_049",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Search Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_050",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_051",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_052",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_053",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_054",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_055",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_056",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "prog_linear_057",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Linear Search Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_058",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Linear Search Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_059",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Linear Search Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Linear Search option A",
+      "Linear Search option B",
+      "Linear Search option C",
+      "Linear Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Linear Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_linear_060",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Linear Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Linear Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

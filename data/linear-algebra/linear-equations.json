@@ -1,0 +1,956 @@
+[
+  {
+    "id": "la_linearequations_001",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ax=b is consistent iff:",
+    "code": null,
+    "options": [
+      "rank(A) = rank([A|b])",
+      "det(A) = 0",
+      "rank(A) < rank([A|b])",
+      "A is square"
+    ],
+    "correct": "A",
+    "explanation": "By the Rouché-Capelli theorem, system is consistent iff rank(A)=rank(augmented matrix)."
+  },
+  {
+    "id": "la_linearequations_002",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Homogeneous system Ax=0 always has:",
+    "code": null,
+    "options": [
+      "At least the trivial solution x=0",
+      "No solution",
+      "Exactly one non-trivial solution",
+      "Infinite solutions always"
+    ],
+    "correct": "A",
+    "explanation": "x=0 always satisfies Ax=0. Non-trivial solutions exist iff rank(A)<n."
+  },
+  {
+    "id": "la_linearequations_003",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If Ax=b has a particular solution xₚ and Ax=0 has solution space N, then general solution is:",
+    "code": null,
+    "options": [
+      "xₚ + N (particular + null space)",
+      "xₚ only",
+      "N only",
+      "xₚ × N"
+    ],
+    "correct": "A",
+    "explanation": "General solution = particular + homogeneous: x = xₚ + xₕ where xₕ ∈ null(A)."
+  },
+  {
+    "id": "la_linearequations_004",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Cramer's rule applies when:",
+    "code": null,
+    "options": [
+      "A is square and det(A)≠0",
+      "A is rectangular",
+      "det(A)=0",
+      "A has complex entries only"
+    ],
+    "correct": "A",
+    "explanation": "Cramer's: xᵢ = det(Aᵢ)/det(A), valid only for square invertible systems."
+  },
+  {
+    "id": "la_linearequations_005",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "An underdetermined system (more unknowns than equations) that is consistent has:",
+    "code": null,
+    "options": [
+      "Infinitely many solutions",
+      "Exactly one solution",
+      "No solution",
+      "Cannot determine"
+    ],
+    "correct": "A",
+    "explanation": "If consistent and rank < n (unknowns), free variables exist → infinitely many solutions."
+  },
+  {
+    "id": "la_linearequations_006",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q6: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q6."
+  },
+  {
+    "id": "la_linearequations_007",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_008",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q8: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q8."
+  },
+  {
+    "id": "la_linearequations_009",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q9: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q9."
+  },
+  {
+    "id": "la_linearequations_010",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q10: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q10."
+  },
+  {
+    "id": "la_linearequations_011",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_012",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations Q12: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q12."
+  },
+  {
+    "id": "la_linearequations_013",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q13: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q13."
+  },
+  {
+    "id": "la_linearequations_014",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q14: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q14."
+  },
+  {
+    "id": "la_linearequations_015",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_016",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q16: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q16."
+  },
+  {
+    "id": "la_linearequations_017",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q17: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q17."
+  },
+  {
+    "id": "la_linearequations_018",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_019",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations Q19: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q19."
+  },
+  {
+    "id": "la_linearequations_020",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q20: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q20."
+  },
+  {
+    "id": "la_linearequations_021",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q21: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q21."
+  },
+  {
+    "id": "la_linearequations_022",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_023",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q23: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q23."
+  },
+  {
+    "id": "la_linearequations_024",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q24: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q24."
+  },
+  {
+    "id": "la_linearequations_025",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q25: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q25."
+  },
+  {
+    "id": "la_linearequations_026",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_027",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations Q27: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q27."
+  },
+  {
+    "id": "la_linearequations_028",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q28: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q28."
+  },
+  {
+    "id": "la_linearequations_029",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q29: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q29."
+  },
+  {
+    "id": "la_linearequations_030",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_031",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q31: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q31."
+  },
+  {
+    "id": "la_linearequations_032",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q32: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q32."
+  },
+  {
+    "id": "la_linearequations_033",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_034",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations Q34: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q34."
+  },
+  {
+    "id": "la_linearequations_035",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q35: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q35."
+  },
+  {
+    "id": "la_linearequations_036",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q36: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q36."
+  },
+  {
+    "id": "la_linearequations_037",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_038",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q38: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q38."
+  },
+  {
+    "id": "la_linearequations_039",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q39: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q39."
+  },
+  {
+    "id": "la_linearequations_040",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q40: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q40."
+  },
+  {
+    "id": "la_linearequations_041",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_042",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations Q42: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q42."
+  },
+  {
+    "id": "la_linearequations_043",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q43: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q43."
+  },
+  {
+    "id": "la_linearequations_044",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q44: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q44."
+  },
+  {
+    "id": "la_linearequations_045",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_046",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q46: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q46."
+  },
+  {
+    "id": "la_linearequations_047",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q47: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q47."
+  },
+  {
+    "id": "la_linearequations_048",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_049",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations Q49: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q49."
+  },
+  {
+    "id": "la_linearequations_050",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q50: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q50."
+  },
+  {
+    "id": "la_linearequations_051",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q51: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q51."
+  },
+  {
+    "id": "la_linearequations_052",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_053",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q53: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q53."
+  },
+  {
+    "id": "la_linearequations_054",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q54: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q54."
+  },
+  {
+    "id": "la_linearequations_055",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q55: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q55."
+  },
+  {
+    "id": "la_linearequations_056",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "la_linearequations_057",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations Q57: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q57."
+  },
+  {
+    "id": "la_linearequations_058",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Systems of Linear Equations Q58: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q58."
+  },
+  {
+    "id": "la_linearequations_059",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Systems of Linear Equations Q59: GATE DA level question on systems of linear equations.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Systems of Linear Equations Q59."
+  },
+  {
+    "id": "la_linearequations_060",
+    "subject": "Linear Algebra",
+    "topic": "Systems of Linear Equations",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Systems of Linear Equations (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

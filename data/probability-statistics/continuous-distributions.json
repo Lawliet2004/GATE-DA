@@ -1,0 +1,951 @@
+[
+  {
+    "id": "ps_cd_001",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "X~N(0,1). P(X<0)=?",
+    "code": null,
+    "options": [
+      "0.5",
+      "0",
+      "1",
+      "0.68"
+    ],
+    "correct": "A",
+    "explanation": "Standard normal is symmetric about 0, so P(X<0)=0.5."
+  },
+  {
+    "id": "ps_cd_002",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "X~N(μ,σ²). P(μ-2σ<X<μ+2σ)≈?",
+    "code": null,
+    "options": [
+      "0.9544",
+      "0.6827",
+      "0.9973",
+      "0.5"
+    ],
+    "correct": "A",
+    "explanation": "Empirical rule: ~95.44% of data within 2 standard deviations."
+  },
+  {
+    "id": "ps_cd_003",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "X~Exponential(λ=0.5). Find E[X].",
+    "code": null,
+    "options": null,
+    "correct": "2",
+    "explanation": "E[X]=1/λ=1/0.5=2 for exponential distribution."
+  },
+  {
+    "id": "ps_cd_004",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Exponential distribution has the memoryless property. This means:",
+    "code": null,
+    "options": [
+      "P(X>s+t|X>s)=P(X>t)",
+      "E[X]=Var(X)",
+      "PDF is symmetric",
+      "CDF is linear"
+    ],
+    "correct": "A",
+    "explanation": "P(X>s+t|X>s)=P(X>t). Past waiting time doesn't affect future probability."
+  },
+  {
+    "id": "ps_cd_005",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "For X~Exponential(λ), Var(X)=?",
+    "code": null,
+    "options": [
+      "1/λ²",
+      "λ",
+      "λ²",
+      "1/λ"
+    ],
+    "correct": "A",
+    "explanation": "Var(X)=1/λ² for exponential distribution. SD=1/λ=E[X]."
+  },
+  {
+    "id": "ps_cd_006",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Which are symmetric distributions? (Select all)",
+    "code": null,
+    "options": [
+      "Normal",
+      "Uniform",
+      "Exponential",
+      "Student-t"
+    ],
+    "correct": "ABD",
+    "explanation": "Normal, Uniform(a,b), and Student-t are symmetric. Exponential is right-skewed."
+  },
+  {
+    "id": "ps_cd_007",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "The PDF of N(μ,σ²) is:",
+    "code": null,
+    "options": [
+      "(1/(σ√(2π)))exp(-(x-μ)²/(2σ²))",
+      "(1/σ)exp(-x/σ)",
+      "1/(b-a)",
+      "λexp(-λx)"
+    ],
+    "correct": "A",
+    "explanation": "Normal PDF with mean μ and variance σ²."
+  },
+  {
+    "id": "ps_cd_008",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "X~N(100,25). Find P(X>110) using z-score. Z=2 gives P(Z>2)≈0.0228. Answer to 4 decimal.",
+    "code": null,
+    "options": null,
+    "correct": "0.0228",
+    "explanation": "Z=(110-100)/5=2. P(X>110)=P(Z>2)≈0.0228."
+  },
+  {
+    "id": "ps_cd_009",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Sum of independent normal RVs is:",
+    "code": null,
+    "options": [
+      "Also normal",
+      "Exponential",
+      "Uniform",
+      "Chi-squared"
+    ],
+    "correct": "A",
+    "explanation": "Normal is closed under addition: X~N(μ₁,σ₁²), Y~N(μ₂,σ₂²) ⟹ X+Y~N(μ₁+μ₂,σ₁²+σ₂²)."
+  },
+  {
+    "id": "ps_cd_010",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gamma(α,β) reduces to Exponential when:",
+    "code": null,
+    "options": [
+      "α=1",
+      "β=1",
+      "α=0",
+      "α=β"
+    ],
+    "correct": "A",
+    "explanation": "Gamma(1,β)=Exponential(1/β). Exponential is a special case of Gamma."
+  },
+  {
+    "id": "ps_cd_011",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "easy",
+    "question": "X~Uniform(2,8). Find SD(X). (to 2 dec)",
+    "code": null,
+    "options": null,
+    "correct": "1.73",
+    "explanation": "Var=(8-2)²/12=36/12=3. SD=√3≈1.73."
+  },
+  {
+    "id": "ps_cd_012",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Chi-squared distribution with k degrees of freedom has E[X]=?",
+    "code": null,
+    "options": [
+      "k",
+      "k²",
+      "1",
+      "k/2"
+    ],
+    "correct": "A",
+    "explanation": "E[χ²(k)]=k, Var(χ²(k))=2k."
+  },
+  {
+    "id": "ps_cd_013",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Standard normal Z: What is E[Z] and Var(Z)?",
+    "code": null,
+    "options": [
+      "E[Z]=0, Var(Z)=1",
+      "E[Z]=1, Var(Z)=0",
+      "E[Z]=0, Var(Z)=0",
+      "E[Z]=1, Var(Z)=1"
+    ],
+    "correct": "A",
+    "explanation": "Standard normal N(0,1): mean=0, variance=1 by definition."
+  },
+  {
+    "id": "ps_cd_014",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "t-distribution approaches normal as:",
+    "code": null,
+    "options": [
+      "Degrees of freedom → ∞",
+      "Mean → 0",
+      "Variance → 0",
+      "Sample size → 0"
+    ],
+    "correct": "A",
+    "explanation": "As df→∞, t-distribution converges to standard normal. Heavier tails for small df."
+  },
+  {
+    "id": "ps_cd_015",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "X~Exp(2). Find P(X>1). (to 4 dec)",
+    "code": null,
+    "options": null,
+    "correct": "0.1353",
+    "explanation": "P(X>1)=e^(-2×1)=e^(-2)≈0.1353."
+  },
+  {
+    "id": "ps_contin_016",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q16: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_018",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q18: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "18",
+    "explanation": "Detailed explanation for Continuous Distributions Q18."
+  },
+  {
+    "id": "ps_contin_020",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q20: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_022",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q22: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "22",
+    "explanation": "Detailed explanation for Continuous Distributions Q22."
+  },
+  {
+    "id": "ps_contin_024",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q24: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_026",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q26: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "26",
+    "explanation": "Detailed explanation for Continuous Distributions Q26."
+  },
+  {
+    "id": "ps_contin_028",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q28: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_030",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q30: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "30",
+    "explanation": "Detailed explanation for Continuous Distributions Q30."
+  },
+  {
+    "id": "ps_contin_032",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q32: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_034",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q34: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_036",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q36: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_038",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q38: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_040",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q40: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_042",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q42: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_044",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q44: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_046",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q46: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_048",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q48: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "48",
+    "explanation": "Detailed explanation for Continuous Distributions Q48."
+  },
+  {
+    "id": "ps_contin_050",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q50: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_052",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q52: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "52",
+    "explanation": "Detailed explanation for Continuous Distributions Q52."
+  },
+  {
+    "id": "ps_contin_054",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q54: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_056",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q56: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "56",
+    "explanation": "Detailed explanation for Continuous Distributions Q56."
+  },
+  {
+    "id": "ps_contin_058",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q58: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_060",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q60: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "60",
+    "explanation": "Detailed explanation for Continuous Distributions Q60."
+  },
+  {
+    "id": "ps_contin_062",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q62: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_064",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q64: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_066",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q66: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_068",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q68: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_070",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q70: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_072",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q72: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_074",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q74: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_076",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q76: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_078",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q78: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "78",
+    "explanation": "Detailed explanation for Continuous Distributions Q78."
+  },
+  {
+    "id": "ps_contin_080",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q80: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_082",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q82: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "82",
+    "explanation": "Detailed explanation for Continuous Distributions Q82."
+  },
+  {
+    "id": "ps_contin_084",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q84: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_086",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q86: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "86",
+    "explanation": "Detailed explanation for Continuous Distributions Q86."
+  },
+  {
+    "id": "ps_contin_088",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q88: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_090",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q90: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": null,
+    "correct": "90",
+    "explanation": "Detailed explanation for Continuous Distributions Q90."
+  },
+  {
+    "id": "ps_contin_092",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q92: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_094",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q94: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_096",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous Distributions Q96: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_098",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q98: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_100",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q100: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_102",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous Distributions Q102: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_104",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous Distributions",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous Distributions Q104: GATE-level question on continuous distributions.",
+    "code": null,
+    "options": [
+      "Continuous Distributions option A",
+      "Continuous Distributions option B",
+      "Continuous Distributions option C",
+      "Continuous Distributions option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous Distributions. The correct answer is option A based on the concept."
+  }
+]

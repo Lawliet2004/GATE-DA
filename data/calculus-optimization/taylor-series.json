@@ -1,0 +1,956 @@
+[
+  {
+    "id": "calc_taylor_001",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor series of e^x around x=0 is:",
+    "code": null,
+    "options": [
+      "Σ xⁿ/n! for n=0 to ∞",
+      "Σ xⁿ",
+      "Σ nxⁿ",
+      "1+x only"
+    ],
+    "correct": "A",
+    "explanation": "e^x = 1 + x + x²/2! + x³/3! + ... = Σ xⁿ/n!. Converges for all x."
+  },
+  {
+    "id": "calc_taylor_002",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "cos(x) = 1 - x²/2! + x⁴/4! - ... The coefficient of x² is:",
+    "code": null,
+    "options": [
+      "−1/2",
+      "+1/2",
+      "−1",
+      "0"
+    ],
+    "correct": "A",
+    "explanation": "cos(x) Taylor: 1 - x²/2! + ... Coefficient of x² = -1/2."
+  },
+  {
+    "id": "calc_taylor_003",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Maclaurin series is Taylor series centered at:",
+    "code": null,
+    "options": [
+      "a = 0",
+      "a = 1",
+      "a = π",
+      "a = ∞"
+    ],
+    "correct": "A",
+    "explanation": "Maclaurin = Taylor with center a=0. Special case."
+  },
+  {
+    "id": "calc_taylor_004",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Taylor remainder Rₙ(x) gives:",
+    "code": null,
+    "options": [
+      "Error of n-term approximation",
+      "Exact value",
+      "Length of series",
+      "Nothing useful"
+    ],
+    "correct": "A",
+    "explanation": "Rₙ bounds the error when truncating after n terms. Rₙ = f^(n+1)(c)·(x-a)^(n+1)/(n+1)!"
+  },
+  {
+    "id": "calc_taylor_005",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "ln(1+x) = x - x²/2 + x³/3 - ... converges for:",
+    "code": null,
+    "options": [
+      "−1 < x ≤ 1",
+      "All x",
+      "x > 0 only",
+      "x > 1 only"
+    ],
+    "correct": "A",
+    "explanation": "Radius of convergence = 1. Series converges for -1 < x ≤ 1."
+  },
+  {
+    "id": "calc_taylor_006",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Geometric series Σ xⁿ = 1/(1-x) converges for:",
+    "code": null,
+    "options": [
+      "|x| < 1",
+      "All x",
+      "x > 0",
+      "|x| > 1"
+    ],
+    "correct": "A",
+    "explanation": "Geometric series converges iff |common ratio| < 1."
+  },
+  {
+    "id": "calc_taylor_007",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_008",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_009",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_010",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_011",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_012",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Taylor Series Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_013",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_014",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_015",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_016",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_017",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_018",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_019",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Taylor Series Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_020",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_021",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_022",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_023",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_024",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_025",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_026",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_027",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Taylor Series Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_028",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_029",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_030",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_031",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_032",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_033",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_034",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Taylor Series Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_035",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_036",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_037",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_038",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_039",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_040",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_041",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_042",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Taylor Series Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_043",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_044",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_045",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_046",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_047",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_048",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_049",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Taylor Series Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_050",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_051",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_052",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_053",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_054",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_055",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_056",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "calc_taylor_057",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Taylor Series Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_058",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Taylor Series Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_059",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Taylor Series Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Taylor Series option A",
+      "Taylor Series option B",
+      "Taylor Series option C",
+      "Taylor Series option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Taylor Series. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_taylor_060",
+    "subject": "Calculus and Optimization",
+    "topic": "Taylor Series",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Taylor Series (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

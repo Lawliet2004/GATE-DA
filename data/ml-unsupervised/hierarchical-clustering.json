@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ml-u_hierar_001",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Agglomerative clustering is:",
+    "code": null,
+    "options": [
+      "Bottom-up (merge closest clusters)",
+      "Top-down",
+      "Random",
+      "Neither"
+    ],
+    "correct": "A",
+    "explanation": "Agglomerative: start with n clusters (one per point), merge closest pair iteratively."
+  },
+  {
+    "id": "ml-u_hierar_002",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dendrogram shows:",
+    "code": null,
+    "options": [
+      "Hierarchy of cluster merges with distances",
+      "Only final clusters",
+      "K value",
+      "Training error"
+    ],
+    "correct": "A",
+    "explanation": "Tree diagram where height = distance at which clusters were merged. Cut at desired level."
+  },
+  {
+    "id": "ml-u_hierar_003",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Single linkage uses:",
+    "code": null,
+    "options": [
+      "Minimum distance between clusters",
+      "Maximum distance",
+      "Average distance",
+      "Centroid distance"
+    ],
+    "correct": "A",
+    "explanation": "Single linkage: min distance between any pair of points in different clusters. Can create chains."
+  },
+  {
+    "id": "ml-u_hierar_004",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Complete linkage uses:",
+    "code": null,
+    "options": [
+      "Maximum distance between clusters",
+      "Minimum distance",
+      "Average distance",
+      "Random distance"
+    ],
+    "correct": "A",
+    "explanation": "Complete linkage: max distance between pairs. Produces compact clusters."
+  },
+  {
+    "id": "ml-u_hierar_005",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Advantage of hierarchical over k-Means:",
+    "code": null,
+    "options": [
+      "No need to specify k in advance",
+      "Faster",
+      "Always better clusters",
+      "Needs k"
+    ],
+    "correct": "A",
+    "explanation": "Dendrogram allows choosing any number of clusters after computation. But O(n²) complexity."
+  },
+  {
+    "id": "ml-u_hierar_006",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "DBSCAN differs from hierarchical by:",
+    "code": null,
+    "options": [
+      "Being density-based (finds arbitrary-shaped clusters)",
+      "Being hierarchical",
+      "Needing k",
+      "Being faster"
+    ],
+    "correct": "A",
+    "explanation": "DBSCAN: core/border/noise points based on density. Finds clusters of arbitrary shape."
+  },
+  {
+    "id": "ml-u_hierar_007",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_008",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_009",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_010",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_011",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_012",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_013",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_014",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_015",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_016",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_017",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_018",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_019",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_020",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_021",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_022",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_023",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_024",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_025",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_026",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_027",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_028",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_029",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_030",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_031",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_032",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_033",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_034",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_035",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_036",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_037",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_038",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_039",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_040",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_041",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_042",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_043",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_044",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_045",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_046",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_047",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_048",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_049",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_050",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_051",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_052",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_053",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_054",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_055",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_056",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-u_hierar_057",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_058",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Hierarchical Clustering Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_059",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Hierarchical Clustering Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Hierarchical Clustering option A",
+      "Hierarchical Clustering option B",
+      "Hierarchical Clustering option C",
+      "Hierarchical Clustering option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Hierarchical Clustering. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_hierar_060",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Hierarchical Clustering",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Hierarchical Clustering (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

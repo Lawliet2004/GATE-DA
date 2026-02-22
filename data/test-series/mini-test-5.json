@@ -1,0 +1,22 @@
+{
+  "id": "mini_5",
+  "name": "Mini Test 5",
+  "type": "mini",
+  "description": "Quick 10-question practice test",
+  "totalQuestions": 10,
+  "timeMinutes": 15,
+  "sections": [
+    {
+      "subject": "dbms-warehousing",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 10
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — GATE DA Master</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/themes/dark.css">
+  <link rel="stylesheet" href="css/themes/blue.css">
+  <link rel="stylesheet" href="css/themes/green.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navbar"><a href="index.html" class="navbar-brand"><div class="navbar-brand-icon">📊</div><span>GATE DA Master</span></a>
+    <div class="navbar-nav" id="navbarNav"><a href="index.html" class="nav-link">🏠 Home</a><a href="dashboard.html" class="nav-link active">📈 Dashboard</a><a href="test-series.html" class="nav-link">📝 Tests</a><a href="custom-test.html" class="nav-link">⚙️ Custom</a><a href="bookmarks.html" class="nav-link">🔖 Bookmarks</a><a href="review.html" class="nav-link">🔄 Review</a></div>
+    <div class="nav-actions"><button class="btn-icon btn-ghost" id="themeToggle">🌙</button><a href="settings.html" class="btn-icon btn-ghost">⚙️</a><div class="hamburger" onclick="document.getElementById('navbarNav').classList.toggle('mobile-open')"><span></span><span></span><span></span></div></div>
+  </nav>
+  <div class="page-wrapper">
+    <div class="container page-content">
+      <div class="page-header"><h1 class="page-title">📈 Dashboard</h1><p class="page-subtitle">Track your GATE DA preparation progress</p></div>
+      <div class="dashboard-grid" id="dashboardStats"></div>
+      <div class="streak-section">
+        <div class="streak-card" id="streakCard"><div class="streak-fire">🔥</div><div class="streak-value" id="streakValue">0</div><div class="streak-label">Day Streak</div></div>
+        <div class="daily-goal-card"><div class="daily-goal-header"><h3>Daily Goal</h3><span class="daily-goal-count" id="dailyGoalText">0 / 20 questions</span></div><div class="progress-bar"><div class="progress-bar-fill" id="dailyGoalFill" style="width:0%"></div></div></div>
+      </div>
+      <section class="subject-progress-section"><h2 class="section-title" style="margin-bottom:24px">📚 Subject Progress</h2><div class="subject-progress-grid" id="subjectProgressGrid"></div></section>
+      <section class="recent-tests"><h2 class="section-title" style="margin-bottom:24px">📝 Recent Tests</h2><div class="test-list" id="recentTestsList"></div></section>
+    </div>
+  </div>
+  <nav class="mobile-bottom-nav"><a href="index.html" class="mobile-nav-item"><span class="mobile-nav-icon">🏠</span>Home</a><a href="dashboard.html" class="mobile-nav-item active"><span class="mobile-nav-icon">📈</span>Dashboard</a><a href="test-series.html" class="mobile-nav-item"><span class="mobile-nav-icon">📝</span>Tests</a><a href="bookmarks.html" class="mobile-nav-item"><span class="mobile-nav-icon">🔖</span>Bookmarks</a><a href="settings.html" class="mobile-nav-item"><span class="mobile-nav-icon">⚙️</span>Settings</a></nav>
+  <div class="toast-container" id="toastContainer"></div>
+  <script src="js/utils.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/data-loader.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

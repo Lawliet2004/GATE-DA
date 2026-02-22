@@ -1,0 +1,71 @@
+{
+  "id": "pyq_2023",
+  "name": "GATE DA 2023 Pattern",
+  "type": "pyq-pattern",
+  "description": "Practice test following GATE DA 2023 exam pattern",
+  "totalQuestions": 65,
+  "timeMinutes": 180,
+  "sections": [
+    {
+      "subject": "probability-statistics",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 13
+    },
+    {
+      "subject": "linear-algebra",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 8
+    },
+    {
+      "subject": "calculus-optimization",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 5
+    },
+    {
+      "subject": "programming-dsa",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 13
+    },
+    {
+      "subject": "dbms-warehousing",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 6
+    },
+    {
+      "subject": "ml-supervised",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 10
+    },
+    {
+      "subject": "ml-unsupervised",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 4
+    },
+    {
+      "subject": "artificial-intelligence",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 6
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

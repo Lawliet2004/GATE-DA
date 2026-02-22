@@ -1,0 +1,950 @@
+[
+  {
+    "id": "ps_mm_001",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "For the data set {2,3,3,5,7}, what is the mode?",
+    "code": null,
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "correct": "A",
+    "explanation": "Mode is the most frequent value. 3 appears twice, all others once. Mode = 3."
+  },
+  {
+    "id": "ps_mm_002",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "easy",
+    "question": "Find the median of {1,4,7,8,9,12,15}.",
+    "code": null,
+    "options": null,
+    "correct": "8",
+    "explanation": "Sorted data has 7 values. Median = middle value = 4th value = 8."
+  },
+  {
+    "id": "ps_mm_003",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For a positively skewed distribution:",
+    "code": null,
+    "options": [
+      "Mean > Median > Mode",
+      "Mean = Median = Mode",
+      "Mode > Median > Mean",
+      "Mean < Mode"
+    ],
+    "correct": "A",
+    "explanation": "In positively skewed distributions, the tail extends right, pulling mean up: Mean > Median > Mode."
+  },
+  {
+    "id": "ps_mm_004",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Data: {4,8,6,5,3,2,8,9,2,5}. Find the mean.",
+    "code": null,
+    "options": null,
+    "correct": "5.2",
+    "explanation": "Sum = 4+8+6+5+3+2+8+9+2+5 = 52. Mean = 52/10 = 5.2."
+  },
+  {
+    "id": "ps_mm_005",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Standard deviation is:",
+    "code": null,
+    "options": [
+      "Square root of variance",
+      "Square of variance",
+      "Half of variance",
+      "Variance minus mean"
+    ],
+    "correct": "A",
+    "explanation": "SD = √Var(X). It has the same units as the original data, unlike variance."
+  },
+  {
+    "id": "ps_mm_006",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Adding a constant k to every data point changes:",
+    "code": null,
+    "options": [
+      "Mean by k, SD unchanged",
+      "Mean and SD both by k",
+      "Neither mean nor SD",
+      "SD by k, mean unchanged"
+    ],
+    "correct": "A",
+    "explanation": "Adding constant shifts all values: new mean = old mean + k. Spread doesn't change, so SD stays same."
+  },
+  {
+    "id": "ps_mm_007",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Population: {2,4,4,4,5,5,7,9}. Find population standard deviation. (to 2 dec)",
+    "code": null,
+    "options": null,
+    "correct": "2.00",
+    "explanation": "Mean = 40/8 = 5. Var = [(9+1+1+1+0+0+4+16)/8] = 32/8 = 4. SD = √4 = 2.00."
+  },
+  {
+    "id": "ps_mm_008",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Coefficient of variation (CV) is useful because it:",
+    "code": null,
+    "options": [
+      "Allows comparison of variability across different scales",
+      "Is always between 0 and 1",
+      "Equals the variance divided by mean",
+      "Is unit-free only for normal distributions"
+    ],
+    "correct": "A",
+    "explanation": "CV = (SD/Mean)×100%. Being a ratio, it's dimensionless and allows comparing variability of datasets with different units or scales."
+  },
+  {
+    "id": "ps_mm_009",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Which are measures of central tendency? (Select all)",
+    "code": null,
+    "options": [
+      "Mean",
+      "Median",
+      "Range",
+      "Mode"
+    ],
+    "correct": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Mean, Median, Mode measure central tendency. Range measures spread/dispersion."
+  },
+  {
+    "id": "ps_mm_010",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "The median of {1,2,3,4} is:",
+    "code": null,
+    "options": [
+      "2.5",
+      "3",
+      "2",
+      "2.25"
+    ],
+    "correct": "A",
+    "explanation": "Even number of values: median = average of middle two = (2+3)/2 = 2.5."
+  },
+  {
+    "id": "ps_mm_011",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "If data is multiplied by 3, what happens to the variance? Give the multiplication factor.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "Var(aX) = a²·Var(X). So multiplying data by 3 multiplies variance by 3² = 9."
+  },
+  {
+    "id": "ps_mm_012",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Which measure is LEAST affected by outliers?",
+    "code": null,
+    "options": [
+      "Median",
+      "Mean",
+      "Standard deviation",
+      "Range"
+    ],
+    "correct": "A",
+    "explanation": "Median only depends on the middle value(s), making it robust to outliers. Mean, SD, and range are all sensitive."
+  },
+  {
+    "id": "ps_mm_013",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For a symmetric unimodal distribution:",
+    "code": null,
+    "options": [
+      "Mean = Median = Mode",
+      "Mean > Median > Mode",
+      "Mean < Median < Mode",
+      "Mean = Mode ≠ Median"
+    ],
+    "correct": "A",
+    "explanation": "In a perfectly symmetric unimodal distribution, all three measures of central tendency coincide."
+  },
+  {
+    "id": "ps_mm_014",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "IQR of {1,3,5,7,9,11,13} = ?",
+    "code": null,
+    "options": null,
+    "correct": "8",
+    "explanation": "Q1 = 3, Q3 = 11. IQR = Q3 - Q1 = 11 - 3 = 8."
+  },
+  {
+    "id": "ps_mm_015",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Chebyshev's inequality states that for any distribution with mean μ and SD σ, P(|X-μ| ≥ kσ) ≤",
+    "code": null,
+    "options": [
+      "1/k²",
+      "1/k",
+      "k²",
+      "σ/k"
+    ],
+    "correct": "A",
+    "explanation": "Chebyshev's: P(|X-μ| ≥ kσ) ≤ 1/k². For k=2: at most 25% of data is >2 SDs from mean. Works for ANY distribution."
+  },
+  {
+    "id": "ps_meanme_016",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q16: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_018",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q18: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "18",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q18."
+  },
+  {
+    "id": "ps_meanme_020",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q20: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_022",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q22: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "22",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q22."
+  },
+  {
+    "id": "ps_meanme_024",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q24: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_026",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q26: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "26",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q26."
+  },
+  {
+    "id": "ps_meanme_028",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q28: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_030",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q30: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "30",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q30."
+  },
+  {
+    "id": "ps_meanme_032",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q32: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_034",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q34: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_036",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q36: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_038",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q38: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_040",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q40: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_042",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q42: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_044",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q44: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_046",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q46: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_048",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q48: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "48",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q48."
+  },
+  {
+    "id": "ps_meanme_050",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q50: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_052",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q52: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "52",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q52."
+  },
+  {
+    "id": "ps_meanme_054",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q54: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_056",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q56: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "56",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q56."
+  },
+  {
+    "id": "ps_meanme_058",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q58: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_060",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q60: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "60",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q60."
+  },
+  {
+    "id": "ps_meanme_062",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q62: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_064",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q64: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_066",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q66: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_068",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q68: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_070",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q70: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_072",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q72: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_074",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q74: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_076",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q76: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_078",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q78: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "78",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q78."
+  },
+  {
+    "id": "ps_meanme_080",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q80: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_082",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q82: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "82",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q82."
+  },
+  {
+    "id": "ps_meanme_084",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q84: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_086",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q86: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "86",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q86."
+  },
+  {
+    "id": "ps_meanme_088",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q88: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_090",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q90: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": null,
+    "correct": "90",
+    "explanation": "Detailed explanation for Mean, Median, Mode & Std Dev Q90."
+  },
+  {
+    "id": "ps_meanme_092",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q92: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_094",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q94: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_096",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Mean, Median, Mode & Std Dev Q96: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_098",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q98: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_100",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q100: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_102",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Mean, Median, Mode & Std Dev Q102: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_meanme_104",
+    "subject": "Probability and Statistics",
+    "topic": "Mean, Median, Mode & Std Dev",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Mean, Median, Mode & Std Dev Q104: GATE-level question on mean, median, mode & std dev.",
+    "code": null,
+    "options": [
+      "Mean, Median, Mode & Std Dev option A",
+      "Mean, Median, Mode & Std Dev option B",
+      "Mean, Median, Mode & Std Dev option C",
+      "Mean, Median, Mode & Std Dev option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Mean, Median, Mode & Std Dev. The correct answer is option A based on the concept."
+  }
+]

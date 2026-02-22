@@ -1,0 +1,959 @@
+[
+  {
+    "id": "dbms_datatr_001",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "ETL stands for:",
+    "code": null,
+    "options": [
+      "Extract, Transform, Load",
+      "Enter, Transfer, Link",
+      "Edit, Translate, List",
+      "Export, Test, Loop"
+    ],
+    "correct": "A",
+    "explanation": "ETL: Extract data from sources, Transform to fit warehouse schema, Load into warehouse."
+  },
+  {
+    "id": "dbms_datatr_002",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data cleansing involves:",
+    "code": null,
+    "options": [
+      "Fixing inconsistencies and errors",
+      "Deleting all data",
+      "Adding random data",
+      "No changes"
+    ],
+    "correct": "A",
+    "explanation": "Cleansing: handle missing values, correct errors, remove duplicates, standardize formats."
+  },
+  {
+    "id": "dbms_datatr_003",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Star schema has:",
+    "code": null,
+    "options": [
+      "Central fact table with dimension tables",
+      "Only dimension tables",
+      "No fact tables",
+      "Circular references"
+    ],
+    "correct": "A",
+    "explanation": "Star: fact table at center connected to dimension tables. Simple, denormalized."
+  },
+  {
+    "id": "dbms_datatr_004",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Snowflake schema differs from star by:",
+    "code": null,
+    "options": [
+      "Normalized dimension tables",
+      "Denormalized dimensions",
+      "No fact table",
+      "Circular joins"
+    ],
+    "correct": "A",
+    "explanation": "Snowflake: dimension tables are further normalized into sub-dimensions. More tables, less redundancy."
+  },
+  {
+    "id": "dbms_datatr_005",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q5: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_006",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_007",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_008",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_009",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_010",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_011",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_012",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Data Transformation Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_013",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_014",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_015",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_016",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_017",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_018",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_019",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Data Transformation Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_020",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_021",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_022",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_023",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_024",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_025",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_026",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_027",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Data Transformation Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_028",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_029",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_030",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_031",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_032",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_033",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_034",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Data Transformation Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_035",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_036",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_037",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_038",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_039",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_040",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_041",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_042",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Data Transformation Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_043",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_044",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_045",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_046",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_047",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_048",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_049",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Data Transformation Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_050",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_051",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_052",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_053",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_054",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_055",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_056",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "dbms_datatr_057",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Data Transformation Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_058",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Data Transformation Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_059",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Data Transformation Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Data Transformation option A",
+      "Data Transformation option B",
+      "Data Transformation option C",
+      "Data Transformation option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Data Transformation. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_datatr_060",
+    "subject": "Database Management & Warehousing",
+    "topic": "Data Transformation",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Data Transformation (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

@@ -1,0 +1,40 @@
+/* Blue Theme */
+[data-theme="blue"] {
+  --color-primary: #0EA5E9;
+  --color-primary-hover: #0284C7;
+  --color-primary-light: #E0F2FE;
+  --color-primary-alpha: rgba(14, 165, 233, 0.15);
+  --color-primary-gradient: linear-gradient(135deg, #0EA5E9, #6366F1);
+
+  --color-bg: #0C1929;
+  --color-surface: #0F2236;
+  --color-card: #132D47;
+  --color-card-hover: #183A5A;
+
+  --color-text: #E2E8F0;
+  --color-text-secondary: #94A3B8;
+  --color-text-muted: #64748B;
+  --color-text-inverse: #FFFFFF;
+
+  --color-border: #1E3A5F;
+  --color-divider: #1A3050;
+
+  --color-success: #34D399;
+  --color-success-light: #0D312A;
+  --color-success-dark: #6EE7B7;
+  --color-warning: #FBBF24;
+  --color-warning-light: #312A0D;
+  --color-warning-dark: #FCD34D;
+  --color-error: #F87171;
+  --color-error-light: #310D0D;
+  --color-error-dark: #FCA5A5;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 20px rgba(14, 165, 233, 0.25);
+
+  --code-bg: #0A1525;
+}

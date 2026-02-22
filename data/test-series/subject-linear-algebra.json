@@ -1,0 +1,27 @@
+{
+  "id": "sub_linear-algebra",
+  "name": "Linear Algebra — Subject Test",
+  "type": "subject-wise",
+  "description": "30-question test covering all Linear Algebra topics",
+  "totalQuestions": 30,
+  "timeMinutes": 60,
+  "sections": [
+    {
+      "subject": "linear-algebra",
+      "topicSlugs": [
+        "vector-spaces",
+        "eigenvalues-eigenvectors",
+        "matrices-properties",
+        "determinant-rank-nullity",
+        "quadratic-forms",
+        "svd"
+      ],
+      "count": 30
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

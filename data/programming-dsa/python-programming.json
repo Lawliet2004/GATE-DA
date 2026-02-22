@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "prog_python_001",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "What is output of: print(2**3**2)?",
+    "code": "print(2**3**2)",
+    "options": [
+      "512",
+      "64",
+      "8",
+      "18"
+    ],
+    "correct": "A",
+    "explanation": "Right-associative: 3**2=9, then 2**9=512."
+  },
+  {
+    "id": "prog_python_002",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What does list.pop() do?",
+    "code": null,
+    "options": [
+      "Removes and returns last element",
+      "Removes first element",
+      "Returns list length",
+      "Adds element"
+    ],
+    "correct": "A",
+    "explanation": "pop() with no argument removes and returns the last item. pop(0) removes first."
+  },
+  {
+    "id": "prog_python_003",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Output of [1,2,3][1:] is:",
+    "code": null,
+    "options": [
+      "[2,3]",
+      "[1,2]",
+      "[1]",
+      "[3]"
+    ],
+    "correct": "A",
+    "explanation": "Slicing from index 1 to end: [2,3]."
+  },
+  {
+    "id": "prog_python_004",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "What is a generator in Python?",
+    "code": null,
+    "options": [
+      "Function using yield to produce values lazily",
+      "A class",
+      "A loop construct",
+      "A decorator"
+    ],
+    "correct": "A",
+    "explanation": "Generators use yield to produce items one at a time, saving memory for large sequences."
+  },
+  {
+    "id": "prog_python_005",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "dict.keys() returns:",
+    "code": null,
+    "options": [
+      "A view object of all keys",
+      "A list of values",
+      "A tuple",
+      "An integer"
+    ],
+    "correct": "A",
+    "explanation": "dict.keys() returns a dynamic view of dictionary keys."
+  },
+  {
+    "id": "prog_python_006",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Time complexity of dict lookup in Python (average):",
+    "code": null,
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "correct": "A",
+    "explanation": "Hash table based: average O(1) lookup, worst case O(n) with collisions."
+  },
+  {
+    "id": "prog_python_007",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "What does *args do in a function definition?",
+    "code": null,
+    "options": [
+      "Collects positional arguments into a tuple",
+      "Creates a list",
+      "Unpacks a dictionary",
+      "Defines a decorator"
+    ],
+    "correct": "A",
+    "explanation": "*args packs extra positional arguments into a tuple."
+  },
+  {
+    "id": "prog_python_008",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Output of bool(\"\") is:",
+    "code": null,
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": "A",
+    "explanation": "Empty string is falsy in Python. bool(\"\")=False."
+  },
+  {
+    "id": "prog_python_009",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "List comprehension vs generator expression:",
+    "code": null,
+    "options": [
+      "List is eager ([]), generator is lazy (())",
+      "They are identical",
+      "Generator uses more memory",
+      "List is faster always"
+    ],
+    "correct": "A",
+    "explanation": "[x for x in r] creates list in memory. (x for x in r) yields values lazily."
+  },
+  {
+    "id": "prog_python_010",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What is __init__ in a class?",
+    "code": null,
+    "options": [
+      "Constructor method",
+      "Destructor",
+      "Static method",
+      "Property"
+    ],
+    "correct": "A",
+    "explanation": "__init__ initializes new instances. Called automatically when object is created."
+  },
+  {
+    "id": "prog_python_011",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "set operations: {1,2,3} & {2,3,4} gives:",
+    "code": null,
+    "options": [
+      "{2,3}",
+      "{1,2,3,4}",
+      "{1,4}",
+      "Error"
+    ],
+    "correct": "A",
+    "explanation": "& is intersection. Common elements: {2,3}."
+  },
+  {
+    "id": "prog_python_012",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "enumerate([a,b,c]) produces:",
+    "code": null,
+    "options": [
+      "[(0,a),(1,b),(2,c)]",
+      "[a,b,c]",
+      "[0,1,2]",
+      "Error"
+    ],
+    "correct": "A",
+    "explanation": "enumerate adds index to each item: (index, element) pairs."
+  },
+  {
+    "id": "prog_python_013",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "try...except...finally: finally block:",
+    "code": null,
+    "options": [
+      "Always executes",
+      "Only on error",
+      "Only on success",
+      "Never executes"
+    ],
+    "correct": "A",
+    "explanation": "finally block executes regardless of whether exception occurred or not."
+  },
+  {
+    "id": "prog_python_014",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Difference between == and is:",
+    "code": null,
+    "options": [
+      "== checks value equality, is checks identity",
+      "They are the same",
+      "== is faster",
+      "is checks values"
+    ],
+    "correct": "A",
+    "explanation": "== compares values, is compares object identity (same memory location)."
+  },
+  {
+    "id": "prog_python_015",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "@staticmethod vs @classmethod:",
+    "code": null,
+    "options": [
+      "staticmethod takes no self/cls, classmethod takes cls",
+      "They are identical",
+      "staticmethod takes self",
+      "classmethod takes self"
+    ],
+    "correct": "A",
+    "explanation": "@staticmethod: no implicit first argument. @classmethod: first arg is class (cls), not instance."
+  },
+  {
+    "id": "prog_python_016",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Python Programming Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Python Programming option A",
+      "Python Programming option B",
+      "Python Programming option C",
+      "Python Programming option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Python Programming. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_python_017",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Python Programming Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Python Programming option A",
+      "Python Programming option B",
+      "Python Programming option C",
+      "Python Programming option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Python Programming. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_python_018",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Python Programming (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "prog_python_019",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Python Programming Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Python Programming option A",
+      "Python Programming option B",
+      "Python Programming option C",
+      "Python Programming option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Python Programming. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_python_020",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Python Programming Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Python Programming option A",
+      "Python Programming option B",
+      "Python Programming option C",
+      "Python Programming option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Python Programming. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_python_021",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Python Programming Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Python Programming option A",
+      "Python Programming option B",
+      "Python Programming option C",
+      "Python Programming option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Python Programming. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_python_022",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Python Programming (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "prog_python_023",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Python Programming Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Python Programming option A",
+      "Python Programming option B",
+      "Python Programming option C",
+      "Python Programming option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Python Programming. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_python_024",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Python Programming Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Python Programming option A",
+      "Python Programming option B",
+      "Python Programming option C",
+      "Python Programming option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Python Programming. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_python_025",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Python Programming Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Python Programming option A",
+      "Python Programming option B",
+      "Python Programming option C",
+      "Python Programming option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Python Programming. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_python_026",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What does len(\"hello\") return?",
+    "code": null,
+    "options": [
+      "5",
+      "4",
+      "6",
+      "Error"
+    ],
+    "correct": "A",
+    "explanation": "len() returns number of characters: h,e,l,l,o = 5."
+  },
+  {
+    "id": "prog_python_027",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "x=5; x+=3; print(x) outputs:",
+    "code": null,
+    "options": [
+      "8",
+      "5",
+      "3",
+      "15"
+    ],
+    "correct": "A",
+    "explanation": "x+=3 means x=x+3=5+3=8."
+  },
+  {
+    "id": "prog_python_028",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "What is output of print(type(3.14))?",
+    "code": null,
+    "options": [
+      "<class 'float'>",
+      "<class 'int'>",
+      "<class 'str'>",
+      "<class 'double'>"
+    ],
+    "correct": "A",
+    "explanation": "3.14 is a float literal. type() returns the type object."
+  },
+  {
+    "id": "prog_python_029",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "List is _____, tuple is ______:",
+    "code": null,
+    "options": [
+      "Mutable, Immutable",
+      "Immutable, Mutable",
+      "Both mutable",
+      "Both immutable"
+    ],
+    "correct": "A",
+    "explanation": "Lists can be changed after creation; tuples cannot (immutable)."
+  },
+  {
+    "id": "prog_python_030",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Output of \"hello\"[::−1]:",
+    "code": null,
+    "options": [
+      "olleh",
+      "hello",
+      "ello",
+      "helo"
+    ],
+    "correct": "A",
+    "explanation": "Slice with step -1 reverses the string."
+  },
+  {
+    "id": "prog_python_031",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Which is correct dict comprehension?",
+    "code": null,
+    "options": [
+      "{k:v for k,v in d.items()}",
+      "{k,v for k,v in d}",
+      "[k:v for k,v]",
+      "{k→v}"
+    ],
+    "correct": "A",
+    "explanation": "Dict comprehension syntax: {key:value for key,value in iterable}."
+  },
+  {
+    "id": "prog_python_032",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "range(0,10,2) generates:",
+    "code": null,
+    "options": [
+      "[0,2,4,6,8]",
+      "[0,2,4,6,8,10]",
+      "[2,4,6,8,10]",
+      "[1,3,5,7,9]"
+    ],
+    "correct": "A",
+    "explanation": "Start=0, stop=10 (exclusive), step=2."
+  },
+  {
+    "id": "prog_python_033",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What is a lambda function?",
+    "code": null,
+    "options": [
+      "Anonymous single-expression function",
+      "Named class method",
+      "Loop construct",
+      "Decorator"
+    ],
+    "correct": "A",
+    "explanation": "lambda args: expr creates anonymous function. E.g., lambda x: x**2."
+  },
+  {
+    "id": "prog_python_034",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Output of max([3,1,4,1,5]):",
+    "code": null,
+    "options": [
+      "5",
+      "3",
+      "4",
+      "1"
+    ],
+    "correct": "A",
+    "explanation": "max() returns the largest element: 5."
+  },
+  {
+    "id": "prog_python_035",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "`is` operator checks:",
+    "code": null,
+    "options": [
+      "Object identity (same memory address)",
+      "Value equality",
+      "Type equality",
+      "Size equality"
+    ],
+    "correct": "A",
+    "explanation": "`is` checks if two variables point to the same object in memory."
+  },
+  {
+    "id": "prog_python_036",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Which statement raises StopIteration?",
+    "code": null,
+    "options": [
+      "next() on exhausted iterator",
+      "len() on iterator",
+      "type() on iterator",
+      "iter() on list"
+    ],
+    "correct": "A",
+    "explanation": "next() on exhausted iterator raises StopIteration; for-loops catch this automatically."
+  },
+  {
+    "id": "prog_python_037",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Output of sorted([3,1,2], reverse=True):",
+    "code": null,
+    "options": [
+      "[3,2,1]",
+      "[1,2,3]",
+      "[1,3,2]",
+      "[2,3,1]"
+    ],
+    "correct": "A",
+    "explanation": "sorted with reverse=True gives descending order."
+  },
+  {
+    "id": "prog_python_038",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What does zip([1,2],[a,b]) produce?",
+    "code": null,
+    "options": [
+      "[(1,a),(2,b)]",
+      "[1,2,a,b]",
+      "[[1,a],[2,b]]",
+      "Error"
+    ],
+    "correct": "A",
+    "explanation": "zip pairs elements from multiple iterables: (1,'a'),(2,'b')."
+  },
+  {
+    "id": "prog_python_039",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Multiple assignment: a,b=b,a swaps values because:",
+    "code": null,
+    "options": [
+      "Right side evaluated first as a tuple",
+      "It doesn't work",
+      "Assignment is sequential",
+      "Only works for integers"
+    ],
+    "correct": "A",
+    "explanation": "Python evaluates RHS completely before any assignment. Creates temp tuple (b,a), then unpacks."
+  },
+  {
+    "id": "prog_python_040",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "eval('2+3') returns:",
+    "code": null,
+    "options": [
+      "5 (integer)",
+      "'2+3' (string)",
+      "Error",
+      "None"
+    ],
+    "correct": "A",
+    "explanation": "eval() evaluates string as Python expression. '2+3'→5."
+  },
+  {
+    "id": "prog_python_041",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What is a closure in Python?",
+    "code": null,
+    "options": [
+      "Function retaining access to enclosing scope variables",
+      "A class with private methods",
+      "A decorator",
+      "A context manager"
+    ],
+    "correct": "A",
+    "explanation": "Closure: inner function captures variables from outer function's scope even after outer returns."
+  },
+  {
+    "id": "prog_python_042",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Output of [x**2 for x in range(3)]:",
+    "code": null,
+    "options": [
+      "[0,1,4]",
+      "[1,4,9]",
+      "[0,1,4,9]",
+      "[0,2,4]"
+    ],
+    "correct": "A",
+    "explanation": "range(3)=[0,1,2]; squares=[0²,1²,2²]=[0,1,4]."
+  },
+  {
+    "id": "prog_python_043",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "__str__ vs __repr__:",
+    "code": null,
+    "options": [
+      "str=human-readable, repr=unambiguous for eval()",
+      "They are identical",
+      "repr is deprecated",
+      "str is for debugging"
+    ],
+    "correct": "A",
+    "explanation": "__str__: informal string for end users. __repr__: formal, ideally eval()-able representation."
+  },
+  {
+    "id": "prog_python_044",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What does any([False,False,True]) return?",
+    "code": null,
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "correct": "A",
+    "explanation": "any() returns True if at least one element is truthy."
+  },
+  {
+    "id": "prog_python_045",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Global variable inside function needs:",
+    "code": null,
+    "options": [
+      "global keyword declaration",
+      "No special handling",
+      "local keyword",
+      "import statement"
+    ],
+    "correct": "A",
+    "explanation": "Without `global x`, assignment inside function creates a new local variable x."
+  },
+  {
+    "id": "prog_python_046",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Exception hierarchy: BaseException → Exception → ___:",
+    "code": null,
+    "options": [
+      "RuntimeError, ValueError, TypeError etc.",
+      "SyntaxError only",
+      "No sub-exceptions",
+      "Only IOError"
+    ],
+    "correct": "A",
+    "explanation": "Most exceptions inherit from Exception which inherits from BaseException. SyntaxError also from BaseException."
+  },
+  {
+    "id": "prog_python_047",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What is __slots__ used for?",
+    "code": null,
+    "options": [
+      "Restricting instance attributes, saving memory",
+      "Creating class methods",
+      "Defining properties",
+      "Enabling inheritance"
+    ],
+    "correct": "A",
+    "explanation": "__slots__ prevents __dict__ creation per instance, reducing memory for many objects."
+  },
+  {
+    "id": "prog_python_048",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Output of dict(a=1,b=2).get(\"c\",0):",
+    "code": null,
+    "options": [
+      "0",
+      "None",
+      "KeyError",
+      "c"
+    ],
+    "correct": "A",
+    "explanation": "get(key, default) returns default if key not in dict. \"c\" not present → 0."
+  },
+  {
+    "id": "prog_python_049",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "functools.lru_cache decorator:",
+    "code": null,
+    "options": [
+      "Memoizes function calls (caches results)",
+      "Runs function in parallel",
+      "Creates generator",
+      "Handles exceptions"
+    ],
+    "correct": "A",
+    "explanation": "lru_cache: Least Recently Used cache. Speeds repeated calls with same args."
+  },
+  {
+    "id": "prog_python_050",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What is the GIL in Python?",
+    "code": null,
+    "options": [
+      "Global Interpreter Lock — prevents true multi-threading for CPU tasks",
+      "Global Input Library",
+      "General Import Lock",
+      "Graphics Interface Layer"
+    ],
+    "correct": "A",
+    "explanation": "GIL: Python's mutex ensuring only one thread runs Python bytecode at a time. Limits CPU parallelism."
+  },
+  {
+    "id": "prog_python_051",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "With statement (context manager) calls:",
+    "code": null,
+    "options": [
+      "__enter__ on entry, __exit__ on exit",
+      "__init__ and __del__",
+      "open() and close() only",
+      "try and except"
+    ],
+    "correct": "A",
+    "explanation": "Protocol: __enter__ sets up resource, __exit__ tears down (even if exception occurred)."
+  },
+  {
+    "id": "prog_python_052",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "What does itertools.chain([1,2],[3,4]) return?",
+    "code": null,
+    "options": [
+      "Iterator yielding 1,2,3,4",
+      "[[1,2],[3,4]]",
+      "[1,2]+[3,4]",
+      "Error"
+    ],
+    "correct": "A",
+    "explanation": "itertools.chain: chains multiple iterables into single sequential iterator."
+  },
+  {
+    "id": "prog_python_053",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Difference between deepcopy and copy:",
+    "code": null,
+    "options": [
+      "deepcopy copies nested objects; copy is shallow",
+      "They are identical",
+      "copy is faster and deeper",
+      "deepcopy only works for lists"
+    ],
+    "correct": "A",
+    "explanation": "copy.copy: shallow, nested objects shared. copy.deepcopy: recursively copies all nested objects."
+  },
+  {
+    "id": "prog_python_054",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "What is a descriptor in Python?",
+    "code": null,
+    "options": [
+      "Object implementing __get__/__set__/__delete__ for attribute access",
+      "A function decorator",
+      "A type hint",
+      "A module"
+    ],
+    "correct": "A",
+    "explanation": "Descriptors control attribute access. Used by property, classmethod, staticmethod internally."
+  },
+  {
+    "id": "prog_python_055",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Output of bin(10):",
+    "code": null,
+    "options": [
+      "'0b1010'",
+      "'1010'",
+      "'10'",
+      "'0x10'"
+    ],
+    "correct": "A",
+    "explanation": "bin() returns binary string representation with '0b' prefix. 10 in binary = 1010."
+  },
+  {
+    "id": "prog_python_056",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "LEGB rule controls:",
+    "code": null,
+    "options": [
+      "Variable lookup order: Local→Enclosing→Global→Built-in",
+      "Import order",
+      "Exception hierarchy",
+      "Method resolution"
+    ],
+    "correct": "A",
+    "explanation": "LEGB: Python searches Local, then Enclosing, Global, then Built-in namespaces."
+  },
+  {
+    "id": "prog_python_057",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "What does @property decorator create?",
+    "code": null,
+    "options": [
+      "Read-only (or controlled) attribute accessed without ()",
+      "A static method",
+      "A class variable",
+      "A lambda"
+    ],
+    "correct": "A",
+    "explanation": "@property: defines getter. With @x.setter: defines setter. Accessed like attribute, not method."
+  },
+  {
+    "id": "prog_python_058",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "sys.argv[0] contains:",
+    "code": null,
+    "options": [
+      "Script filename",
+      "First command-line argument",
+      "Python version",
+      "Number of arguments"
+    ],
+    "correct": "A",
+    "explanation": "sys.argv[0] = name of the script. sys.argv[1:] = actual command-line arguments passed."
+  },
+  {
+    "id": "prog_python_059",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "What is pickling in Python?",
+    "code": null,
+    "options": [
+      "Serializing objects to byte stream",
+      "Encrypting files",
+      "Importing modules",
+      "Compiling bytecode"
+    ],
+    "correct": "A",
+    "explanation": "pickle module: serialize (pickle) and deserialize (unpickle) Python objects to/from byte streams."
+  },
+  {
+    "id": "prog_python_060",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Python Programming",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Python Programming (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

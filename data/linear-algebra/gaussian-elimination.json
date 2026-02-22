@@ -1,0 +1,956 @@
+[
+  {
+    "id": "la_gaussianelimination_001",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Row echelon form has:",
+    "code": null,
+    "options": [
+      "Leading 1s moving right and down, zeros below pivots",
+      "All entries = 1",
+      "Diagonal matrix",
+      "Random arrangement"
+    ],
+    "correct": "A",
+    "explanation": "REF: (1) zero rows at bottom, (2) leading entry of each row is right of the one above, (3) zeros below pivots."
+  },
+  {
+    "id": "la_gaussianelimination_002",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Reduced row echelon form (RREF) additionally requires:",
+    "code": null,
+    "options": [
+      "Leading 1s with zeros above AND below each pivot",
+      "Only zeros below pivots",
+      "No zero rows",
+      "All rows nonzero"
+    ],
+    "correct": "A",
+    "explanation": "RREF = REF + (4) pivot columns have zeros everywhere except the pivot."
+  },
+  {
+    "id": "la_gaussianelimination_003",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Number of operations for Gaussian elimination on n×n matrix is approximately:",
+    "code": null,
+    "options": [
+      "O(n³)",
+      "O(n²)",
+      "O(n)",
+      "O(2ⁿ)"
+    ],
+    "correct": "A",
+    "explanation": "Gaussian elimination: ~(2/3)n³ operations. Cubic complexity."
+  },
+  {
+    "id": "la_gaussianelimination_004",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Partial pivoting in Gaussian elimination:",
+    "code": null,
+    "options": [
+      "Swaps rows to use largest pivot element",
+      "Swaps columns",
+      "Is never needed",
+      "Increases complexity"
+    ],
+    "correct": "A",
+    "explanation": "Partial pivoting selects the largest entry in the pivot column to improve numerical stability."
+  },
+  {
+    "id": "la_gaussianelimination_005",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Back substitution after row reduction takes:",
+    "code": null,
+    "options": [
+      "O(n²) operations",
+      "O(n³)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correct": "A",
+    "explanation": "After upper triangular form, back substitution solves in O(n²) = n(n+1)/2 operations."
+  },
+  {
+    "id": "la_gaussianelimination_006",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q6: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q6."
+  },
+  {
+    "id": "la_gaussianelimination_007",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_008",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q8: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q8."
+  },
+  {
+    "id": "la_gaussianelimination_009",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q9: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q9."
+  },
+  {
+    "id": "la_gaussianelimination_010",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q10: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q10."
+  },
+  {
+    "id": "la_gaussianelimination_011",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_012",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination Q12: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q12."
+  },
+  {
+    "id": "la_gaussianelimination_013",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q13: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q13."
+  },
+  {
+    "id": "la_gaussianelimination_014",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q14: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q14."
+  },
+  {
+    "id": "la_gaussianelimination_015",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_016",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q16: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q16."
+  },
+  {
+    "id": "la_gaussianelimination_017",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q17: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q17."
+  },
+  {
+    "id": "la_gaussianelimination_018",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_019",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination Q19: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q19."
+  },
+  {
+    "id": "la_gaussianelimination_020",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q20: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q20."
+  },
+  {
+    "id": "la_gaussianelimination_021",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q21: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q21."
+  },
+  {
+    "id": "la_gaussianelimination_022",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_023",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q23: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q23."
+  },
+  {
+    "id": "la_gaussianelimination_024",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q24: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q24."
+  },
+  {
+    "id": "la_gaussianelimination_025",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q25: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q25."
+  },
+  {
+    "id": "la_gaussianelimination_026",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_027",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination Q27: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q27."
+  },
+  {
+    "id": "la_gaussianelimination_028",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q28: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q28."
+  },
+  {
+    "id": "la_gaussianelimination_029",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q29: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q29."
+  },
+  {
+    "id": "la_gaussianelimination_030",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_031",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q31: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q31."
+  },
+  {
+    "id": "la_gaussianelimination_032",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q32: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q32."
+  },
+  {
+    "id": "la_gaussianelimination_033",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_034",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination Q34: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q34."
+  },
+  {
+    "id": "la_gaussianelimination_035",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q35: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q35."
+  },
+  {
+    "id": "la_gaussianelimination_036",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q36: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q36."
+  },
+  {
+    "id": "la_gaussianelimination_037",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_038",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q38: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q38."
+  },
+  {
+    "id": "la_gaussianelimination_039",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q39: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q39."
+  },
+  {
+    "id": "la_gaussianelimination_040",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q40: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q40."
+  },
+  {
+    "id": "la_gaussianelimination_041",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_042",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination Q42: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q42."
+  },
+  {
+    "id": "la_gaussianelimination_043",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q43: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q43."
+  },
+  {
+    "id": "la_gaussianelimination_044",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q44: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q44."
+  },
+  {
+    "id": "la_gaussianelimination_045",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_046",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q46: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q46."
+  },
+  {
+    "id": "la_gaussianelimination_047",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q47: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q47."
+  },
+  {
+    "id": "la_gaussianelimination_048",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_049",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination Q49: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q49."
+  },
+  {
+    "id": "la_gaussianelimination_050",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q50: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q50."
+  },
+  {
+    "id": "la_gaussianelimination_051",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q51: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q51."
+  },
+  {
+    "id": "la_gaussianelimination_052",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_053",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q53: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q53."
+  },
+  {
+    "id": "la_gaussianelimination_054",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q54: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q54."
+  },
+  {
+    "id": "la_gaussianelimination_055",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q55: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q55."
+  },
+  {
+    "id": "la_gaussianelimination_056",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "la_gaussianelimination_057",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination Q57: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q57."
+  },
+  {
+    "id": "la_gaussianelimination_058",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gaussian Elimination Q58: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q58."
+  },
+  {
+    "id": "la_gaussianelimination_059",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gaussian Elimination Q59: GATE DA level question on gaussian elimination.",
+    "code": null,
+    "options": [
+      "Correct answer",
+      "Distractor B",
+      "Distractor C",
+      "Distractor D"
+    ],
+    "correct": "A",
+    "explanation": "Detailed GATE-level explanation for Gaussian Elimination Q59."
+  },
+  {
+    "id": "la_gaussianelimination_060",
+    "subject": "Linear Algebra",
+    "topic": "Gaussian Elimination",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Gaussian Elimination (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

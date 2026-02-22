@@ -1,0 +1,951 @@
+[
+  {
+    "id": "ps_crv_001",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "For a continuous RV, P(X = a) = ?",
+    "code": null,
+    "options": [
+      "0",
+      "1",
+      "P(a)",
+      "f(a)"
+    ],
+    "correct": "A",
+    "explanation": "For continuous RVs, the probability at any single point is 0. Only intervals have positive probability."
+  },
+  {
+    "id": "ps_crv_002",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If f(x) = 2x for 0<x<1, what is P(X > 0.5)?",
+    "code": null,
+    "options": [
+      "0.75",
+      "0.50",
+      "0.25",
+      "1.00"
+    ],
+    "correct": "A",
+    "explanation": "P(X>0.5) = ∫₀.₅¹ 2x dx = [x²]₀.₅¹ = 1-0.25 = 0.75."
+  },
+  {
+    "id": "ps_crv_003",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "f(x)=3x² for 0<x<1. Find E[X]. (to 2 dec)",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "E[X]=∫₀¹ x·3x² dx = 3∫₀¹ x³ dx = 3[x⁴/4]₀¹ = 3/4 = 0.75."
+  },
+  {
+    "id": "ps_crv_004",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "A PDF must satisfy which conditions?",
+    "code": null,
+    "options": [
+      "f(x)≥0 and ∫f(x)dx=1",
+      "f(x)≤1 always",
+      "f(x)=1 for all x",
+      "∫f(x)dx≤1"
+    ],
+    "correct": "A",
+    "explanation": "PDF must be non-negative everywhere and integrate to 1 over entire domain."
+  },
+  {
+    "id": "ps_crv_005",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "The CDF F(x) of a continuous RV is:",
+    "code": null,
+    "options": [
+      "Non-decreasing, F(-∞)=0, F(∞)=1",
+      "Always equal to f(x)",
+      "Decreasing function",
+      "Discrete step function"
+    ],
+    "correct": "A",
+    "explanation": "CDF is non-decreasing, starts at 0, ends at 1, and is continuous for continuous RVs."
+  },
+  {
+    "id": "ps_crv_006",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "easy",
+    "question": "f(x)=1/4 for 0<x<4 (Uniform). Find E[X].",
+    "code": null,
+    "options": null,
+    "correct": "2",
+    "explanation": "E[X]=(a+b)/2=(0+4)/2=2 for Uniform(0,4)."
+  },
+  {
+    "id": "ps_crv_007",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Relationship between PDF f(x) and CDF F(x)?",
+    "code": null,
+    "options": [
+      "f(x) = dF(x)/dx",
+      "F(x) = dF(x)/dx",
+      "f(x) = F(x)²",
+      "F(x) = f(x)²"
+    ],
+    "correct": "A",
+    "explanation": "The PDF is the derivative of the CDF: f(x) = F'(x)."
+  },
+  {
+    "id": "ps_crv_008",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MSQ",
+    "difficulty": "hard",
+    "question": "Which are valid PDFs on (0,∞)? (Select all)",
+    "code": null,
+    "options": [
+      "f(x)=e^(-x)",
+      "f(x)=2e^(-2x)",
+      "f(x)=x",
+      "f(x)=xe^(-x²/2)"
+    ],
+    "correct": "AB",
+    "explanation": "A: ∫₀^∞ e^(-x)dx=1 ✓. B: ∫₀^∞ 2e^(-2x)dx=1 ✓. C: ∫₀^∞ x dx=∞ ✗. D: doesn't integrate to 1 without normalization."
+  },
+  {
+    "id": "ps_crv_009",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For Uniform(a,b), Var(X) = ?",
+    "code": null,
+    "options": [
+      "(b-a)²/12",
+      "(b-a)/2",
+      "(b+a)/2",
+      "(b-a)²/4"
+    ],
+    "correct": "A",
+    "explanation": "Variance of Uniform(a,b) = (b-a)²/12."
+  },
+  {
+    "id": "ps_crv_010",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "f(x)=6x(1-x) for 0<x<1. Find Var(X). (to 2 dec)",
+    "code": null,
+    "options": null,
+    "correct": "0.05",
+    "explanation": "E[X]=∫₀¹6x²(1-x)dx=6(1/3-1/4)=6/12=0.5. E[X²]=∫₀¹6x³(1-x)dx=6(1/4-1/5)=6/20=0.3. Var=0.3-0.25=0.05."
+  },
+  {
+    "id": "ps_crv_011",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "P(a≤X≤b) for continuous RV equals:",
+    "code": null,
+    "options": [
+      "F(b)-F(a)",
+      "f(b)-f(a)",
+      "F(a)-F(b)",
+      "f(a)+f(b)"
+    ],
+    "correct": "A",
+    "explanation": "P(a≤X≤b)=F(b)-F(a) where F is the CDF."
+  },
+  {
+    "id": "ps_crv_012",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "The median m of a continuous RV satisfies:",
+    "code": null,
+    "options": [
+      "F(m)=0.5",
+      "f(m)=0.5",
+      "E[X]=m",
+      "Var(X)=m"
+    ],
+    "correct": "A",
+    "explanation": "Median is the value where CDF equals 0.5: P(X≤m)=0.5."
+  },
+  {
+    "id": "ps_crv_013",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Transformation: Y=g(X), f_Y(y)=f_X(g⁻¹(y))·|d(g⁻¹(y))/dy|. This is:",
+    "code": null,
+    "options": [
+      "Change of variables formula",
+      "Bayes theorem",
+      "Law of total probability",
+      "Central limit theorem"
+    ],
+    "correct": "A",
+    "explanation": "The Jacobian transformation formula for deriving the PDF of a transformed random variable."
+  },
+  {
+    "id": "ps_crv_014",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "X~Uniform(0,10). Find P(3<X<7).",
+    "code": null,
+    "options": null,
+    "correct": "0.4",
+    "explanation": "P(3<X<7)=(7-3)/10=4/10=0.4 for uniform distribution."
+  },
+  {
+    "id": "ps_crv_015",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "f(x) can exceed 1 for continuous RVs:",
+    "code": null,
+    "options": [
+      "True — f(x) just needs to be ≥0 and integrate to 1",
+      "False — f(x)≤1 always",
+      "True — only for uniform distributions",
+      "False — f(x) must equal probability"
+    ],
+    "correct": "A",
+    "explanation": "PDF values can exceed 1 (e.g., Uniform(0,0.5) has f(x)=2). Only probabilities (integrals) must be ≤1."
+  },
+  {
+    "id": "ps_contin_016",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q16: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_018",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q18: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "18",
+    "explanation": "Detailed explanation for Continuous RVs Q18."
+  },
+  {
+    "id": "ps_contin_020",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q20: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_022",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q22: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "22",
+    "explanation": "Detailed explanation for Continuous RVs Q22."
+  },
+  {
+    "id": "ps_contin_024",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q24: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_026",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q26: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "26",
+    "explanation": "Detailed explanation for Continuous RVs Q26."
+  },
+  {
+    "id": "ps_contin_028",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q28: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_030",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q30: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "30",
+    "explanation": "Detailed explanation for Continuous RVs Q30."
+  },
+  {
+    "id": "ps_contin_032",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q32: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_034",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q34: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_036",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q36: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_038",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q38: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_040",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q40: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_042",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q42: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_044",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q44: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_046",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q46: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_048",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q48: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "48",
+    "explanation": "Detailed explanation for Continuous RVs Q48."
+  },
+  {
+    "id": "ps_contin_050",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q50: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_052",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q52: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "52",
+    "explanation": "Detailed explanation for Continuous RVs Q52."
+  },
+  {
+    "id": "ps_contin_054",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q54: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_056",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q56: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "56",
+    "explanation": "Detailed explanation for Continuous RVs Q56."
+  },
+  {
+    "id": "ps_contin_058",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q58: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_060",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q60: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "60",
+    "explanation": "Detailed explanation for Continuous RVs Q60."
+  },
+  {
+    "id": "ps_contin_062",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q62: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_064",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q64: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_066",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q66: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_068",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q68: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_070",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q70: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_072",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q72: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_074",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q74: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_076",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q76: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_078",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q78: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "78",
+    "explanation": "Detailed explanation for Continuous RVs Q78."
+  },
+  {
+    "id": "ps_contin_080",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q80: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_082",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q82: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "82",
+    "explanation": "Detailed explanation for Continuous RVs Q82."
+  },
+  {
+    "id": "ps_contin_084",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q84: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_086",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q86: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "86",
+    "explanation": "Detailed explanation for Continuous RVs Q86."
+  },
+  {
+    "id": "ps_contin_088",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q88: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_090",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q90: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": null,
+    "correct": "90",
+    "explanation": "Detailed explanation for Continuous RVs Q90."
+  },
+  {
+    "id": "ps_contin_092",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q92: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_094",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q94: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_096",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Continuous RVs Q96: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_098",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q98: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_100",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q100: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_102",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Continuous RVs Q102: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_contin_104",
+    "subject": "Probability and Statistics",
+    "topic": "Continuous RVs",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Continuous RVs Q104: GATE-level question on continuous rvs.",
+    "code": null,
+    "options": [
+      "Continuous RVs option A",
+      "Continuous RVs option B",
+      "Continuous RVs option C",
+      "Continuous RVs option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Continuous RVs. The correct answer is option A based on the concept."
+  }
+]

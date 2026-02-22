@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Series — GATE DA Master</title>
+  <link rel="stylesheet" href="css/global.css"><link rel="stylesheet" href="css/themes/dark.css"><link rel="stylesheet" href="css/themes/blue.css"><link rel="stylesheet" href="css/themes/green.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/test-series.css"><link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navbar"><a href="index.html" class="navbar-brand"><div class="navbar-brand-icon">📊</div><span>GATE DA Master</span></a><div class="navbar-nav" id="navbarNav"><a href="index.html" class="nav-link">🏠 Home</a><a href="dashboard.html" class="nav-link">📈 Dashboard</a><a href="test-series.html" class="nav-link active">📝 Tests</a><a href="custom-test.html" class="nav-link">⚙️ Custom</a></div><div class="nav-actions"><button class="btn-icon btn-ghost" id="themeToggle">🌙</button><div class="hamburger" onclick="document.getElementById('navbarNav').classList.toggle('mobile-open')"><span></span><span></span><span></span></div></div></nav>
+
+  <div class="page-wrapper"><div class="container page-content">
+    <div class="page-header"><h1 class="page-title">📝 Test Series</h1><p class="page-subtitle">Pre-built tests matching the GATE DA exam pattern</p></div>
+
+    <div class="tab-nav">
+      <button class="tab-btn active" onclick="showTab('subject')">📚 Subject Tests</button>
+      <button class="tab-btn" onclick="showTab('mock')">🎯 Full Mocks</button>
+      <button class="tab-btn" onclick="showTab('mini')">⚡ Mini Tests</button>
+    </div>
+
+    <!-- SUBJECT TESTS with topic sub-tests -->
+    <div class="tab-content active" id="tab-subject">
+      <div id="subjectTests"></div>
+    </div>
+
+    <!-- FULL MOCK TESTS -->
+    <div class="tab-content" id="tab-mock">
+      <div class="mock-test-list" id="mockTests"></div>
+    </div>
+
+    <!-- MINI TESTS -->
+    <div class="tab-content" id="tab-mini">
+      <div class="mini-test-grid" id="miniTests"></div>
+    </div>
+  </div></div>
+
+  <footer class="footer"><div class="container"><p>GATE DA Master Quiz © 2025 — Built for GATE DA Aspirants</p></div></footer>
+
+  <nav class="mobile-bottom-nav"><a href="index.html" class="mobile-nav-item"><span class="mobile-nav-icon">🏠</span>Home</a><a href="dashboard.html" class="mobile-nav-item"><span class="mobile-nav-icon">📈</span>Dashboard</a><a href="test-series.html" class="mobile-nav-item active"><span class="mobile-nav-icon">📝</span>Tests</a><a href="bookmarks.html" class="mobile-nav-item"><span class="mobile-nav-icon">🔖</span>Bookmarks</a><a href="settings.html" class="mobile-nav-item"><span class="mobile-nav-icon">⚙️</span>Settings</a></nav>
+  <div class="toast-container" id="toastContainer"></div>
+  <script src="js/utils.js"></script><script src="js/storage.js"></script><script src="js/theme.js"></script><script src="js/data-loader.js"></script>
+  <script>
+  const subjectDescriptions = {
+    'probability-statistics': 'Random variables, distributions, Bayes\' theorem, hypothesis testing, confidence intervals',
+    'linear-algebra': 'Vector spaces, eigenvalues, matrices, SVD, LU decomposition',
+    'calculus-optimization': 'Limits, Taylor series, maxima/minima, gradient descent, convexity',
+    'programming-dsa': 'Python, stacks, queues, trees, sorting, graph algorithms',
+    'dbms-warehousing': 'ER model, SQL, normalization, indexing, data warehousing',
+    'ml-supervised': 'Regression, SVM, decision trees, neural networks, bias-variance',
+    'ml-unsupervised': 'k-Means, PCA, hierarchical clustering, dimensionality reduction',
+    'artificial-intelligence': 'Search algorithms, logic, Bayesian networks, inference'
+  };
+
+  function initTestSeries() {
+    buildSubjectTests();
+    buildMockTests();
+    buildMiniTests();
+  }
+
+  function buildSubjectTests() {
+    const subjects = DataLoader.getAllSubjects();
+    const container = document.getElementById('subjectTests');
+    container.innerHTML = subjects.map(s => {
+      const desc = subjectDescriptions[s.slug] || '';
+      const topics = s.topics || [];
+      return `<div class="subject-accordion" id="acc-${s.slug}">
+        <div class="subject-accordion-header" onclick="toggleAccordion('${s.slug}')">
+          <div class="subject-accordion-icon">${s.icon}</div>
+          <div class="subject-accordion-info">
+            <div class="subject-accordion-title">${s.name}</div>
+            <div class="subject-accordion-desc">${desc} · ${topics.length} topics · ${s.questions || topics.length * 60} questions</div>
+          </div>
+          <div class="subject-accordion-chevron">▼</div>
+        </div>
+        <div class="subject-accordion-body">
+          <a href="quiz/quiz-engine.html?subject=${s.slug}&mode=test&count=30&time=3600" class="subject-full-test">
+            <div>
+              <div class="subject-full-test-info">📝 Full ${s.name} Test</div>
+              <div class="subject-full-test-meta">30 questions · 60 minutes · All topics mixed</div>
+            </div>
+            <span>Start →</span>
+          </a>
+          <div class="topic-test-grid">
+            ${topics.map(t => {
+              const tName = DataLoader.getTopicName(t);
+              return `<a href="quiz/quiz-engine.html?subject=${s.slug}&topic=${t}&mode=test&count=15&time=1800" class="topic-test-card">
+                <div class="topic-name">${tName}</div>
+                <div class="topic-meta"><span>📝 15 Qs</span><span>⏱️ 30 min</span><span>🎯 Test</span></div>
+              </a>`;
+            }).join('')}
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  function buildMockTests() {
+    const container = document.getElementById('mockTests');
+    const mocks = [
+      { id: 1, name: 'Full Mock Test 1', desc: 'Balanced coverage of all 8 subjects with Probability & ML emphasis', tags: ['All Subjects', '65 Qs', '180 min'] },
+      { id: 2, name: 'Full Mock Test 2', desc: 'Focus on core mathematics: Probability, Linear Algebra & Calculus', tags: ['Math Focus', '65 Qs', '180 min'] },
+      { id: 3, name: 'Full Mock Test 3', desc: 'Programming, DBMS & applied ML emphasis with real-world scenarios', tags: ['Applied Focus', '65 Qs', '180 min'] },
+      { id: 4, name: 'Full Mock Test 4', desc: 'AI and Machine Learning deep dive with theoretical foundations', tags: ['AI/ML Focus', '65 Qs', '180 min'] },
+      { id: 5, name: 'Full Mock Test 5', desc: 'Comprehensive final revision covering difficult questions across all topics', tags: ['Hard Mode', '65 Qs', '180 min'] },
+    ];
+    container.innerHTML = mocks.map(m => {
+      const allSlugs = Object.keys(DataLoader.subjectMap);
+      const topicsParam = allSlugs.flatMap(s => DataLoader.subjectMap[s].topics.slice(0, 3)).join(',');
+      return `<a href="quiz/quiz-engine.html?subject=probability-statistics&topics=${topicsParam}&mode=test&count=65&time=10800" class="mock-card">
+        <div class="mock-card-number">${m.id}</div>
+        <div class="mock-card-info">
+          <div class="mock-card-title">${m.name}</div>
+          <div class="mock-card-desc">${m.desc}</div>
+          <div class="mock-card-tags">${m.tags.map(t => `<span>${t}</span>`).join('')}</div>
+        </div>
+        <div class="mock-card-action">Start Test</div>
+      </a>`;
+    }).join('');
+  }
+
+  function buildMiniTests() {
+    const container = document.getElementById('miniTests');
+    const subjects = DataLoader.getAllSubjects();
+    // Create meaningful mini tests — each focused on a specific topic
+    const minis = [];
+    subjects.forEach(s => {
+      const topics = s.topics || [];
+      // Pick 2-3 representative topics per subject for mini tests
+      const picks = topics.slice(0, Math.min(3, topics.length));
+      picks.forEach(t => {
+        minis.push({ subject: s, topic: t, topicName: DataLoader.getTopicName(t) });
+      });
+    });
+
+    // Limit to 24 mini tests and shuffle for variety
+    const shuffled = minis.sort(() => Math.random() - 0.5).slice(0, 24);
+    container.innerHTML = shuffled.map((m, i) => {
+      return `<a href="quiz/quiz-engine.html?subject=${m.subject.slug}&topic=${m.topic}&mode=test&count=10&time=900" class="mini-card">
+        <div class="mini-card-icon">${m.subject.icon}</div>
+        <div class="mini-card-title">${m.subject.name}</div>
+        <div class="mini-card-topic">${m.topicName}</div>
+        <div class="mini-card-meta"><span>10 Qs</span><span>15 min</span></div>
+      </a>`;
+    }).join('');
+  }
+
+  function toggleAccordion(slug) {
+    const el = document.getElementById('acc-' + slug);
+    if (el) el.classList.toggle('open');
+  }
+
+  function showTab(tab) {
+    document.querySelectorAll('.tab-btn').forEach((b, i) => {
+      b.classList.toggle('active', (tab === 'subject' && i === 0) || (tab === 'mock' && i === 1) || (tab === 'mini' && i === 2));
+    });
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    const target = document.getElementById('tab-' + tab);
+    if (target) target.classList.add('active');
+  }
+
+  document.addEventListener('DOMContentLoaded', () => { Storage.init(); Theme.init(); initTestSeries(); });
+  </script>
+</body>
+</html>

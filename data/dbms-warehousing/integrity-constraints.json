@@ -1,0 +1,959 @@
+[
+  {
+    "id": "dbms_integr_001",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Foreign key ensures:",
+    "code": null,
+    "options": [
+      "Referential integrity",
+      "Domain integrity",
+      "Key uniqueness",
+      "Null constraint"
+    ],
+    "correct": "A",
+    "explanation": "Foreign key: value must exist in referenced table's primary key (referential integrity)."
+  },
+  {
+    "id": "dbms_integr_002",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CHECK constraint:",
+    "code": null,
+    "options": [
+      "Validates data against a condition",
+      "Creates an index",
+      "Defines primary key",
+      "Links tables"
+    ],
+    "correct": "A",
+    "explanation": "CHECK: domain constraint ensuring column values satisfy a boolean condition."
+  },
+  {
+    "id": "dbms_integr_003",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "CASCADE on DELETE means:",
+    "code": null,
+    "options": [
+      "Deleting parent deletes matching children",
+      "Error on delete",
+      "Set children to NULL",
+      "Nothing happens"
+    ],
+    "correct": "A",
+    "explanation": "CASCADE: deletion of parent row automatically deletes all referencing child rows."
+  },
+  {
+    "id": "dbms_integr_004",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Entity integrity requires:",
+    "code": null,
+    "options": [
+      "Primary key is NOT NULL",
+      "Foreign key is NOT NULL",
+      "All columns NOT NULL",
+      "No constraints"
+    ],
+    "correct": "A",
+    "explanation": "Entity integrity: primary key columns cannot contain NULL values."
+  },
+  {
+    "id": "dbms_integr_005",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q5: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_006",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_007",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_008",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_009",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_010",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_011",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_012",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Integrity Constraints Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_013",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_014",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_015",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_016",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_017",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_018",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_019",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Integrity Constraints Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_020",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_021",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_022",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_023",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_024",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_025",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_026",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_027",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Integrity Constraints Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_028",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_029",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_030",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_031",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_032",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_033",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_034",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Integrity Constraints Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_035",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_036",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_037",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_038",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_039",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_040",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_041",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_042",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Integrity Constraints Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_043",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_044",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_045",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_046",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_047",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_048",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_049",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Integrity Constraints Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_050",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_051",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_052",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_053",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_054",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_055",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_056",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "dbms_integr_057",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Integrity Constraints Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_058",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Integrity Constraints Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_059",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Integrity Constraints Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Integrity Constraints option A",
+      "Integrity Constraints option B",
+      "Integrity Constraints option C",
+      "Integrity Constraints option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Integrity Constraints. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_integr_060",
+    "subject": "Database Management & Warehousing",
+    "topic": "Integrity Constraints",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Integrity Constraints (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

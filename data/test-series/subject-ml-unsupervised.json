@@ -1,0 +1,25 @@
+{
+  "id": "sub_ml-unsupervised",
+  "name": "ML Unsupervised — Subject Test",
+  "type": "subject-wise",
+  "description": "30-question test covering all ML Unsupervised topics",
+  "totalQuestions": 30,
+  "timeMinutes": 60,
+  "sections": [
+    {
+      "subject": "ml-unsupervised",
+      "topicSlugs": [
+        "kmeans-kmedoid",
+        "hierarchical-clustering",
+        "pca",
+        "dimensionality-reduction"
+      ],
+      "count": 30
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

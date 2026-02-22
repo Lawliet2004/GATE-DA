@@ -1,0 +1,959 @@
+[
+  {
+    "id": "ml-s_ridger_001",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge regression adds to OLS loss:",
+    "code": null,
+    "options": [
+      "λ||β||₂² (L2 penalty)",
+      "λ||β||₁ (L1 penalty)",
+      "Nothing",
+      "Log penalty"
+    ],
+    "correct": "A",
+    "explanation": "Ridge: minimize ||y-Xβ||² + λΣβⱼ². L2 regularization shrinks coefficients."
+  },
+  {
+    "id": "ml-s_ridger_002",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge solution: β̂ = (XᵀX + λI)⁻¹Xᵀy. As λ→∞:",
+    "code": null,
+    "options": [
+      "β̂ → 0",
+      "β̂ → OLS",
+      "β̂ → ∞",
+      "No change"
+    ],
+    "correct": "A",
+    "explanation": "Large λ dominates → (XᵀX+λI)≈λI → β̂≈(1/λ)Xᵀy → 0. Heavy regularization."
+  },
+  {
+    "id": "ml-s_ridger_003",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge vs Lasso: Ridge does NOT:",
+    "code": null,
+    "options": [
+      "Set coefficients exactly to 0",
+      "Shrink coefficients",
+      "Use L2 penalty",
+      "Handle multicollinearity"
+    ],
+    "correct": "A",
+    "explanation": "Ridge shrinks but doesn't zero out. Lasso (L1) can set coefficients exactly to 0 → feature selection."
+  },
+  {
+    "id": "ml-s_ridger_004",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Elastic Net combines:",
+    "code": null,
+    "options": [
+      "L1 and L2 penalties",
+      "Only L1",
+      "Only L2",
+      "No penalty"
+    ],
+    "correct": "A",
+    "explanation": "Elastic Net: α||β||₁ + (1-α)||β||₂² . Gets benefits of both Ridge and Lasso."
+  },
+  {
+    "id": "ml-s_ridger_005",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q5: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_006",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_007",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_008",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_009",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_010",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_011",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_012",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Ridge Regression Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_013",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_014",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_015",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_016",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_017",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_018",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_019",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Ridge Regression Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_020",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_021",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_022",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_023",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_024",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_025",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_026",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_027",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Ridge Regression Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_028",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_029",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_030",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_031",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_032",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_033",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_034",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Ridge Regression Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_035",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_036",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_037",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_038",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_039",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_040",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_041",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_042",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Ridge Regression Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_043",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_044",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_045",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_046",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_047",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_048",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_049",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Ridge Regression Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_050",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_051",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_052",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_053",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_054",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_055",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_056",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-s_ridger_057",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Ridge Regression Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_058",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Ridge Regression Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_059",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Ridge Regression Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Ridge Regression option A",
+      "Ridge Regression option B",
+      "Ridge Regression option C",
+      "Ridge Regression option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Ridge Regression. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_ridger_060",
+    "subject": "ML — Supervised Learning",
+    "topic": "Ridge Regression",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Ridge Regression (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

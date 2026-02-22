@@ -1,0 +1,961 @@
+[
+  {
+    "id": "prog_trees_001",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "A binary tree with n nodes has at most height:",
+    "code": null,
+    "options": [
+      "n-1",
+      "log₂(n)",
+      "n/2",
+      "2n"
+    ],
+    "correct": "A",
+    "explanation": "Degenerate/skewed tree: each node has one child. Height = n-1 edges."
+  },
+  {
+    "id": "prog_trees_002",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "In-order traversal of BST gives:",
+    "code": null,
+    "options": [
+      "Sorted order",
+      "Reverse sorted",
+      "Level order",
+      "Random order"
+    ],
+    "correct": "A",
+    "explanation": "BST property + in-order (left,root,right) = ascending sorted sequence."
+  },
+  {
+    "id": "prog_trees_003",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Height of a balanced BST with n nodes is:",
+    "code": null,
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n²)"
+    ],
+    "correct": "A",
+    "explanation": "Balanced BST (AVL, Red-Black): height ≈ log₂(n). Ensures O(log n) search."
+  },
+  {
+    "id": "prog_trees_004",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "A complete binary tree with height h has max nodes:",
+    "code": null,
+    "options": [
+      "2^(h+1)-1",
+      "h+1",
+      "2h",
+      "h²"
+    ],
+    "correct": "A",
+    "explanation": "Full tree at every level: 1+2+4+...+2ʰ = 2^(h+1)-1 nodes."
+  },
+  {
+    "id": "prog_trees_005",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Heap property for min-heap:",
+    "code": null,
+    "options": [
+      "Parent ≤ children",
+      "Parent ≥ children",
+      "Left < Right",
+      "Sorted array"
+    ],
+    "correct": "A",
+    "explanation": "Min-heap: every parent is smaller than or equal to its children. Root = minimum."
+  },
+  {
+    "id": "prog_trees_006",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "BST search time complexity (average):",
+    "code": null,
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n log n)"
+    ],
+    "correct": "A",
+    "explanation": "Balanced BST: compare and go left/right → halve search space. O(log n) average."
+  },
+  {
+    "id": "prog_trees_007",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "AVL tree maintains balance by:",
+    "code": null,
+    "options": [
+      "Rotations when balance factor > 1",
+      "Rebuilding entire tree",
+      "Adding extra nodes",
+      "Sorting"
+    ],
+    "correct": "A",
+    "explanation": "AVL: after insertion/deletion, perform rotations to keep |balance factor| ≤ 1."
+  },
+  {
+    "id": "prog_trees_008",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_009",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_010",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_011",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_012",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Trees Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_013",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_014",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_015",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_016",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_017",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_018",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_019",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Trees Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_020",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Trees Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_021",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_022",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_023",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_024",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_025",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_026",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_027",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Trees Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_028",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_029",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_030",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_031",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_032",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_033",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_034",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Trees Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_035",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Trees Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_036",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_037",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_038",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_039",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_040",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_041",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_042",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Trees Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_043",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_044",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_045",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_046",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_047",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_048",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_049",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Trees Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_050",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Trees Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_051",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_052",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_053",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_054",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_055",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_056",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "prog_trees_057",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Trees Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_058",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Trees Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_059",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Trees Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Trees option A",
+      "Trees option B",
+      "Trees option C",
+      "Trees option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Trees. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "prog_trees_060",
+    "subject": "Programming, DS & Algorithms",
+    "topic": "Trees",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Trees (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

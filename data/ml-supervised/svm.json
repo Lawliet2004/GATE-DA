@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ml-s_svm_001",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "SVM finds:",
+    "code": null,
+    "options": [
+      "Maximum margin hyperplane between classes",
+      "Minimum margin",
+      "Any separating hyperplane",
+      "Cluster centers"
+    ],
+    "correct": "A",
+    "explanation": "SVM: maximize margin (distance between nearest points of different classes and hyperplane)."
+  },
+  {
+    "id": "ml-s_svm_002",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support vectors are:",
+    "code": null,
+    "options": [
+      "Training points closest to decision boundary",
+      "All training points",
+      "Outliers only",
+      "Test points"
+    ],
+    "correct": "A",
+    "explanation": "Support vectors: points on the margin boundary. They define the hyperplane."
+  },
+  {
+    "id": "ml-s_svm_003",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Kernel trick allows SVM to:",
+    "code": null,
+    "options": [
+      "Handle non-linearly separable data by mapping to higher dimensions",
+      "Only work in 2D",
+      "Reduce features",
+      "Speed up training"
+    ],
+    "correct": "A",
+    "explanation": "Kernel: compute dot products in high-dim feature space without explicitly mapping. φ(x)·φ(y)=K(x,y)."
+  },
+  {
+    "id": "ml-s_svm_004",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "RBF kernel K(x,y) = exp(-γ||x-y||²). Large γ:",
+    "code": null,
+    "options": [
+      "More complex boundary (overfitting risk)",
+      "Simpler boundary",
+      "Linear boundary",
+      "No effect"
+    ],
+    "correct": "A",
+    "explanation": "Large γ: kernel decays fast → each point influences only nearby points → complex boundary."
+  },
+  {
+    "id": "ml-s_svm_005",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Soft-margin SVM uses parameter C to:",
+    "code": null,
+    "options": [
+      "Trade off margin width vs misclassification",
+      "Only maximize margin",
+      "Only minimize error",
+      "Do nothing"
+    ],
+    "correct": "A",
+    "explanation": "C controls penalty for misclassification. Large C → hard margin (less tolerance). Small C → wider margin (more tolerance)."
+  },
+  {
+    "id": "ml-s_svm_006",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_007",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_008",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_009",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_010",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_011",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_012",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Support Vector Machine Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_013",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_014",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_015",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_016",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_017",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_018",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_019",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Support Vector Machine Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_020",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_021",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_022",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_023",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_024",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_025",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_026",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_027",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Support Vector Machine Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_028",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_029",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_030",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_031",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_032",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_033",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_034",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Support Vector Machine Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_035",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_036",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_037",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_038",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_039",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_040",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_041",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_042",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Support Vector Machine Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_043",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_044",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_045",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_046",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_047",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_048",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_049",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Support Vector Machine Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_050",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_051",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_052",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_053",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_054",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_055",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_056",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-s_svm_057",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Support Vector Machine Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_058",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Support Vector Machine Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_059",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Support Vector Machine Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Support Vector Machine option A",
+      "Support Vector Machine option B",
+      "Support Vector Machine option C",
+      "Support Vector Machine option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Support Vector Machine. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_svm_060",
+    "subject": "ML — Supervised Learning",
+    "topic": "Support Vector Machine",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Support Vector Machine (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

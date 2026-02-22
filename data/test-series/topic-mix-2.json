@@ -1,0 +1,57 @@
+{
+  "id": "mix_2",
+  "name": "Topic Mix Test 2",
+  "type": "topic-mix",
+  "description": "Mixed-topic test covering multiple subjects",
+  "totalQuestions": 20,
+  "timeMinutes": 40,
+  "sections": [
+    {
+      "subject": "probability-statistics",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 5
+    },
+    {
+      "subject": "linear-algebra",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 3
+    },
+    {
+      "subject": "programming-dsa",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 4
+    },
+    {
+      "subject": "ml-supervised",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 4
+    },
+    {
+      "subject": "dbms-warehousing",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 2
+    },
+    {
+      "subject": "artificial-intelligence",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 2
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

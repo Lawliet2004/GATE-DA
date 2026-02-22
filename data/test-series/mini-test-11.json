@@ -1,0 +1,22 @@
+{
+  "id": "mini_11",
+  "name": "Mini Test 11",
+  "type": "mini",
+  "description": "Quick 10-question practice test",
+  "totalQuestions": 10,
+  "timeMinutes": 15,
+  "sections": [
+    {
+      "subject": "calculus-optimization",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 10
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

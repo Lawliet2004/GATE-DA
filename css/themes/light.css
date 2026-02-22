@@ -1,0 +1,22 @@
+/* Light Theme (Default - variables already in global.css)
+   This file exists for explicit theme switching support */
+[data-theme="light"] {
+  --color-primary: #4361EE;
+  --color-primary-hover: #3651D4;
+  --color-primary-light: #E8ECFD;
+  --color-primary-alpha: rgba(67, 97, 238, 0.15);
+  --color-primary-gradient: linear-gradient(135deg, #4361EE, #7B2FF7);
+
+  --color-bg: #F5F6FA;
+  --color-surface: #FFFFFF;
+  --color-card: #FFFFFF;
+  --color-card-hover: #F8F9FE;
+
+  --color-text: #1A1A2E;
+  --color-text-secondary: #64668B;
+  --color-text-muted: #9395B3;
+  --color-text-inverse: #FFFFFF;
+
+  --color-border: #E2E4F0;
+  --color-divider: #ECEDF5;
+}

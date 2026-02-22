@@ -1,0 +1,28 @@
+{
+  "id": "sub_programming-dsa",
+  "name": "Programming & DSA — Subject Test",
+  "type": "subject-wise",
+  "description": "30-question test covering all Programming & DSA topics",
+  "totalQuestions": 30,
+  "timeMinutes": 60,
+  "sections": [
+    {
+      "subject": "programming-dsa",
+      "topicSlugs": [
+        "python-programming",
+        "trees",
+        "stacks",
+        "queues",
+        "binary-search",
+        "merge-sort",
+        "graph-algorithms"
+      ],
+      "count": 30
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

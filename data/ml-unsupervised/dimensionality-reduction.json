@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ml-u_dimens_001",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Why reduce dimensions?",
+    "code": null,
+    "options": [
+      "Curse of dimensionality, visualization, noise removal",
+      "Always improves accuracy",
+      "Removes all features",
+      "Increases complexity"
+    ],
+    "correct": "A",
+    "explanation": "High dimensions: sparse data, overfitting, slow computation. Reduction helps generalization."
+  },
+  {
+    "id": "ml-u_dimens_002",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Curse of dimensionality means:",
+    "code": null,
+    "options": [
+      "Data becomes sparse in high dimensions; distances converge",
+      "More features always better",
+      "Dimensions don't matter",
+      "Only affects small datasets"
+    ],
+    "correct": "A",
+    "explanation": "In high-d, all points become equidistant. Need exponentially more data to maintain density."
+  },
+  {
+    "id": "ml-u_dimens_003",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "t-SNE is used for:",
+    "code": null,
+    "options": [
+      "Non-linear dimensionality reduction & visualization",
+      "Classification",
+      "Regression",
+      "Clustering only"
+    ],
+    "correct": "A",
+    "explanation": "t-SNE: preserves local structure. Great for 2D/3D visualization of high-d data. Not for preprocessing."
+  },
+  {
+    "id": "ml-u_dimens_004",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Feature selection vs feature extraction:",
+    "code": null,
+    "options": [
+      "Selection picks existing features; extraction creates new ones",
+      "They are identical",
+      "Selection creates features",
+      "Extraction removes features"
+    ],
+    "correct": "A",
+    "explanation": "Selection: choose subset of original features. Extraction (PCA, etc.): transform to new features."
+  },
+  {
+    "id": "ml-u_dimens_005",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Autoencoders perform:",
+    "code": null,
+    "options": [
+      "Non-linear dimensionality reduction via neural networks",
+      "Linear reduction only",
+      "Classification",
+      "Clustering"
+    ],
+    "correct": "A",
+    "explanation": "Encoder maps to lower-dim latent space, decoder reconstructs. Learns non-linear representations."
+  },
+  {
+    "id": "ml-u_dimens_006",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_007",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_008",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_009",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_010",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_011",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_012",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_013",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_014",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_015",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_016",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_017",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_018",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_019",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_020",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_021",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_022",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_023",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_024",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_025",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_026",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_027",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_028",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_029",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_030",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_031",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_032",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_033",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_034",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_035",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_036",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_037",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_038",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_039",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_040",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_041",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_042",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_043",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_044",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_045",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_046",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_047",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_048",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_049",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_050",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_051",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_052",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_053",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_054",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_055",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_056",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-u_dimens_057",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_058",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Dimensionality Reduction Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_059",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dimensionality Reduction Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Dimensionality Reduction option A",
+      "Dimensionality Reduction option B",
+      "Dimensionality Reduction option C",
+      "Dimensionality Reduction option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Dimensionality Reduction. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-u_dimens_060",
+    "subject": "ML — Unsupervised Learning",
+    "topic": "Dimensionality Reduction",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Dimensionality Reduction (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

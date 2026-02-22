@@ -1,0 +1,956 @@
+[
+  {
+    "id": "ml-s_feedfo_001",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "In FFNN, information flows:",
+    "code": null,
+    "options": [
+      "Only forward (input → hidden → output)",
+      "Both directions",
+      "Only backward",
+      "Cyclically"
+    ],
+    "correct": "A",
+    "explanation": "Feed-forward: no cycles/loops. Data flows one direction through layers."
+  },
+  {
+    "id": "ml-s_feedfo_002",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Loss function for multi-class NN classification:",
+    "code": null,
+    "options": [
+      "Categorical cross-entropy",
+      "MSE",
+      "L1 loss",
+      "Hinge loss"
+    ],
+    "correct": "A",
+    "explanation": "Cross-entropy: -Σyᵢlog(ŷᵢ). Measures divergence between predicted and true distributions."
+  },
+  {
+    "id": "ml-s_feedfo_003",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dropout regularization:",
+    "code": null,
+    "options": [
+      "Randomly disables neurons during training",
+      "Adds neurons",
+      "Removes layers",
+      "Changes learning rate"
+    ],
+    "correct": "A",
+    "explanation": "Dropout: randomly zero out p fraction of neurons each step. Prevents co-adaptation. Like ensemble."
+  },
+  {
+    "id": "ml-s_feedfo_004",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Batch normalization:",
+    "code": null,
+    "options": [
+      "Normalizes activations within mini-batch",
+      "Normalizes input only",
+      "Changes batch size",
+      "Removes layers"
+    ],
+    "correct": "A",
+    "explanation": "BatchNorm: normalize each layer's inputs. Stabilizes training, allows higher learning rates."
+  },
+  {
+    "id": "ml-s_feedfo_005",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Adam optimizer combines:",
+    "code": null,
+    "options": [
+      "Momentum and RMSprop (adaptive learning rates)",
+      "Only SGD",
+      "Only momentum",
+      "Newton's method"
+    ],
+    "correct": "A",
+    "explanation": "Adam: adaptive moments. Maintains running average of gradients (momentum) and squared gradients (RMSprop)."
+  },
+  {
+    "id": "ml-s_feedfo_006",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Vanishing gradient problem affects:",
+    "code": null,
+    "options": [
+      "Deep networks with sigmoid/tanh activations",
+      "Shallow networks",
+      "Networks with ReLU",
+      "No networks"
+    ],
+    "correct": "A",
+    "explanation": "Gradients shrink exponentially through layers with saturating activations → early layers don't learn."
+  },
+  {
+    "id": "ml-s_feedfo_007",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_008",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_009",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_010",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_011",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_012",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_013",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_014",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_015",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_016",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_017",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_018",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_019",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_020",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_021",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_022",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_023",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_024",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_025",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_026",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_027",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_028",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_029",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_030",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_031",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_032",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_033",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_034",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_035",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_036",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_037",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_038",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_039",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_040",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_041",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_042",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_043",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_044",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_045",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_046",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_047",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_048",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_049",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_050",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_051",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_052",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_053",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_054",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_055",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_056",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "ml-s_feedfo_057",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_058",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Feed-Forward Neural Networks Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_059",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Feed-Forward Neural Networks Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Feed-Forward Neural Networks option A",
+      "Feed-Forward Neural Networks option B",
+      "Feed-Forward Neural Networks option C",
+      "Feed-Forward Neural Networks option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Feed-Forward Neural Networks. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ml-s_feedfo_060",
+    "subject": "ML — Supervised Learning",
+    "topic": "Feed-Forward Neural Networks",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Feed-Forward Neural Networks (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

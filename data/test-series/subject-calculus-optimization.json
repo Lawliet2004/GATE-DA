@@ -1,0 +1,26 @@
+{
+  "id": "sub_calculus-optimization",
+  "name": "Calculus & Optimization — Subject Test",
+  "type": "subject-wise",
+  "description": "30-question test covering all Calculus & Optimization topics",
+  "totalQuestions": 30,
+  "timeMinutes": 60,
+  "sections": [
+    {
+      "subject": "calculus-optimization",
+      "topicSlugs": [
+        "functions-single-variable",
+        "limits-continuity-differentiability",
+        "taylor-series",
+        "maxima-minima",
+        "optimization"
+      ],
+      "count": 30
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

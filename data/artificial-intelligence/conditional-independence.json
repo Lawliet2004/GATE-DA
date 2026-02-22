@@ -1,0 +1,959 @@
+[
+  {
+    "id": "arti_condit_001",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "X ⊥ Y | Z means:",
+    "code": null,
+    "options": [
+      "X is independent of Y given Z",
+      "X depends on Y",
+      "Z depends on X",
+      "X equals Y"
+    ],
+    "correct": "A",
+    "explanation": "Conditional independence: knowing Z, learning X gives no info about Y. P(X,Y|Z)=P(X|Z)P(Y|Z)."
+  },
+  {
+    "id": "arti_condit_002",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "In Bayesian network, conditional independences are encoded by:",
+    "code": null,
+    "options": [
+      "Graph structure (d-separation)",
+      "All nodes being independent",
+      "No edges",
+      "Random structure"
+    ],
+    "correct": "A",
+    "explanation": "DAG structure encodes conditional independence. D-separation determines which variables are independent given evidence."
+  },
+  {
+    "id": "arti_condit_003",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Markov blanket of a node includes:",
+    "code": null,
+    "options": [
+      "Parents, children, and children's parents",
+      "Only parents",
+      "Only children",
+      "All nodes"
+    ],
+    "correct": "A",
+    "explanation": "Node is conditionally independent of all others given its Markov blanket."
+  },
+  {
+    "id": "arti_condit_004",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "d-separation in Bayesian networks:",
+    "code": null,
+    "options": [
+      "Determines conditional independence from graph",
+      "Determines dependence only",
+      "Is irrelevant",
+      "Is always false"
+    ],
+    "correct": "A",
+    "explanation": "Two sets of nodes are CI given evidence set E iff every path between them is d-separated by E."
+  },
+  {
+    "id": "arti_condit_005",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q5: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_006",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_007",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_008",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_009",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_010",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_011",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_012",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Independence Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_013",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_014",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_015",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_016",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_017",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_018",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_019",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Independence Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_020",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_021",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_022",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_023",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_024",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_025",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_026",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_027",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Independence Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_028",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_029",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_030",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_031",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_032",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_033",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_034",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Independence Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_035",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_036",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_037",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_038",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_039",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_040",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_041",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_042",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Independence Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_043",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_044",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_045",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_046",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_047",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_048",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_049",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Independence Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_050",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_051",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_052",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_053",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_054",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_055",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_056",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "arti_condit_057",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Independence Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_058",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Independence Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_059",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Independence Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Conditional Independence option A",
+      "Conditional Independence option B",
+      "Conditional Independence option C",
+      "Conditional Independence option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Independence. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_condit_060",
+    "subject": "Artificial Intelligence",
+    "topic": "Conditional Independence",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Independence (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

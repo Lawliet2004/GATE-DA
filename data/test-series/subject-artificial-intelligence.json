@@ -1,0 +1,26 @@
+{
+  "id": "sub_artificial-intelligence",
+  "name": "Artificial Intelligence — Subject Test",
+  "type": "subject-wise",
+  "description": "30-question test covering all Artificial Intelligence topics",
+  "totalQuestions": 30,
+  "timeMinutes": 60,
+  "sections": [
+    {
+      "subject": "artificial-intelligence",
+      "topicSlugs": [
+        "informed-search",
+        "uninformed-search",
+        "adversarial-search",
+        "propositional-logic",
+        "predicate-logic"
+      ],
+      "count": 30
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

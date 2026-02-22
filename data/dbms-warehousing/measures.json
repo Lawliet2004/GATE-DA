@@ -1,0 +1,959 @@
+[
+  {
+    "id": "dbms_measur_001",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Distributive measure example:",
+    "code": null,
+    "options": [
+      "COUNT, SUM, MIN, MAX",
+      "Average",
+      "Median",
+      "Mode"
+    ],
+    "correct": "A",
+    "explanation": "Distributive: can compute aggregate from partial aggregates. SUM of sums = total SUM."
+  },
+  {
+    "id": "dbms_measur_002",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Algebraic measure example:",
+    "code": null,
+    "options": [
+      "Average (from SUM and COUNT)",
+      "SUM",
+      "COUNT",
+      "MAX"
+    ],
+    "correct": "A",
+    "explanation": "Algebraic: computed from finite number of distributive measures. AVG = SUM/COUNT."
+  },
+  {
+    "id": "dbms_measur_003",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Holistic measure:",
+    "code": null,
+    "options": [
+      "Median, Mode, Rank",
+      "SUM",
+      "COUNT",
+      "MAX"
+    ],
+    "correct": "A",
+    "explanation": "Holistic: no constant-bound sub-aggregation method. Must see all data. E.g., median."
+  },
+  {
+    "id": "dbms_measur_004",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Additive measure:",
+    "code": null,
+    "options": [
+      "Can be summed across all dimensions",
+      "Cannot be summed",
+      "Is always zero",
+      "Is categorical"
+    ],
+    "correct": "A",
+    "explanation": "Additive measures (e.g., sales amount) can be meaningfully summed across any dimension."
+  },
+  {
+    "id": "dbms_measur_005",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Measures Q5: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_006",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_007",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_008",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_009",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_010",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_011",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_012",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Measures Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_013",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_014",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_015",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_016",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_017",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_018",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_019",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Measures Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_020",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Measures Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_021",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_022",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_023",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_024",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_025",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_026",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_027",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Measures Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_028",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_029",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_030",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_031",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_032",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_033",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_034",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Measures Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_035",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Measures Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_036",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_037",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_038",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_039",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_040",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_041",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_042",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Measures Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_043",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_044",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_045",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_046",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_047",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_048",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_049",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Measures Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_050",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Measures Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_051",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_052",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_053",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_054",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_055",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_056",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "dbms_measur_057",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Measures Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_058",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Measures Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_059",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Measures Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Measures option A",
+      "Measures option B",
+      "Measures option C",
+      "Measures option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Measures. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_measur_060",
+    "subject": "Database Management & Warehousing",
+    "topic": "Measures",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Measures (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

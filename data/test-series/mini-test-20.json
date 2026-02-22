@@ -1,0 +1,22 @@
+{
+  "id": "mini_20",
+  "name": "Mini Test 20",
+  "type": "mini",
+  "description": "Quick 10-question practice test",
+  "totalQuestions": 10,
+  "timeMinutes": 15,
+  "sections": [
+    {
+      "subject": "programming-dsa",
+      "topicSlugs": [
+        "*"
+      ],
+      "count": 10
+    }
+  ],
+  "markingScheme": {
+    "correct": 1,
+    "wrong": -0.33,
+    "partial": true
+  }
+}

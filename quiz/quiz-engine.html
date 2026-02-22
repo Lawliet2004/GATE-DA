@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz — GATE DA Master</title>
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/themes/dark.css">
+  <link rel="stylesheet" href="../css/themes/blue.css">
+  <link rel="stylesheet" href="../css/themes/green.css">
+  <link rel="stylesheet" href="../css/quiz.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/code-highlight.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="../index.html" class="navbar-brand"><div class="navbar-brand-icon">📊</div><span>GATE DA Master</span></a>
+    <div class="quiz-title-info">
+      <span class="quiz-progress-text" id="quizProgressText">Loading...</span>
+    </div>
+    <div class="nav-actions">
+      <div class="quiz-timer" id="quizTimer"><span class="quiz-timer-icon">⏱️</span><span id="timerDisplay">--:--</span></div>
+      <button class="btn-icon btn-ghost" id="themeToggle">🌙</button>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+    <div id="loadingState" style="text-align:center;padding:80px 20px">
+      <div class="loading-spinner"></div>
+      <p style="margin-top:16px;color:var(--color-text-muted)">Loading questions...</p>
+    </div>
+
+    <div id="quizArea" class="hidden">
+      <div class="quiz-layout">
+        <div class="quiz-main">
+          <div class="quiz-header">
+            <div style="display:flex;align-items:center;gap:12px">
+              <span class="question-number" id="questionNumber">Q 1/20</span>
+              <span class="question-type-badge mcq" id="questionType">MCQ</span>
+              <span class="badge badge-medium" id="questionDifficulty">medium</span>
+            </div>
+            <div class="question-actions-top">
+              <button class="btn btn-ghost btn-sm" id="bookmarkBtn" onclick="QuizEngine.toggleBookmark()">🏷️</button>
+              <button class="btn btn-outline btn-sm" id="markReviewBtn" onclick="QuizEngine.toggleMarkForReview()">🏳️ Mark for Review</button>
+            </div>
+          </div>
+
+          <div class="quiz-progress-bar"><div class="progress-bar"><div class="progress-bar-fill" id="quizProgressFill" style="width:0%"></div></div></div>
+
+          <div class="question-area">
+            <div class="question-text" id="questionText"></div>
+            <div id="codeBlock" class="hidden"></div>
+            <div class="options-container" id="optionsContainer"></div>
+            <div class="nat-input-container hidden" id="natContainer">
+              <input type="number" step="any" class="nat-input" id="natInput" placeholder="Enter numerical answer..." onchange="QuizEngine.saveNatAnswer()">
+              <p class="nat-hint">Enter your answer (integer or decimal up to 2 places)</p>
+            </div>
+            <div class="explanation-box hidden" id="explanationBox"></div>
+          </div>
+
+          <div class="question-actions">
+            <div class="question-actions-left">
+              <button class="btn btn-outline" onclick="QuizEngine.navigate('prev')">← Previous</button>
+              <button class="btn btn-ghost" onclick="QuizEngine.clearResponse()">Clear</button>
+            </div>
+            <div class="question-actions-right">
+              <button class="btn btn-primary" onclick="QuizEngine.navigate('next')">Next →</button>
+              <button class="btn btn-success" onclick="QuizEngine.showSubmitConfirm()">Submit Quiz</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="quiz-sidebar">
+          <div class="nav-panel" id="navPanel">
+            <div class="nav-panel-header"><span class="nav-panel-title">Questions</span></div>
+            <div class="question-grid" id="questionGrid"></div>
+            <div class="nav-legend">
+              <div class="legend-item"><span class="legend-dot current"></span>Current</div>
+              <div class="legend-item"><span class="legend-dot answered"></span>Answered</div>
+              <div class="legend-item"><span class="legend-dot marked"></span>Marked</div>
+              <div class="legend-item"><span class="legend-dot not-visited"></span>Not Visited</div>
+            </div>
+          </div>
+          <div class="summary-panel">
+            <div class="summary-stats">
+              <div class="summary-stat"><span class="summary-stat-label">Answered</span><span class="summary-stat-value" id="statAnswered">0</span></div>
+              <div class="summary-stat"><span class="summary-stat-label">Unanswered</span><span class="summary-stat-value" id="statUnanswered">0</span></div>
+              <div class="summary-stat"><span class="summary-stat-label">Marked</span><span class="summary-stat-value" id="statMarked">0</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toastContainer"></div>
+  <script src="../js/utils.js"></script>
+  <script src="../js/storage.js"></script>
+  <script src="../js/theme.js"></script>
+  <script src="../js/data-loader.js"></script>
+  <script src="../js/timer.js"></script>
+  <script src="../js/scoring.js"></script>
+  <script src="../js/quiz-engine.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>

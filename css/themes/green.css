@@ -1,0 +1,40 @@
+/* Green Theme */
+[data-theme="green"] {
+  --color-primary: #10B981;
+  --color-primary-hover: #059669;
+  --color-primary-light: #D1FAE5;
+  --color-primary-alpha: rgba(16, 185, 129, 0.15);
+  --color-primary-gradient: linear-gradient(135deg, #10B981, #06B6D4);
+
+  --color-bg: #0A1F15;
+  --color-surface: #0D2A1C;
+  --color-card: #113524;
+  --color-card-hover: #15432E;
+
+  --color-text: #E2F0E8;
+  --color-text-secondary: #94B8A5;
+  --color-text-muted: #648B78;
+  --color-text-inverse: #FFFFFF;
+
+  --color-border: #1E5A3F;
+  --color-divider: #1A4C35;
+
+  --color-success: #34D399;
+  --color-success-light: #0D312A;
+  --color-success-dark: #6EE7B7;
+  --color-warning: #FBBF24;
+  --color-warning-light: #312A0D;
+  --color-warning-dark: #FCD34D;
+  --color-error: #F87171;
+  --color-error-light: #310D0D;
+  --color-error-dark: #FCA5A5;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 20px rgba(16, 185, 129, 0.25);
+
+  --code-bg: #081A11;
+}

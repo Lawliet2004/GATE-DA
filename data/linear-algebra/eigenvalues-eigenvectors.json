@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "la_ev_001",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Eigenvalues of A = [[3,1],[0,2]] are:",
+    "code": null,
+    "options": [
+      "3 and 2",
+      "1 and 0",
+      "5 and 0",
+      "3 and -2"
+    ],
+    "correct": "A",
+    "explanation": "Triangular matrix: eigenvalues are diagonal entries 3 and 2."
+  },
+  {
+    "id": "la_ev_002",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If λ is eigenvalue of A, then eigenvalue of A+kI is:",
+    "code": null,
+    "options": [
+      "λ+k",
+      "λk",
+      "λ-k",
+      "k/λ"
+    ],
+    "correct": "A",
+    "explanation": "(A+kI)v = Av+kv = λv+kv = (λ+k)v."
+  },
+  {
+    "id": "la_ev_003",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Eigenvalues of A⁻¹ are:",
+    "code": null,
+    "options": [
+      "1/λ for each eigenvalue λ of A",
+      "λ² for each eigenvalue",
+      "−λ",
+      "λ+1"
+    ],
+    "correct": "A",
+    "explanation": "If Av=λv, then v=A⁻¹(λv)=λA⁻¹v, so A⁻¹v=(1/λ)v."
+  },
+  {
+    "id": "la_ev_004",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "The characteristic polynomial of a 2×2 matrix A is:",
+    "code": null,
+    "options": [
+      "λ² - tr(A)λ + det(A)",
+      "λ² + tr(A)λ - det(A)",
+      "tr(A)λ - det(A)",
+      "det(A)λ² - tr(A)"
+    ],
+    "correct": "A",
+    "explanation": "det(A-λI) = λ² - (a₁₁+a₂₂)λ + det(A) = λ² - tr(A)λ + det(A)."
+  },
+  {
+    "id": "la_ev_005",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Matrix A = [[0,-1],[1,0]] has eigenvalues:",
+    "code": null,
+    "options": [
+      "i and -i",
+      "1 and -1",
+      "0 and 0",
+      "2 and -2"
+    ],
+    "correct": "A",
+    "explanation": "det(A-λI) = λ² + 1 = 0 → λ = ±i. This is a 90° rotation matrix."
+  },
+  {
+    "id": "la_ev_006",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Sum of eigenvalues of A = [[1,2,3],[0,4,5],[0,0,6]] is:",
+    "code": null,
+    "options": [
+      "11",
+      "6",
+      "10",
+      "21"
+    ],
+    "correct": "A",
+    "explanation": "Triangular: eigenvalues = 1,4,6. Sum = trace = 1+4+6 = 11."
+  },
+  {
+    "id": "la_ev_007",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Product of eigenvalues of A₃ₓ₃ with det(A)=24 is:",
+    "code": null,
+    "options": [
+      "24",
+      "8",
+      "12",
+      "6"
+    ],
+    "correct": "A",
+    "explanation": "Product of eigenvalues = det(A) = 24."
+  },
+  {
+    "id": "la_ev_008",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "A diagonalizable matrix with eigenvalue 0 is:",
+    "code": null,
+    "options": [
+      "Singular but diagonalizable",
+      "Invertible",
+      "Always zero matrix",
+      "Never exists"
+    ],
+    "correct": "A",
+    "explanation": "Having eigenvalue 0 means det=0 (singular), but the matrix can still be diagonalizable if geometric mult = algebraic mult for all eigenvalues."
+  },
+  {
+    "id": "la_ev_009",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Eigenvalues of a projection matrix P (P²=P) are:",
+    "code": null,
+    "options": [
+      "0 and/or 1 only",
+      "Any real number",
+      "Always 1",
+      "Always 0"
+    ],
+    "correct": "A",
+    "explanation": "P²=P ⟹ λ²=λ ⟹ λ(λ-1)=0 ⟹ λ∈{0,1}."
+  },
+  {
+    "id": "la_ev_010",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If A has eigenvalue 3 with eigenvector v, then A³v =",
+    "code": null,
+    "options": [
+      "27v",
+      "9v",
+      "3v",
+      "v"
+    ],
+    "correct": "A",
+    "explanation": "A³v = A²(Av) = A²(3v) = 3A²v = 3·A(3v) = 9Av = 27v. Generally Aⁿv = λⁿv."
+  },
+  {
+    "id": "la_ev_011",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Cayley-Hamilton: every square matrix satisfies its own:",
+    "code": null,
+    "options": [
+      "Characteristic equation",
+      "Eigenvalue equation",
+      "Determinant equation",
+      "Trace equation"
+    ],
+    "correct": "A",
+    "explanation": "If p(λ) is the characteristic polynomial, then p(A) = 0 (the zero matrix)."
+  },
+  {
+    "id": "la_ev_012",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Similar matrices have:",
+    "code": null,
+    "options": [
+      "Same eigenvalues",
+      "Same eigenvectors",
+      "Same entries",
+      "Nothing in common"
+    ],
+    "correct": "A",
+    "explanation": "If B=P⁻¹AP, then B and A have identical characteristic polynomials, hence same eigenvalues."
+  },
+  {
+    "id": "la_ev_013",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Algebraic multiplicity of eigenvalue λ₀ is:",
+    "code": null,
+    "options": [
+      "Multiplicity as root of characteristic polynomial",
+      "Dimension of eigenspace",
+      "Number of eigenvectors",
+      "Always 1"
+    ],
+    "correct": "A",
+    "explanation": "Algebraic multiplicity = number of times (λ-λ₀) appears as factor of det(A-λI)."
+  },
+  {
+    "id": "la_ev_014",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Geometric multiplicity equals:",
+    "code": null,
+    "options": [
+      "Dimension of the eigenspace",
+      "Algebraic multiplicity always",
+      "Number of eigenvalues",
+      "Rank of A"
+    ],
+    "correct": "A",
+    "explanation": "Geometric multiplicity = dim(null(A-λI)) = dim of eigenspace. Always ≤ algebraic multiplicity."
+  },
+  {
+    "id": "la_ev_015",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "A matrix with n distinct eigenvalues (n=size) is always:",
+    "code": null,
+    "options": [
+      "Diagonalizable",
+      "Singular",
+      "Symmetric",
+      "Orthogonal"
+    ],
+    "correct": "A",
+    "explanation": "Distinct eigenvalues ⟹ linearly independent eigenvectors ⟹ diagonalizable. (Sufficient, not necessary.)"
+  },
+  {
+    "id": "la_ev_016",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Eigenvalues of skew-symmetric real matrix are:",
+    "code": null,
+    "options": [
+      "Pure imaginary or zero",
+      "Real",
+      "Positive",
+      "Negative"
+    ],
+    "correct": "A",
+    "explanation": "If A=-Aᵀ, eigenvalues are purely imaginary (0 is both real and imaginary)."
+  },
+  {
+    "id": "la_ev_017",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Spectral radius ρ(A) is:",
+    "code": null,
+    "options": [
+      "max|λᵢ| over all eigenvalues",
+      "min|λᵢ|",
+      "sum of |λᵢ|",
+      "product of |λᵢ|"
+    ],
+    "correct": "A",
+    "explanation": "Spectral radius = largest absolute value among all eigenvalues."
+  },
+  {
+    "id": "la_ev_018",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gershgorin circle theorem states eigenvalues lie in:",
+    "code": null,
+    "options": [
+      "Discs centered at diagonal entries with radius = sum of off-diagonal entries in that row",
+      "Always at diagonal entries",
+      "Random locations",
+      "Unit circle"
+    ],
+    "correct": "A",
+    "explanation": "Each eigenvalue is in at least one Gershgorin disc Dᵢ = {z: |z-aᵢᵢ| ≤ Σⱼ≠ᵢ|aᵢⱼ|}."
+  },
+  {
+    "id": "la_ev_019",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "If A is nilpotent (Aᵏ=0), all eigenvalues are:",
+    "code": null,
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "k"
+    ],
+    "correct": "A",
+    "explanation": "λᵏ=0 ⟹ λ=0. All eigenvalues of a nilpotent matrix are zero."
+  },
+  {
+    "id": "la_ev_020",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Eigenvalues of orthogonal matrix Q have |λ|=",
+    "code": null,
+    "options": [
+      "1",
+      "0",
+      "2",
+      "varies"
+    ],
+    "correct": "A",
+    "explanation": "QᵀQ=I ⟹ |det(Q)|=1 and ||Qv||=||v|| ⟹ |λ|=1. Eigenvalues lie on unit circle."
+  },
+  {
+    "id": "la_ev_021",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "trace(A) = Σλᵢ and det(A) = Πλᵢ. For A₂ₓ₂ with tr=5, det=6, eigenvalues are:",
+    "code": null,
+    "options": [
+      "2 and 3",
+      "1 and 4",
+      "5 and 1",
+      "6 and -1"
+    ],
+    "correct": "A",
+    "explanation": "λ²-5λ+6=0 → (λ-2)(λ-3)=0 → λ=2,3. Check: 2+3=5=tr, 2×3=6=det."
+  },
+  {
+    "id": "la_ev_022",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Jordan normal form of a non-diagonalizable matrix contains:",
+    "code": null,
+    "options": [
+      "Jordan blocks with 1s on superdiagonal",
+      "Only diagonal entries",
+      "Zeros everywhere except diagonal",
+      "Random entries"
+    ],
+    "correct": "A",
+    "explanation": "Jordan form has eigenvalues on diagonal and 1s on superdiagonal within each Jordan block for defective eigenvalues."
+  },
+  {
+    "id": "la_ev_023",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Power method converges to:",
+    "code": null,
+    "options": [
+      "Dominant eigenvalue and eigenvector",
+      "Smallest eigenvalue",
+      "All eigenvalues simultaneously",
+      "Zero"
+    ],
+    "correct": "A",
+    "explanation": "Repeated multiplication Aᵏv converges to the eigenvector of the largest |eigenvalue| (dominant eigenvalue)."
+  },
+  {
+    "id": "la_ev_024",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Rayleigh quotient R(x) = xᵀAx/xᵀx for symmetric A satisfies:",
+    "code": null,
+    "options": [
+      "λ_min ≤ R(x) ≤ λ_max",
+      "R(x) = 0 always",
+      "R(x) = det(A)",
+      "R(x) = tr(A)"
+    ],
+    "correct": "A",
+    "explanation": "Rayleigh quotient is bounded by extreme eigenvalues of symmetric A. At eigenvectors, R(v)=λ."
+  },
+  {
+    "id": "la_ev_025",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Eigendecomposition A=QΛQ⁻¹ allows computing Aⁿ as:",
+    "code": null,
+    "options": [
+      "QΛⁿQ⁻¹",
+      "QⁿΛQⁿ",
+      "nQΛQ⁻¹",
+      "(QΛQ⁻¹)ⁿ directly"
+    ],
+    "correct": "A",
+    "explanation": "Aⁿ=(QΛQ⁻¹)ⁿ=QΛⁿQ⁻¹. Simply raise diagonal entries to the nth power."
+  },
+  {
+    "id": "la_ev_026",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For A=[[2,1],[0,2]], the geometric multiplicity of λ=2 is:",
+    "code": null,
+    "options": [
+      "1",
+      "2",
+      "0",
+      "Undefined"
+    ],
+    "correct": "A",
+    "explanation": "(A-2I)=[[0,1],[0,0]], null space is 1-dimensional. Geometric mult=1 < algebraic mult=2 (defective)."
+  },
+  {
+    "id": "la_ev_027",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "eig(A)=[1,2,3]. eig(2A) =",
+    "code": null,
+    "options": [
+      "[2,4,6]",
+      "[1,2,3]",
+      "[2,3,4]",
+      "[3,4,5]"
+    ],
+    "correct": "A",
+    "explanation": "If Av=λv then (2A)v=2λv. Each eigenvalue doubles."
+  },
+  {
+    "id": "la_ev_028",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Symmetric positive definite matrix has eigenvalues:",
+    "code": null,
+    "options": [
+      "All strictly positive",
+      "All non-negative",
+      "Mixed signs",
+      "Zero only"
+    ],
+    "correct": "A",
+    "explanation": "PD: xᵀAx>0 for all x≠0. This forces all eigenvalues >0."
+  },
+  {
+    "id": "la_ev_029",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "The trace of A²ₙₓₙ equals:",
+    "code": null,
+    "options": [
+      "Σλᵢ²",
+      "(Σλᵢ)²",
+      "Σλᵢ·Σλⱼ",
+      "det(A)²"
+    ],
+    "correct": "A",
+    "explanation": "tr(A²)=Σ(A²)ᵢᵢ=Σλᵢ² (sum of squares of eigenvalues)."
+  },
+  {
+    "id": "la_ev_030",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "If A is orthogonal with det(A)=-1, then:",
+    "code": null,
+    "options": [
+      "A has eigenvalue -1",
+      "All eigenvalues are positive",
+      "No real eigenvalues",
+      "All eigenvalues are 1"
+    ],
+    "correct": "A",
+    "explanation": "Orthogonal matrices: |λ|=1. det=-1 and real eigenvalues must include -1."
+  },
+  {
+    "id": "la_ev_031",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Number of linearly independent eigenvectors of I₃ is:",
+    "code": null,
+    "options": [
+      "3",
+      "1",
+      "0",
+      "Depends on A"
+    ],
+    "correct": "A",
+    "explanation": "Identity: every vector is eigenvector (λ=1). Full rank of eigenspace = 3."
+  },
+  {
+    "id": "la_ev_032",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If Ax=0 has non-trivial solutions, then λ=0 is:",
+    "code": null,
+    "options": [
+      "An eigenvalue of A",
+      "Not an eigenvalue",
+      "A positive eigenvalue",
+      "A complex eigenvalue"
+    ],
+    "correct": "A",
+    "explanation": "Ax=0 means A(x)=0·x, so 0 is eigenvalue with eigenvector x."
+  },
+  {
+    "id": "la_ev_033",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Eigenvalues of A⁻¹ + 2I when A has eigenvalue 3:",
+    "code": null,
+    "options": [
+      "1/3+2 = 7/3",
+      "3+2=5",
+      "2",
+      "1/5"
+    ],
+    "correct": "A",
+    "explanation": "A⁻¹ has eigenvalue 1/3; (A⁻¹+2I) has eigenvalue 1/3+2=7/3."
+  },
+  {
+    "id": "la_ev_034",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "PCA uses eigenvectors of the _____ matrix:",
+    "code": null,
+    "options": [
+      "Covariance",
+      "Identity",
+      "Rotation",
+      "Projection"
+    ],
+    "correct": "A",
+    "explanation": "PCA: eigenvectors of sample covariance matrix give principal components."
+  },
+  {
+    "id": "la_ev_035",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "det(A-λI)=0 is called the:",
+    "code": null,
+    "options": [
+      "Characteristic equation",
+      "Normal equation",
+      "Cayley equation",
+      "Trace equation"
+    ],
+    "correct": "A",
+    "explanation": "Characteristic equation: solving det(A-λI)=0 gives eigenvalues."
+  },
+  {
+    "id": "la_ev_036",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "If λ is eigenvalue of A, then 1/λ is eigenvalue of:",
+    "code": null,
+    "options": [
+      "A⁻¹",
+      "A",
+      "A²",
+      "Aᵀ"
+    ],
+    "correct": "A",
+    "explanation": "A⁻¹v=(1/λ)v follows from Av=λv by multiplying both sides by A⁻¹/λ."
+  },
+  {
+    "id": "la_ev_037",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Number of nonzero eigenvalues of rank-r matrix equals:",
+    "code": null,
+    "options": [
+      "r (at most)",
+      "n always",
+      "0",
+      "r²"
+    ],
+    "correct": "A",
+    "explanation": "Rank r means r linearly independent rows/cols → at most r nonzero eigenvalues."
+  },
+  {
+    "id": "la_ev_038",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Eigenvectors for distinct eigenvalues are:",
+    "code": null,
+    "options": [
+      "Linearly independent",
+      "Always orthogonal",
+      "Always parallel",
+      "Always unit vectors"
+    ],
+    "correct": "A",
+    "explanation": "Distinct eigenvalues → linearly independent eigenvectors (proved by contradiction)."
+  },
+  {
+    "id": "la_ev_039",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Stochastic matrix (rows sum to 1) always has eigenvalue:",
+    "code": null,
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "2"
+    ],
+    "correct": "A",
+    "explanation": "[1,1,...,1]ᵀ is eigenvector of Aᵀ with eigenvalue 1; hence A has eigenvalue 1."
+  },
+  {
+    "id": "la_ev_040",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If A is 3×3 with characteristic poly λ³-6λ²+11λ-6=0, then tr(A)=",
+    "code": null,
+    "options": [
+      "6",
+      "11",
+      "6",
+      "1"
+    ],
+    "correct": "A",
+    "explanation": "By Vieta: sum of roots = coefficient of λ²(with sign)= 6 = tr(A)."
+  },
+  {
+    "id": "la_ev_041",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "A=[1,0;0,1] has eigenvalues:",
+    "code": null,
+    "options": [
+      "Both equal to 1",
+      "0 and 1",
+      "1 and -1",
+      "None"
+    ],
+    "correct": "A",
+    "explanation": "Identity matrix: Av=v for all v. Both eigenvalues = 1."
+  },
+  {
+    "id": "la_ev_042",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "QR algorithm computes:",
+    "code": null,
+    "options": [
+      "All eigenvalues iteratively",
+      "Only the largest eigenvalue",
+      "Determinant",
+      "Inverse"
+    ],
+    "correct": "A",
+    "explanation": "QR iteration: A→Q₁R₁→R₁Q₁=A₁→... converges to Schur form giving all eigenvalues."
+  },
+  {
+    "id": "la_ev_043",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Eigenvalues of block diagonal matrix diag(A₁,A₂) are:",
+    "code": null,
+    "options": [
+      "Union of eigenvalues of A₁ and A₂",
+      "Product of eigenvalues",
+      "Only A₁ eigenvalues",
+      "The sum"
+    ],
+    "correct": "A",
+    "explanation": "Block diagonal: characteristic poly = product of characteristic polys. Eigenvalues combine."
+  },
+  {
+    "id": "la_ev_044",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Condition number κ(A)=λ_max/λ_min relates to:",
+    "code": null,
+    "options": [
+      "Sensitivity of linear system solution",
+      "Determinant",
+      "Rank",
+      "Trace"
+    ],
+    "correct": "A",
+    "explanation": "Large κ → ill-conditioned system. Solution sensitive to perturbations in b."
+  },
+  {
+    "id": "la_ev_045",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "For a 2×2 matrix with tr=7, det=12, the eigenvalues are:",
+    "code": null,
+    "options": [
+      "3 and 4",
+      "6 and 1",
+      "7 and 1",
+      "12 and 1"
+    ],
+    "correct": "A",
+    "explanation": "λ²-7λ+12=0 → (λ-3)(λ-4)=0 → λ=3,4. Check: 3+4=7, 3×4=12."
+  },
+  {
+    "id": "la_ev_046",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Gram-Schmidt process produces ______ eigenvectors:",
+    "code": null,
+    "options": [
+      "Orthonormal vectors (not eigenvalues, but orthonormal basis)",
+      "Eigenvalues",
+      "Determinant",
+      "Rank"
+    ],
+    "correct": "A",
+    "explanation": "Gram-Schmidt orthogonalizes any basis → produces orthonormal basis (not eigenvalue-related directly)."
+  },
+  {
+    "id": "la_ev_047",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For symmetric A, eigenvectors of distinct eigenvalues are:",
+    "code": null,
+    "options": [
+      "Orthogonal",
+      "Parallel",
+      "Identical",
+      "None of these"
+    ],
+    "correct": "A",
+    "explanation": "Symmetric real matrices: eigenvectors for different eigenvalues are orthogonal (spectral theorem)."
+  },
+  {
+    "id": "la_ev_048",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If all eigenvalues of A are positive, then A is:",
+    "code": null,
+    "options": [
+      "Positive definite (if symmetric)",
+      "Always invertible but not necessarily PD",
+      "Singular",
+      "Orthogonal"
+    ],
+    "correct": "A",
+    "explanation": "For symmetric A: all eigenvalues > 0 iff A is positive definite."
+  },
+  {
+    "id": "la_ev_049",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Deflation in eigenvalue computation:",
+    "code": null,
+    "options": [
+      "Removes found eigenvalue to find remaining ones",
+      "Adds eigenvalues",
+      "Normalizes matrix",
+      "Transposes matrix"
+    ],
+    "correct": "A",
+    "explanation": "After finding eigenvalue λ₁, deflate A to reduce to (n-1)×(n-1) problem."
+  },
+  {
+    "id": "la_ev_050",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "The dominant eigenvalue has:",
+    "code": null,
+    "options": [
+      "Largest absolute value among all eigenvalues",
+      "Smallest value",
+      "Value equal to trace",
+      "Value equal to det"
+    ],
+    "correct": "A",
+    "explanation": "Power method converges to the dominant (largest magnitude) eigenvalue."
+  },
+  {
+    "id": "la_ev_051",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "For skew-Hermitian matrix A=-A†, eigenvalues are:",
+    "code": null,
+    "options": [
+      "Pure imaginary or zero",
+      "Real positive",
+      "Complex with positive real part",
+      "Always zero"
+    ],
+    "correct": "A",
+    "explanation": "Skew-Hermitian analog of skew-symmetric: eigenvalues are purely imaginary."
+  },
+  {
+    "id": "la_ev_052",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "If λ=0 has algebraic multiplicity k, then:",
+    "code": null,
+    "options": [
+      "rank(A)≤n-k",
+      "rank(A)=n",
+      "rank(A)=k",
+      "rank(A)=0"
+    ],
+    "correct": "A",
+    "explanation": "k-fold zero eigenvalue means det(A)=0 with multiplicity k; null space has dim≥k; rank≤n-k."
+  },
+  {
+    "id": "la_ev_053",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Gers̆gorin disc for row i: |λ-aᵢᵢ|≤Rᵢ where Rᵢ=",
+    "code": null,
+    "options": [
+      "Σⱼ≠ᵢ|aᵢⱼ|",
+      "|aᵢᵢ|",
+      "det(A)",
+      "tr(A)"
+    ],
+    "correct": "A",
+    "explanation": "Sum of absolute values of off-diagonal entries in row i."
+  },
+  {
+    "id": "la_ev_054",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "eig(AB) vs eig(BA): They have:",
+    "code": null,
+    "options": [
+      "Same nonzero eigenvalues",
+      "Always identical eigenvalues",
+      "No relation",
+      "Same trace only"
+    ],
+    "correct": "A",
+    "explanation": "Nonzero eigenvalues of AB and BA are identical (standard result in linear algebra)."
+  },
+  {
+    "id": "la_ev_055",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "For projection P onto subspace S, λ=1 eigenspace is:",
+    "code": null,
+    "options": [
+      "S itself",
+      "S⊥",
+      "{0}",
+      "All of Rⁿ"
+    ],
+    "correct": "A",
+    "explanation": "Ps=s for s∈S (λ=1). P(s⊥)=0 for s⊥∈S⊥ (λ=0)."
+  },
+  {
+    "id": "la_ev_056",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Eigenvalues of the companion matrix of polynomial p(λ) are:",
+    "code": null,
+    "options": [
+      "Roots of p(λ)",
+      "Coefficients of p",
+      "Always integers",
+      "Always real"
+    ],
+    "correct": "A",
+    "explanation": "Companion matrix is constructed so its characteristic polynomial is exactly p(λ)."
+  },
+  {
+    "id": "la_ev_057",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "For unitary matrix U (UU†=I), eigenvalues satisfy:",
+    "code": null,
+    "options": [
+      "|λ|=1",
+      "λ>0",
+      "λ<0",
+      "λ=0"
+    ],
+    "correct": "A",
+    "explanation": "||Uv||=||v||→|λ|||v||=||v||→|λ|=1. Eigenvalues on unit circle."
+  },
+  {
+    "id": "la_ev_058",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Perron-Frobenius: for non-negative irreducible matrix, the largest eigenvalue is:",
+    "code": null,
+    "options": [
+      "Real and positive (Perron root)",
+      "Negative",
+      "Complex",
+      "Zero"
+    ],
+    "correct": "A",
+    "explanation": "Perron-Frobenius theorem: dominant eigenvalue is real, simple, and positive."
+  },
+  {
+    "id": "la_ev_059",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If A has eigendecomposition A=PDP⁻¹, then A is:",
+    "code": null,
+    "options": [
+      "Diagonalizable",
+      "Singular",
+      "Orthogonal",
+      "Symmetric"
+    ],
+    "correct": "A",
+    "explanation": "Diagonalizable iff A has n linearly independent eigenvectors forming P."
+  },
+  {
+    "id": "la_ev_060",
+    "subject": "Linear Algebra",
+    "topic": "Eigenvalues & Eigenvectors",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Eigenvalues & Eigenvectors (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings — GATE DA Master</title>
+  <link rel="stylesheet" href="css/global.css"><link rel="stylesheet" href="css/themes/dark.css"><link rel="stylesheet" href="css/themes/blue.css"><link rel="stylesheet" href="css/themes/green.css"><link rel="stylesheet" href="css/settings.css"><link rel="stylesheet" href="css/components.css"><link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navbar"><a href="index.html" class="navbar-brand"><div class="navbar-brand-icon">📊</div><span>GATE DA Master</span></a><div class="navbar-nav" id="navbarNav"><a href="index.html" class="nav-link">🏠 Home</a><a href="dashboard.html" class="nav-link">📈 Dashboard</a><a href="settings.html" class="nav-link active">⚙️ Settings</a></div><div class="nav-actions"><button class="btn-icon btn-ghost" id="themeToggle">🌙</button><div class="hamburger" onclick="document.getElementById('navbarNav').classList.toggle('mobile-open')"><span></span><span></span><span></span></div></div></nav>
+  <div class="page-wrapper"><div class="container page-content"><div class="page-header"><h1 class="page-title">⚙️ Settings</h1><p class="page-subtitle">Customize your quiz experience</p></div>
+  <div class="settings-layout">
+    <div class="settings-section"><div class="settings-section-header"><span class="settings-section-icon">🎨</span><span class="settings-section-title">Appearance</span></div><div class="settings-section-body">
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">Theme</div><div class="settings-row-desc">Choose your preferred color theme</div></div></div>
+      <div class="theme-grid" style="margin-bottom:16px">
+        <div class="theme-option" onclick="changeTheme('light')" data-theme-opt="light"><div class="theme-preview" style="background:#F5F6FA;border:1px solid #E2E4F0"></div><div class="theme-name">Light</div></div>
+        <div class="theme-option" onclick="changeTheme('dark')" data-theme-opt="dark"><div class="theme-preview" style="background:#0B0B1A;border:1px solid #2A2A50"></div><div class="theme-name">Dark</div></div>
+        <div class="theme-option" onclick="changeTheme('blue')" data-theme-opt="blue"><div class="theme-preview" style="background:#0C1929;border:1px solid #1E3A5F"></div><div class="theme-name">Blue</div></div>
+        <div class="theme-option" onclick="changeTheme('green')" data-theme-opt="green"><div class="theme-preview" style="background:#0A1F15;border:1px solid #1E5A3F"></div><div class="theme-name">Green</div></div>
+      </div>
+    </div></div>
+    <div class="settings-section"><div class="settings-section-header"><span class="settings-section-icon">📝</span><span class="settings-section-title">Quiz Settings</span></div><div class="settings-section-body">
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">Show answer immediately (Practice)</div><div class="settings-row-desc">Reveal correct answer after selecting option</div></div><div class="settings-row-control"><label class="toggle"><input type="checkbox" id="showAnswerImmediate" onchange="saveSetting('showAnswerImmediate', this.checked)"><span class="toggle-slider"></span></label></div></div>
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">Show explanation immediately</div></div><div class="settings-row-control"><label class="toggle"><input type="checkbox" id="showExplanationImmediate" onchange="saveSetting('showExplanationImmediate', this.checked)"><span class="toggle-slider"></span></label></div></div>
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">Shuffle questions</div></div><div class="settings-row-control"><label class="toggle"><input type="checkbox" id="shuffleQuestions" onchange="saveSetting('shuffleQuestions', this.checked)"><span class="toggle-slider"></span></label></div></div>
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">Shuffle options</div></div><div class="settings-row-control"><label class="toggle"><input type="checkbox" id="shuffleOptions" onchange="saveSetting('shuffleOptions', this.checked)"><span class="toggle-slider"></span></label></div></div>
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">Daily goal (questions)</div></div><div class="settings-row-control"><div class="slider-container"><input type="range" class="range-slider" id="dailyGoal" min="5" max="100" onchange="saveSetting('dailyGoal', parseInt(this.value));document.getElementById('dailyGoalVal').textContent=this.value"><span class="slider-value" id="dailyGoalVal">20</span></div></div></div>
+    </div></div>
+    <div class="settings-section"><div class="settings-section-header"><span class="settings-section-icon">📊</span><span class="settings-section-title">Marking Scheme</span></div><div class="settings-section-body">
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">MCQ Correct / Wrong</div></div><div class="settings-row-control" style="display:flex;gap:8px"><input type="number" class="form-input" style="width:70px" id="mcqCorrect" value="2" onchange="saveMarking()"> / <input type="number" class="form-input" style="width:70px" id="mcqWrong" value="-0.67" step="0.01" onchange="saveMarking()"></div></div>
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">MSQ Correct / Wrong</div></div><div class="settings-row-control" style="display:flex;gap:8px"><input type="number" class="form-input" style="width:70px" id="msqCorrect" value="2" onchange="saveMarking()"> / <input type="number" class="form-input" style="width:70px" id="msqWrong" value="0" step="0.01" onchange="saveMarking()"></div></div>
+      <div class="settings-row"><div class="settings-row-info"><div class="settings-row-label">NAT Correct / Wrong</div></div><div class="settings-row-control" style="display:flex;gap:8px"><input type="number" class="form-input" style="width:70px" id="natCorrect" value="2" onchange="saveMarking()"> / <input type="number" class="form-input" style="width:70px" id="natWrong" value="0" step="0.01" onchange="saveMarking()"></div></div>
+    </div></div>
+    <div class="settings-section"><div class="settings-section-header"><span class="settings-section-icon">💾</span><span class="settings-section-title">Data Management</span></div><div class="settings-section-body">
+      <div class="settings-actions"><button class="btn btn-primary" onclick="Storage.exportData();Utils.showToast('Data exported!','success')">📥 Export Data</button><button class="btn btn-outline" onclick="document.getElementById('importFile').click()">📤 Import Data</button><input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(this)"><button class="btn btn-danger" onclick="confirmReset()">🗑️ Reset All Progress</button></div>
+    </div></div>
+  </div></div></div>
+  <div class="toast-container" id="toastContainer"></div>
+  <script src="js/utils.js"></script><script src="js/storage.js"></script><script src="js/theme.js"></script><script src="js/data-loader.js"></script><script src="js/settings.js"></script><script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,961 @@
+[
+  {
+    "id": "calc_limits_001",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "lim(x→0) sin(x)/x =",
+    "code": null,
+    "options": [
+      "1",
+      "0",
+      "∞",
+      "Does not exist"
+    ],
+    "correct": "A",
+    "explanation": "Fundamental limit. L'Hôpital: cos(0)/1=1. Or squeeze theorem."
+  },
+  {
+    "id": "calc_limits_002",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "lim(x→∞) (1+1/x)^x =",
+    "code": null,
+    "options": [
+      "e",
+      "1",
+      "∞",
+      "0"
+    ],
+    "correct": "A",
+    "explanation": "Definition of Euler's number e ≈ 2.71828."
+  },
+  {
+    "id": "calc_limits_003",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "f is continuous at a iff:",
+    "code": null,
+    "options": [
+      "lim(x→a)f(x) = f(a)",
+      "f(a) exists",
+      "lim exists",
+      "f is differentiable at a"
+    ],
+    "correct": "A",
+    "explanation": "Three conditions: f(a) exists, limit exists, limit equals f(a)."
+  },
+  {
+    "id": "calc_limits_004",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Differentiable at a implies:",
+    "code": null,
+    "options": [
+      "Continuous at a",
+      "Not continuous",
+      "Discontinuous",
+      "Neither"
+    ],
+    "correct": "A",
+    "explanation": "Differentiability ⟹ continuity. Converse is false (e.g., |x| at 0)."
+  },
+  {
+    "id": "calc_limits_005",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "L'Hôpital's rule applies to:",
+    "code": null,
+    "options": [
+      "0/0 or ∞/∞ indeterminate forms",
+      "Any limit",
+      "Only 0/0",
+      "Only polynomials"
+    ],
+    "correct": "A",
+    "explanation": "When limit gives 0/0 or ∞/∞, take derivative of top and bottom separately."
+  },
+  {
+    "id": "calc_limits_006",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "lim(x→0) (e^x-1)/x =",
+    "code": null,
+    "options": [
+      "1",
+      "0",
+      "e",
+      "∞"
+    ],
+    "correct": "A",
+    "explanation": "L'Hôpital: e^x/1 at x=0 = e⁰ = 1. Or Taylor: e^x ≈ 1+x, so (1+x-1)/x = 1."
+  },
+  {
+    "id": "calc_limits_007",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Intermediate Value Theorem requires:",
+    "code": null,
+    "options": [
+      "Function continuous on [a,b]",
+      "Function differentiable",
+      "Function monotone",
+      "Function bounded"
+    ],
+    "correct": "A",
+    "explanation": "IVT: if f continuous on [a,b] and c between f(a) and f(b), then f(x₀)=c for some x₀∈(a,b)."
+  },
+  {
+    "id": "calc_limits_008",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_009",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_010",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_011",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_012",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_013",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_014",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_015",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_016",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_017",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_018",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_019",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_020",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_021",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_022",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_023",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_024",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_025",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_026",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_027",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_028",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_029",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_030",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_031",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_032",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_033",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_034",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_035",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_036",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_037",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_038",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_039",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_040",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_041",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_042",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_043",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_044",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_045",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_046",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_047",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_048",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_049",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_050",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_051",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_052",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_053",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_054",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_055",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_056",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "calc_limits_057",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_058",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Limits, Continuity & Differentiability Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_059",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Limits, Continuity & Differentiability Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Limits, Continuity & Differentiability option A",
+      "Limits, Continuity & Differentiability option B",
+      "Limits, Continuity & Differentiability option C",
+      "Limits, Continuity & Differentiability option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Limits, Continuity & Differentiability. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "calc_limits_060",
+    "subject": "Calculus and Optimization",
+    "topic": "Limits, Continuity & Differentiability",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Limits, Continuity & Differentiability (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

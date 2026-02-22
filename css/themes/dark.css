@@ -1,0 +1,53 @@
+/* Dark Theme */
+[data-theme="dark"] {
+  --color-primary: #6C8EEF;
+  --color-primary-hover: #8BA6F5;
+  --color-primary-light: #1A1F3D;
+  --color-primary-alpha: rgba(108, 142, 239, 0.2);
+  --color-primary-gradient: linear-gradient(135deg, #6C8EEF, #9B6EF3);
+
+  --color-bg: #0B0B1A;
+  --color-surface: #12122A;
+  --color-card: #16163A;
+  --color-card-hover: #1C1C48;
+
+  --color-text: #E6E6F0;
+  --color-text-secondary: #A0A0C0;
+  --color-text-muted: #6E6E90;
+  --color-text-inverse: #FFFFFF;
+
+  --color-border: #2A2A50;
+  --color-divider: #222244;
+
+  --color-success: #34D399;
+  --color-success-light: #0D312A;
+  --color-success-dark: #6EE7B7;
+  --color-warning: #FBBF24;
+  --color-warning-light: #312A0D;
+  --color-warning-dark: #FCD34D;
+  --color-error: #F87171;
+  --color-error-light: #310D0D;
+  --color-error-dark: #FCA5A5;
+  --color-info: #60A5FA;
+  --color-info-light: #0D1F31;
+
+  --color-easy: #34D399;
+  --color-medium: #FBBF24;
+  --color-hard: #F87171;
+
+  --color-answered: #34D399;
+  --color-marked: #F87171;
+  --color-answered-marked: #FBBF24;
+  --color-not-visited: #2A2A50;
+  --color-visited: #222244;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 20px rgba(108, 142, 239, 0.25);
+
+  --code-bg: #0D0D22;
+  --code-text: #E4E4E7;
+}

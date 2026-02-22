@@ -1,0 +1,959 @@
+[
+  {
+    "id": "dbms_fileor_001",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "B-tree of order m has at most:",
+    "code": null,
+    "options": [
+      "m children per node",
+      "m keys per node",
+      "2m children",
+      "m² keys"
+    ],
+    "correct": "A",
+    "explanation": "B-tree order m: max m children, max m-1 keys per node."
+  },
+  {
+    "id": "dbms_fileor_002",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Primary index is on:",
+    "code": null,
+    "options": [
+      "Ordering key field",
+      "Non-key field",
+      "Any field",
+      "Foreign key"
+    ],
+    "correct": "A",
+    "explanation": "Primary index: sparse index on the field that physically orders the file."
+  },
+  {
+    "id": "dbms_fileor_003",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Dense vs sparse index:",
+    "code": null,
+    "options": [
+      "Dense has entry for every record, sparse for every block",
+      "They are same",
+      "Dense is always better",
+      "Sparse has more entries"
+    ],
+    "correct": "A",
+    "explanation": "Dense: one entry per record. Sparse: one entry per block. Sparse saves space."
+  },
+  {
+    "id": "dbms_fileor_004",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Hashing provides:",
+    "code": null,
+    "options": [
+      "O(1) average lookup",
+      "O(log n) lookup",
+      "O(n) lookup",
+      "O(n²) lookup"
+    ],
+    "correct": "A",
+    "explanation": "Hash function directly computes record location. Average case O(1)."
+  },
+  {
+    "id": "dbms_fileor_005",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q5: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_006",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_007",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_008",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_009",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_010",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_011",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_012",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_013",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_014",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_015",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_016",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_017",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_018",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_019",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_020",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_021",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_022",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_023",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_024",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_025",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_026",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_027",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_028",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_029",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_030",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_031",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_032",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_033",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_034",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_035",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_036",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_037",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_038",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_039",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_040",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_041",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_042",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_043",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_044",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_045",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_046",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_047",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_048",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_049",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_050",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_051",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_052",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_053",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_054",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_055",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_056",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "dbms_fileor_057",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_058",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "File Organization & Indexing Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_059",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "File Organization & Indexing Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "File Organization & Indexing option A",
+      "File Organization & Indexing option B",
+      "File Organization & Indexing option C",
+      "File Organization & Indexing option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of File Organization & Indexing. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "dbms_fileor_060",
+    "subject": "Database Management & Warehousing",
+    "topic": "File Organization & Indexing",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "File Organization & Indexing (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]

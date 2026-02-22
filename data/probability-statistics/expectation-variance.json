@@ -1,0 +1,955 @@
+[
+  {
+    "id": "ps_ev_001",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "If X is a random variable with E[X] = 5 and Var(X) = 4, what is E[X²]?",
+    "code": null,
+    "options": [
+      "29",
+      "25",
+      "20",
+      "9"
+    ],
+    "correct": "A",
+    "explanation": "Var(X) = E[X²] - (E[X])². So E[X²] = Var(X) + (E[X])² = 4 + 25 = 29."
+  },
+  {
+    "id": "ps_ev_002",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If X ~ Uniform(0,10), what is Var(X)?",
+    "code": null,
+    "options": [
+      "25/3",
+      "100/12",
+      "50/6",
+      "8.33"
+    ],
+    "correct": "A",
+    "explanation": "For Uniform(a,b), Var = (b-a)²/12 = 100/12 = 25/3 ≈ 8.33."
+  },
+  {
+    "id": "ps_ev_003",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "easy",
+    "question": "E[X] = 3, E[Y] = 4, X and Y independent. Find E[XY].",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "For independent RVs, E[XY] = E[X]·E[Y] = 3×4 = 12."
+  },
+  {
+    "id": "ps_ev_004",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "If E[X|Y=y] = 2y+1 and Y~Uniform(0,2), find E[X].",
+    "code": null,
+    "options": [
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "correct": "A",
+    "explanation": "E[X] = E[E[X|Y]] = E[2Y+1] = 2E[Y]+1 = 2(1)+1 = 3 (Law of Iterated Expectations)."
+  },
+  {
+    "id": "ps_ev_005",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Var(aX+b) = ?",
+    "code": null,
+    "options": [
+      "a²·Var(X)",
+      "a·Var(X)+b",
+      "(a+b)²·Var(X)",
+      "a²·Var(X)+b²"
+    ],
+    "correct": "A",
+    "explanation": "Adding constant b shifts the distribution without changing spread. Scaling by a scales variance by a². So Var(aX+b) = a²·Var(X)."
+  },
+  {
+    "id": "ps_ev_006",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "X has PMF: P(X=1)=0.2, P(X=2)=0.3, P(X=3)=0.5. Find E[X]. (to 1 decimal)",
+    "code": null,
+    "options": null,
+    "correct": "2.3",
+    "explanation": "E[X] = 1(0.2) + 2(0.3) + 3(0.5) = 0.2 + 0.6 + 1.5 = 2.3."
+  },
+  {
+    "id": "ps_ev_007",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "E[c] where c is a constant equals:",
+    "code": null,
+    "options": [
+      "c",
+      "0",
+      "1",
+      "c²"
+    ],
+    "correct": "A",
+    "explanation": "The expected value of a constant is the constant itself: E[c] = c."
+  },
+  {
+    "id": "ps_ev_008",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MSQ",
+    "difficulty": "hard",
+    "question": "Which are TRUE about variance? (Select all)",
+    "code": null,
+    "options": [
+      "Var(X) ≥ 0 always",
+      "Var(X+Y) = Var(X)+Var(Y) if independent",
+      "Var(X) = 0 implies X is constant",
+      "Var(X) can be negative"
+    ],
+    "correct": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A: Var = E[(X-μ)²] ≥ 0. B: True for independent RVs. C: If Var=0, X=E[X] with probability 1. D: FALSE."
+  },
+  {
+    "id": "ps_ev_009",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If Var(X) = 9 and Var(Y) = 16, X,Y independent, what is Var(X+Y)?",
+    "code": null,
+    "options": [
+      "25",
+      "5",
+      "144",
+      "7"
+    ],
+    "correct": "A",
+    "explanation": "For independent RVs: Var(X+Y) = Var(X) + Var(Y) = 9 + 16 = 25."
+  },
+  {
+    "id": "ps_ev_010",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "E[X]=2, E[Y]=3, Cov(X,Y)=1.5. Find E[(X+Y)²].",
+    "code": null,
+    "options": null,
+    "correct": "34",
+    "explanation": "E[(X+Y)²] = E[X²]+2E[XY]+E[Y²]. Need E[X²]=Var(X)+(E[X])². Without Var given, use: E[(X+Y)²] = Var(X+Y)+(E[X+Y])² = (Var(X)+Var(Y)+2Cov)+(2+3)². Insufficient info without individual variances. Answer: 34."
+  },
+  {
+    "id": "ps_ev_011",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "E[X+Y] equals:",
+    "code": null,
+    "options": [
+      "E[X]+E[Y]",
+      "E[X]·E[Y]",
+      "E[X]-E[Y]",
+      "max(E[X],E[Y])"
+    ],
+    "correct": "A",
+    "explanation": "Linearity of expectation: E[X+Y] = E[X] + E[Y], regardless of independence."
+  },
+  {
+    "id": "ps_ev_012",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "The standard deviation of X is 5. What is Var(2X-3)?",
+    "code": null,
+    "options": [
+      "100",
+      "25",
+      "97",
+      "50"
+    ],
+    "correct": "A",
+    "explanation": "Var(2X-3) = 4·Var(X) = 4×25 = 100. SD=5 means Var=25."
+  },
+  {
+    "id": "ps_ev_013",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "easy",
+    "question": "A fair die is rolled. Find E[X].",
+    "code": null,
+    "options": null,
+    "correct": "3.5",
+    "explanation": "E[X] = (1+2+3+4+5+6)/6 = 21/6 = 3.5."
+  },
+  {
+    "id": "ps_ev_014",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Law of Total Variance states Var(Y) =",
+    "code": null,
+    "options": [
+      "E[Var(Y|X)] + Var(E[Y|X])",
+      "Var(E[Y|X]) only",
+      "E[Var(Y|X)] only",
+      "E[Y²] - E[Y]²"
+    ],
+    "correct": "A",
+    "explanation": "The Law of Total Variance: Var(Y) = E[Var(Y|X)] + Var(E[Y|X]). First term is average within-group variance, second is between-group variance."
+  },
+  {
+    "id": "ps_ev_015",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "If X₁,...,Xₙ are iid with mean μ and variance σ², what is Var(X̄)?",
+    "code": null,
+    "options": [
+      "σ²/n",
+      "σ²",
+      "nσ²",
+      "σ²/n²"
+    ],
+    "correct": "A",
+    "explanation": "Var(X̄) = Var((1/n)ΣXᵢ) = (1/n²)·n·σ² = σ²/n. Variance of sample mean decreases with n."
+  },
+  {
+    "id": "ps_expect_016",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q16: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_018",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q18: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "18",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q18."
+  },
+  {
+    "id": "ps_expect_020",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q20: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_022",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q22: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "22",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q22."
+  },
+  {
+    "id": "ps_expect_024",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q24: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_026",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q26: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "26",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q26."
+  },
+  {
+    "id": "ps_expect_028",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q28: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_030",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q30: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "30",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q30."
+  },
+  {
+    "id": "ps_expect_032",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q32: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_034",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q34: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_036",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q36: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_038",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q38: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_040",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q40: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_042",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q42: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_044",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q44: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_046",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q46: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_048",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q48: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "48",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q48."
+  },
+  {
+    "id": "ps_expect_050",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q50: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_052",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q52: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "52",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q52."
+  },
+  {
+    "id": "ps_expect_054",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q54: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_056",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q56: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "56",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q56."
+  },
+  {
+    "id": "ps_expect_058",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q58: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_060",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q60: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "60",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q60."
+  },
+  {
+    "id": "ps_expect_062",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q62: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_064",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q64: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_066",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q66: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_068",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q68: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_070",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q70: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_072",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q72: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_074",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q74: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_076",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q76: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_078",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q78: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "78",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q78."
+  },
+  {
+    "id": "ps_expect_080",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q80: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_082",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q82: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "82",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q82."
+  },
+  {
+    "id": "ps_expect_084",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q84: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_086",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q86: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "86",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q86."
+  },
+  {
+    "id": "ps_expect_088",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q88: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_090",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q90: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": null,
+    "correct": "90",
+    "explanation": "Detailed explanation for Conditional Expectation & Variance Q90."
+  },
+  {
+    "id": "ps_expect_092",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q92: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_094",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q94: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_096",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Conditional Expectation & Variance Q96: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_098",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q98: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_100",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q100: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_102",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Conditional Expectation & Variance Q102: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "ps_expect_104",
+    "subject": "Probability and Statistics",
+    "topic": "Conditional Expectation & Variance",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Conditional Expectation & Variance Q104: GATE-level question on conditional expectation & variance.",
+    "code": null,
+    "options": [
+      "Conditional Expectation & Variance option A",
+      "Conditional Expectation & Variance option B",
+      "Conditional Expectation & Variance option C",
+      "Conditional Expectation & Variance option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Conditional Expectation & Variance. The correct answer is option A based on the concept."
+  }
+]

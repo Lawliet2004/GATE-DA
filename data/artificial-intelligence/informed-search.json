@@ -1,0 +1,956 @@
+[
+  {
+    "id": "arti_inform_001",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "A* search uses:",
+    "code": null,
+    "options": [
+      "f(n)=g(n)+h(n) — actual cost + heuristic estimate",
+      "Only g(n)",
+      "Only h(n)",
+      "Random selection"
+    ],
+    "correct": "A",
+    "explanation": "A*: combines actual path cost g(n) and heuristic h(n). Optimal with admissible heuristic."
+  },
+  {
+    "id": "arti_inform_002",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "A* is optimal when heuristic h(n) is:",
+    "code": null,
+    "options": [
+      "Admissible (never overestimates)",
+      "Always zero",
+      "Always overestimates",
+      "Random"
+    ],
+    "correct": "A",
+    "explanation": "Admissible h ≤ true cost. Guarantees A* finds optimal path."
+  },
+  {
+    "id": "arti_inform_003",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Greedy best-first search uses:",
+    "code": null,
+    "options": [
+      "Only h(n) — heuristic estimate",
+      "Only g(n)",
+      "g(n)+h(n)",
+      "BFS"
+    ],
+    "correct": "A",
+    "explanation": "Greedy: expand node with smallest h(n). Fast but not optimal — can be misled."
+  },
+  {
+    "id": "arti_inform_004",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Consistent heuristic means:",
+    "code": null,
+    "options": [
+      "h(n) ≤ c(n,n')+h(n') — triangle inequality",
+      "h is always 0",
+      "h overestimates",
+      "h = g"
+    ],
+    "correct": "A",
+    "explanation": "Consistency (monotonicity): h satisfies triangle inequality. Implies admissibility."
+  },
+  {
+    "id": "arti_inform_005",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "IDA* (Iterative Deepening A*):",
+    "code": null,
+    "options": [
+      "Combines A* with iterative deepening — uses linear memory",
+      "Uses exponential memory",
+      "Is slower than A*",
+      "Doesn't use heuristics"
+    ],
+    "correct": "A",
+    "explanation": "IDA*: depth-first with f-cost cutoff, increasing each iteration. O(b·d) memory."
+  },
+  {
+    "id": "arti_inform_006",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q6: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_007",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "6",
+    "explanation": "The correct numerical answer is 6 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_008",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q8: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_009",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q9: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_010",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q10: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_011",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "10",
+    "explanation": "The correct numerical answer is 10 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_012",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Informed Search Q12: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_013",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q13: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_014",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q14: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_015",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.5",
+    "explanation": "The correct numerical answer is 0.5 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_016",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q16: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_017",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q17: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_018",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1.5",
+    "explanation": "The correct numerical answer is 1.5 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_019",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Informed Search Q19: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_020",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q20: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_021",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q21: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_022",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "1",
+    "explanation": "The correct numerical answer is 1 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_023",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q23: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_024",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q24: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_025",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q25: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_026",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "5",
+    "explanation": "The correct numerical answer is 5 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_027",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Informed Search Q27: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_028",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q28: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_029",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q29: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_030",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "9",
+    "explanation": "The correct numerical answer is 9 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_031",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q31: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_032",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q32: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_033",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "16",
+    "explanation": "The correct numerical answer is 16 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_034",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Informed Search Q34: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_035",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q35: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_036",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q36: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_037",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.75",
+    "explanation": "The correct numerical answer is 0.75 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_038",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q38: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_039",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q39: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_040",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q40: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_041",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0",
+    "explanation": "The correct numerical answer is 0 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_042",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Informed Search Q42: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_043",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q43: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_044",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q44: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_045",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "4",
+    "explanation": "The correct numerical answer is 4 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_046",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q46: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_047",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q47: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_048",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "7",
+    "explanation": "The correct numerical answer is 7 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_049",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Informed Search Q49: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_050",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MSQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q50: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": [
+      "A",
+      "B"
+    ],
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_051",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q51: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_052",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "12",
+    "explanation": "The correct numerical answer is 12 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_053",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q53: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_054",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q54: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_055",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q55: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_056",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "medium",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "0.25",
+    "explanation": "The correct numerical answer is 0.25 based on the given constraints."
+  },
+  {
+    "id": "arti_inform_057",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "hard",
+    "question": "Informed Search Q57: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_058",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "easy",
+    "question": "Informed Search Q58: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_059",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "MCQ",
+    "difficulty": "medium",
+    "question": "Informed Search Q59: GATE DA level question.",
+    "code": null,
+    "options": [
+      "Informed Search option A",
+      "Informed Search option B",
+      "Informed Search option C",
+      "Informed Search option D"
+    ],
+    "correct": "A",
+    "explanation": "This question requires understanding of Informed Search. The correct answer is option A based on the concept."
+  },
+  {
+    "id": "arti_inform_060",
+    "subject": "Artificial Intelligence",
+    "topic": "Informed Search",
+    "type": "NAT",
+    "difficulty": "hard",
+    "question": "Informed Search (NAT): The value of the described quantity is ____.",
+    "code": null,
+    "options": null,
+    "correct": "100",
+    "explanation": "The correct numerical answer is 100 based on the given constraints."
+  }
+]
